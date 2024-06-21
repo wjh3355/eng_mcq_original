@@ -1,0 +1,35 @@
+{
+   "Q1": {
+      "sentence": "The Taj Mahal has been threatened by pollution, unabashed construction, and a crematorium.",
+      "wordToTest": "unabashed",
+      "options": [
+         "continuous",
+         "illegal",
+         "unplanned",
+         "brazen"
+      ],
+      "correctAns": "brazen"
+   },
+   "Q2": {
+      "sentence": "The bugs leave greenish patches of waste on its pristine white marble walls.",
+      "wordToTest": "pristine",
+      "options": [
+         "beautiful",
+         "new",
+         "famous",
+         "popular"
+      ],
+      "correctAns": "new"
+   },
+   "Q3": {
+      "sentence": "India's iconic Taj Mahal has been threatened in recent weeks by insect poo.",
+      "wordToTest": "iconic",
+      "options": [
+         "famous",
+         "beautiful",
+         "old",
+         "appealing"
+      ],
+      "correctAns": "famous"
+   }
+}
