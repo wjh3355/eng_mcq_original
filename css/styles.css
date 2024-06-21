@@ -19,25 +19,22 @@ body {}
 
 /* end of header */
 
-#sentence {
+#question {
 	margin-top: 30px;
 	margin-bottom: 30px;
-
 	font-size: 20px;
 }
 
 #qn-number {
-	margin-top: 25px;
-
-	font-size: 30px;
 	font-weight: bold;
+	font-style: italic;
 }
 
-.justify-content-center {
+div.justify-content-center {
 	margin-bottom: 20px;
 }
 
-.col-sm-3 {
+div.justify-content-center > div {
 	display: flex;
 	justify-content: center;
 	align-items: center;
