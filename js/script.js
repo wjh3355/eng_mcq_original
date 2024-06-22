@@ -88,7 +88,6 @@ function assignOptionsRandomly(options, correctAns) {
 
 	options.forEach((option, idx) => {
 		var randButton = document.querySelector(`#but${nums[idx]}`);
-		randButton.removeAttribute("id");
 		randButton.textContent = option;
 
 		if (option === correctAns) {
@@ -118,9 +117,8 @@ function disableOptions() {
 };
 
 function resetOptions() {
-	document.querySelectorAll(".option").forEach((button, idx) => {
+	document.querySelectorAll(".option").forEach((button) => {
 		button.classList = 'option';
-		button.id = `but${idx + 1}`;
 		button.removeEventListener("click", correctAnsHandler);
 		button.removeEventListener("click", wrongAnsHandler);
 	});
