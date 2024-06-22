@@ -85,18 +85,18 @@ function wrongAnsHandler() {
 function assignOptionsRandomly(options, correctAns) {
 	shuffle(options);
 
-	document.querySelectorAll(".option").forEach((optionButton, idx) => {
+	document.querySelectorAll(".option").forEach((button, idx) => {
 		var option = options[idx];
-		optionButton.textContent = option;
+		button.textContent = option;
 
 		if (option === correctAns) {
 			// Correct option
-			optionButton.classList.add("correctAns");
-			optionButton.addEventListener("click", correctAnsHandler);
+			button.classList.add("correctAns");
+			button.addEventListener("click", correctAnsHandler);
 		} else {
 			// Wrong option
-			optionButton.classList.add("wrongAns");
-			optionButton.addEventListener("click", wrongAnsHandler);
+			button.classList.add("wrongAns");
+			button.addEventListener("click", wrongAnsHandler);
 		}
 	});
 }

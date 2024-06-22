@@ -48,7 +48,7 @@ div.justify-content-center > div {
 
 	justify-content: center;
 	align-items: center;
-	height: 60px;
+	height: 55px;
 	width: 330px;
 
 	background-color: white;
@@ -69,4 +69,12 @@ div.justify-content-center > div {
 	border-color: rgb(190, 44, 44);
 	color: rgb(190, 44, 44);
 	font-weight: bold;
+}
+
+#explanation {
+	font-style: italic;
+}
+
+#explanation > span {
+	text-decoration: underline;
 }
