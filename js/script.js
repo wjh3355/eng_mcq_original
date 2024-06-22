@@ -1,4 +1,10 @@
+var optionButtons;
+var nextQnButton;
+
 document.addEventListener("DOMContentLoaded", function (event) {
+	optionButtons = document.querySelectorAll(".option");
+	nextQnButton = document.querySelector("#next-qn-button");
+
 	initQn();
 });
 
@@ -14,7 +20,6 @@ function initQn() {
 		enableOptions();
 	});
 
-	var nextQnButton = document.querySelector("#next-qn-button")
 	nextQnButton.disabled = true;
 	nextQnButton.addEventListener("click", initQn);
 }
@@ -54,16 +59,12 @@ function shuffle(array) {
 // ========== ANSWER HANDLERS ==========
 
 function correctAnsHandler() {
-	if (this.classList.contains("redBorder")) {
-		this.classList.remove("redBorder");
-	}
-
 	this.classList.add("greenBorder");
 
 
 	// displayExplanation();
 	disableOptions();
-	document.querySelector("#next-qn-button").disabled = false;
+	nextQnButton.disabled = false;
 };
 
 function wrongAnsHandler() {
@@ -73,7 +74,7 @@ function wrongAnsHandler() {
 
 	// displayExplanation();
 	disableOptions();
-	document.querySelector("#next-qn-button").disabled = false;
+	nextQnButton.disabled = false;
 };
 
 // function displayExplanation() {
@@ -85,7 +86,7 @@ function wrongAnsHandler() {
 function assignOptionsRandomly(options, correctAns) {
 	shuffle(options);
 
-	document.querySelectorAll(".option").forEach((button, idx) => {
+	optionButtons.forEach((button, idx) => {
 		var option = options[idx];
 		button.textContent = option;
 
@@ -102,21 +103,21 @@ function assignOptionsRandomly(options, correctAns) {
 }
 
 function enableOptions() {
-	document.querySelectorAll(".option").forEach(button => {
+	optionButtons.forEach(button => {
 		button.disabled = false;
 		button.classList.add("option-enabled");
 	});
 };
 
 function disableOptions() {
-	document.querySelectorAll(".option").forEach(button => {
+	optionButtons.forEach(button => {
 		button.disabled = true;
 		button.classList.remove("option-enabled");
 	});
 };
 
 function resetOptions() {
-	document.querySelectorAll(".option").forEach((button) => {
+	optionButtons.forEach((button) => {
 		button.classList = 'option';
 		button.removeEventListener("click", correctAnsHandler);
 		button.removeEventListener("click", wrongAnsHandler);

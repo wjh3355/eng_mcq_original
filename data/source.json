@@ -34,5 +34,269 @@
          "appealing"
       ],
       "correctAns": "famous"
+   },
+   {
+      "qnNum": 4,
+      "sentence": "He has filed a petition in the National Green Tribunal.",
+      "wordToTest": "petition",
+      "options": [
+         "gathering",
+         "discussion",
+         "appeal",
+         "report"
+      ],
+      "correctAns": "appeal"
+   },
+   {
+      "qnNum": 5,
+      "sentence": "The explosive breeding of the pests in the river is marring the beauty of the monument.",
+      "wordToTest": "marring",
+      "options": [
+         "spoiling",
+         "affecting",
+         "influencing",
+         "polluting"
+      ],
+      "correctAns": "spoiling"
+   },
+   {
+      "qnNum": 6,
+      "sentence": "Drains are pouring waste directly into the river that has become so stagnant.",
+      "wordToTest": "stagnant",
+      "options": [
+         "stink",
+         "motionless",
+         "polluted",
+         "dirty"
+      ],
+      "correctAns": "motionless"
+   },
+   {
+      "qnNum": 7,
+      "sentence": "The stagnant waste allows pests to proliferate in the river.",
+      "wordToTest": "proliferate",
+      "options": [
+         "swim wildly",
+         "disappear quickly",
+         "live freely",
+         "grow rapidly"
+      ],
+      "correctAns": "grow rapidly"
+   },
+   {
+      "qnNum": 8,
+      "sentence": "The stains the bugs leave on the marble are washable.",
+      "wordToTest": "stains",
+      "options": [
+         "spots of dirt",
+         "dungs",
+         "traces",
+         "poo"
+      ],
+      "correctAns": "spots of dirt"
+   },
+   {
+      "qnNum": 9,
+      "sentence": "She bears a striking resemblance to her mother.",
+      "wordToTest": "striking",
+      "options": [
+         "noticeable",
+         "profound",
+         "reasonable",
+         "important"
+      ],
+      "correctAns": "noticeable"
+   },
+   {
+      "qnNum": 10,
+      "sentence": "The specialist says frequent scrubbing can take the sheen off the marble.",
+      "wordToTest": "sheen",
+      "options": [
+         "shine",
+         "beauty",
+         "colour",
+         "coat"
+      ],
+      "correctAns": "shine"
+   },
+   {
+      "qnNum": 11,
+      "sentence": "Chief Minister ordered officials to trace the factors behind the problem.",
+      "wordToTest": "trace",
+      "options": [
+         "study",
+         "research",
+         "learn",
+         "track down"
+      ],
+      "correctAns": "track down"
+   },
+   {
+      "qnNum": 12,
+      "sentence": "The heat wave will dry out the mud-pack too quickly and render it ineffective.",
+      "wordToTest": "render",
+      "options": [
+         "provide",
+         "stop",
+         "cause",
+         "spoil"
+      ],
+      "correctAns": "cause"
+   },
+   {
+      "qnNum": 13,
+      "sentence": "During the choppy 15-minute crossing to Isla Martillo, the weather turned dramatically.",
+      "wordToTest": "choppy",
+      "options": [
+         "difficult",
+         "long",
+         "quiet",
+         "rough"
+      ],
+      "correctAns": "rough"
+   },
+   {
+      "qnNum": 14,
+      "sentence": "The mooring of English pirate ships is banned.",
+      "wordToTest": "mooring",
+      "options": [
+         "docking",
+         "moving",
+         "visiting",
+         "repairing"
+      ],
+      "correctAns": "docking"
+   },
+   {
+      "qnNum": 15,
+      "sentence": "A spokesman said that the report tried to discredit them.",
+      "wordToTest": "discredit",
+      "options": [
+         "disgrace",
+         "disagree",
+         "disrespect",
+         "disdain"
+      ],
+      "correctAns": "disgrace"
+   },
+   {
+      "qnNum": 16,
+      "sentence": "The cook will utilise the leftover ham bone to make soup.",
+      "wordToTest": "utilise",
+      "options": [
+         "consider",
+         "look into",
+         "make use of",
+         "remember"
+      ],
+      "correctAns": "make use of"
+   },
+   {
+      "qnNum": 17,
+      "sentence": "The government has previously shuttered thousands of factories near the Taj Mahal",
+      "wordToTest": "shuttered",
+      "options": [
+         "removed",
+         "closed",
+         "destroyed",
+         "punished"
+      ],
+      "correctAns": "closed"
+   },
+   {
+      "qnNum": 18,
+      "sentence": "The marble is still losing its lustre.",
+      "wordToTest": "lustre",
+      "options": [
+         "attraction",
+         "beauty",
+         "sheen",
+         "fame"
+      ],
+      "correctAns": "sheen"
+   },
+   {
+      "qnNum": 19,
+      "sentence": "The early years were brutal. There was a series of severe winters.",
+      "wordToTest": "brutal",
+      "options": [
+         "unforgettable",
+         "bad",
+         "harsh",
+         "unthinkable"
+      ],
+      "correctAns": "harsh"
+   },
+   {
+      "qnNum": 20,
+      "sentence": "Pictures showed the wreck to be well preserved underwater in the Coral Sea.",
+      "wordToTest": "preserved",
+      "options": [
+         "found",
+         "noticed",
+         "maintained",
+         "deserted"
+      ],
+      "correctAns": "maintained"
+   },
+   {
+      "qnNum": 21,
+      "sentence": "The valiant efforts of her men crippled Imperial Japan Navy carriers.",
+      "wordToTest": "valiant",
+      "options": [
+         "tough",
+         "huge",
+         "unforgettable",
+         "brave"
+      ],
+      "correctAns": "maintained"
+   },
+   {
+      "qnNum": 22,
+      "sentence": "The Battle of the Coral Sea is considered a key moment in halting Japan's advance.",
+      "wordToTest": "halting",
+      "options": [
+         "ending",
+         "destroying",
+         "hindering",
+         "threatening"
+      ],
+      "correctAns": "ending"
+   },
+   {
+      "qnNum": 23,
+      "sentence": "The Lexington was scuttled by US forces after being struck by several Japanese torpedoes.",
+      "wordToTest": "scuttled",
+      "options": [
+         "ordered",
+         "abandoned",
+         "forgotten",
+         "sunk"
+      ],
+      "correctAns": "sunk"
+   },
+   {
+      "qnNum": 24,
+      "sentence": "Lexington was on the priority list because she was one of the capital ships.",
+      "wordToTest": "priority",
+      "options": [
+         "preference",
+         "important",
+         "backup",
+         "secret"
+      ],
+      "correctAns": "sunk"
+   },
+   {
+      "qnNum": 25,
+      "sentence": "Some of the ship's aircraft are also shown in remarkably good condition.",
+      "wordToTest": "remarkably",
+      "options": [
+         "brand-new",
+         "impossibly",
+         "unusually",
+         "unthinkably"
+      ],
+      "correctAns": "sunk"
    }
 ]
