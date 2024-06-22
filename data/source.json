@@ -285,7 +285,7 @@
          "backup",
          "secret"
       ],
-      "correctAns": "sunk"
+      "correctAns": "preference"
    },
    {
       "qnNum": 25,
@@ -297,6 +297,6 @@
          "unusually",
          "unthinkably"
       ],
-      "correctAns": "sunk"
+      "correctAns": "unusually"
    }
 ]
