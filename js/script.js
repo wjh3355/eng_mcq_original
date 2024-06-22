@@ -11,13 +11,19 @@ document.addEventListener("DOMContentLoaded", function (event) {
 // ========== QUESTION UTILITIES ==========
 
 function initQn() {
+	console.log("=== Initialising question ===");
+
 	resetOptions();
 	$ajaxUtils.sendGetRequest("data/source.json", function(responseArray) {
 		var randQnObj = fetchRandQn(responseArray);
 
+		console.log(`Fetched random question: #${randQnObj.qnNum}`);
+
 		displayQn(randQnObj);
 
 		enableOptions();
+
+		console.log("Waiting for input...");
 	});
 
 	nextQnButton.disabled = true;
@@ -46,6 +52,8 @@ function displayQn (qnObj) {
 		`<p>${sentence.substring(0, wordToTestIdx)}<strong>${wordToTest}</strong>
         ${sentence.substring(wordToTestIdx + wordToTest.length)}</p>`;
 
+	console.log("Sentence displayed");
+
 	assignOptionsRandomly(options, correctAns);
 };
 
@@ -59,15 +67,20 @@ function shuffle(array) {
 // ========== ANSWER HANDLERS ==========
 
 function correctAnsHandler() {
+	console.log(`CORRECT ANS CLICKED!: ${this.textContent}`);
+
 	this.classList.add("greenBorder");
 
 
 	// displayExplanation();
 	disableOptions();
 	nextQnButton.disabled = false;
+	console.log("Waiting for input...");
 };
 
 function wrongAnsHandler() {
+	console.log(`WRONG ANS CLICKED!: ${this.textContent}`);
+
 	this.classList.add("redBorder");
 
 	document.querySelector(".correctAns").classList.add("greenBorder");
@@ -75,6 +88,7 @@ function wrongAnsHandler() {
 	// displayExplanation();
 	disableOptions();
 	nextQnButton.disabled = false;
+	console.log("Waiting for input...");
 };
 
 // function displayExplanation() {
@@ -100,6 +114,8 @@ function assignOptionsRandomly(options, correctAns) {
 			button.addEventListener("click", wrongAnsHandler);
 		}
 	});
+
+	console.log(`Options (${options}) randomly assigned and displayed`);
 }
 
 function enableOptions() {
@@ -107,6 +123,8 @@ function enableOptions() {
 		button.disabled = false;
 		button.classList.add("option-enabled");
 	});
+
+	console.log("Options enabled");
 };
 
 function disableOptions() {
@@ -114,6 +132,8 @@ function disableOptions() {
 		button.disabled = true;
 		button.classList.remove("option-enabled");
 	});
+
+	console.log("Options disabled");
 };
 
 function resetOptions() {
@@ -121,5 +141,8 @@ function resetOptions() {
 		button.classList = 'option';
 		button.removeEventListener("click", correctAnsHandler);
 		button.removeEventListener("click", wrongAnsHandler);
+		button.textContent = "";
 	});
+
+	console.log("Options reset");
 }

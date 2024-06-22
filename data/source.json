@@ -193,7 +193,7 @@
    },
    {
       "qnNum": 17,
-      "sentence": "The government has previously shuttered thousands of factories near the Taj Mahal",
+      "sentence": "The government has previously shuttered thousands of factories near the Taj Mahal.",
       "wordToTest": "shuttered",
       "options": [
          "removed",
@@ -249,7 +249,7 @@
          "unforgettable",
          "brave"
       ],
-      "correctAns": "maintained"
+      "correctAns": "brave"
    },
    {
       "qnNum": 22,
