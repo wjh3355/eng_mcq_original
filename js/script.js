@@ -49,7 +49,6 @@ function shuffle(array) {
 		var j = Math.floor(Math.random() * (i + 1));
 		[array[i], array[j]] = [array[j], array[i]];
 	}
-	return array;
 };
 
 // ========== ANSWER HANDLERS ==========
@@ -84,20 +83,20 @@ function wrongAnsHandler() {
 // ========== OPTION UTILITIES ==========
 
 function assignOptionsRandomly(options, correctAns) {
-	var nums = shuffle([1, 2, 3, 4]);
+	shuffle(options);
 
-	options.forEach((option, idx) => {
-		var randButton = document.querySelector(`#but${nums[idx]}`);
-		randButton.textContent = option;
+	document.querySelectorAll(".option").forEach((optionButton, idx) => {
+		var option = options[idx];
+		optionButton.textContent = option;
 
 		if (option === correctAns) {
 			// Correct option
-			randButton.classList.add("correctAns");
-			randButton.addEventListener("click", correctAnsHandler);
+			optionButton.classList.add("correctAns");
+			optionButton.addEventListener("click", correctAnsHandler);
 		} else {
 			// Wrong option
-			randButton.classList.add("wrongAns");
-			randButton.addEventListener("click", wrongAnsHandler);
+			optionButton.classList.add("wrongAns");
+			optionButton.addEventListener("click", wrongAnsHandler);
 		}
 	});
 }
