@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 function initQn() {
 	resetOptions();
-	$ajaxUtils.sendGetRequest("data/source.json", function(resObj) {
-		var [qnNum, qnToDisplay] = fetchRandomQn(resObj);
+	$ajaxUtils.sendGetRequest("data/source.json", function(responseArray) {
+		var randQnObj = fetchRandQn(responseArray);
 
-		displayQn(qnNum, qnToDisplay);
+		displayQn(randQnObj);
 
 		enableOptions();
 	});
@@ -19,20 +19,21 @@ function initQn() {
 	nextQnButton.addEventListener("click", initQn);
 }
 
-function fetchRandomQn(resObj) {
-	if (!resObj) {
+function fetchRandQn(responseArray) {
+	if (!responseArray) {
 		console.error("Error: Failed to fetch or parse question data.");
 		return;
 	} else {
-		var qnNum = Math.floor(Math.random() * 3) + 1;
-		return [qnNum, resObj[`Q${qnNum}`]];
+		var randQnIdx = Math.floor(Math.random() * responseArray.length);
+		return responseArray[randQnIdx];
 	}
 }
 
-function displayQn (qnNum, qnToDisplay) {
+function displayQn (qnObj) {
+	var { qnNum, sentence, wordToTest, options, correctAns } = qnObj;
+
 	document.querySelector("#qn-number").textContent = `#${qnNum}`;
 
-	var { sentence, wordToTest, options, correctAns } = qnToDisplay;
 	var wordToTestIdx = sentence.indexOf(wordToTest);
 
 	// Display formatted sentence
