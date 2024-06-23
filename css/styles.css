@@ -40,6 +40,20 @@ div.justify-content-center > div {
 	align-items: center;
 }
 
+i {
+	position: absolute;
+	left: 30px;
+}
+
+i.green-tick {
+	color: green;
+}
+
+i.red-cross {
+	color: rgb(190, 44, 44);
+}
+
+
 .option {
 	display: flex;
 	flex: 1;
@@ -53,6 +67,8 @@ div.justify-content-center > div {
 
 	background-color: white;
 	border: 3px solid rgb(195, 195, 195);
+
+	position: relative;
 }
 
 .option-enabled:hover {

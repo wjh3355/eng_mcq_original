@@ -71,6 +71,7 @@ function correctAnsHandler() {
 
 	this.classList.add("greenBorder");
 
+	// this.appendChild(<i class="fa-solid fa-circle-check fa-lg green-tick"></i>);
 
 	// displayExplanation();
 	disableOptions();

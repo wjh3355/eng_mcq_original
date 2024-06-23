@@ -298,5 +298,305 @@
          "unthinkably"
       ],
       "correctAns": "unusually"
+   },
+   {
+      "qnNum": 26,
+      "sentence": "The bride's hair was adorned with white flowers.",
+      "wordToTest": "adorned",
+      "options": [
+         "shaped",
+         "decorated",
+         "filled",
+         "shown"
+      ],
+      "correctAns": "decorated"
+   },
+   {
+      "qnNum": 27,
+      "sentence": "She joined the expedition after falling in love with the crazy plan.",
+      "wordToTest": "expedition",
+      "options": [
+         "group",
+         "journey",
+         "exercise",
+         "club"
+      ],
+      "correctAns": "journey"
+   },
+   {
+      "qnNum": 28,
+      "sentence": "Only three hundred crews were left alive in the shark infested waters.",
+      "wordToTest": "infested",
+      "options": [
+         "overrun",
+         "swimming",
+         "present",
+         "predating"
+      ],
+      "correctAns": "overrun"
+   },
+   {
+      "qnNum": 29,
+      "sentence": "Where the water is shallow, no vessel will ride.",
+      "wordToTest": "vessel",
+      "options": [
+         "fish",
+         "rock",
+         "bridge",
+         "ship"
+      ],
+      "correctAns": "ship"
+   },
+   {
+      "qnNum": 30,
+      "sentence": "The brave men and their families played such significant role during WWII.",
+      "wordToTest": "significant",
+      "options": [
+         "important",
+         "unbelievable",
+         "famous",
+         "valiant"
+      ],
+      "correctAns": "important"
+   },
+   {
+      "qnNum": 31,
+      "sentence": "The crew showed their courage in the face of horrendous circumstances.",
+      "wordToTest": "horrendous",
+      "options": [
+         "dangerous",
+         "terrible",
+         "hard",
+         "bleak"
+      ],
+      "correctAns": "terrible"
+   },
+   {
+      "qnNum": 32,
+      "sentence": "The navy ship remains will now be considered a protected war memorial.",
+      "wordToTest": "memorial",
+      "options": [
+         "zone",
+         "museum",
+         "monument",
+         "graveyard"
+      ],
+      "correctAns": "monument"
+   },
+   {
+      "qnNum": 33,
+      "sentence": "Each of them had longed for the day when their ship would be found.",
+      "wordToTest": "longed for",
+      "options": [
+         "imagined",
+         "waited for",
+         "yearned for",
+         "looked for"
+      ],
+      "correctAns": "yearned for"
+   },
+   {
+      "qnNum": 34,
+      "sentence": "We live in an era of instant communication.",
+      "wordToTest": "era",
+      "options": [
+         "history",
+         "time period",
+         "society",
+         "world"
+      ],
+      "correctAns": "time period"
+   },
+   {
+      "qnNum": 35,
+      "sentence": "Knowledge makes humble; ignorance makes proud.",
+      "wordToTest": "humble",
+      "options": [
+         "modest",
+         "wise",
+         "resourceful",
+         "confident"
+      ],
+      "correctAns": "modest"
+   },
+   {
+      "qnNum": 36,
+      "sentence": "The Petrel is a specially outfitted research vessel.",
+      "wordToTest": "outfitted",
+      "options": [
+         "designed",
+         "studied",
+         "manufactured",
+         "equipped"
+      ],
+      "correctAns": "equipped"
+   },
+   {
+      "qnNum": 37,
+      "sentence": "Trains in Japan are fitted with speakers that emit sounds of dog barks.",
+      "wordToTest": "emit",
+      "options": [
+         "give in",
+         "give off",
+         "give up",
+         "give out"
+      ],
+      "correctAns": "give off"
+   },
+   {
+      "qnNum": 38,
+      "sentence": "James can imitate the cries of bird perfectly.",
+      "wordToTest": "imitate",
+      "options": [
+         "record",
+         "mimic",
+         "repeat",
+         "make"
+      ],
+      "correctAns": "mimic"
+   },
+   {
+      "qnNum": 39,
+      "sentence": "They conceived a system where deer snorts are blared to alert deer.",
+      "wordToTest": "conceived",
+      "options": [
+         "realised",
+         "created",
+         "stimulated",
+         "copied"
+      ],
+      "correctAns": "created"
+   },
+   {
+      "qnNum": 40,
+      "sentence": "The simple but resourceful technology aims to be in use soon.",
+      "wordToTest": "resourceful",
+      "options": [
+         "advanced",
+         "new",
+         "handy",
+         "inventive"
+      ],
+      "correctAns": "inventive"
+   },
+   {
+      "qnNum": 41,
+      "sentence": "The stolen car was found in the vicinity of the station.",
+      "wordToTest": "vicinity",
+      "options": [
+         "inner area",
+         "front area",
+         "surrounding area",
+         "back area"
+      ],
+      "correctAns": "surrounding area"
+   },
+   {
+      "qnNum": 42,
+      "sentence": "Scientists hope to blare the alerts in deer-populated areas.",
+      "wordToTest": "blare",
+      "options": [
+         "make a low pitch sound",
+         "make a high pitch sound",
+         "make an unpleasantly loud noise",
+         "make an irritating noise"
+      ],
+      "correctAns": "make an unpleasantly loud noise"
+   },
+   {
+      "qnNum": 43,
+      "sentence": "The deer don't need to wander further for their daily dose of iron.",
+      "wordToTest": "wander",
+      "options": [
+         "stroll",
+         "run",
+         "forage",
+         "travel"
+      ],
+      "correctAns": "stroll"
+   },
+   {
+      "qnNum": 44,
+      "sentence": "Your invention is ingenious, but not very practical.",
+      "wordToTest": "ingenious",
+      "options": [
+         "effective",
+         "new",
+         "intelligent",
+         "attractive"
+      ],
+      "correctAns": "intelligent"
+   },
+   {
+      "qnNum": 45,
+      "sentence": "There was no guarantee the horse would paint.",
+      "wordToTest": "guarantee",
+      "options": [
+         "assurance",
+         "confidence",
+         "hope",
+         "expectation"
+      ],
+      "correctAns": "assurance"
+   },
+   {
+      "qnNum": 46,
+      "sentence": "The young man graduated from a prestigious university.",
+      "wordToTest": "prestigious",
+      "options": [
+         "old",
+         "local",
+         "international",
+         "celebrated"
+      ],
+      "correctAns": "celebrated"
+   },
+   {
+      "qnNum": 47,
+      "sentence": "The horse retired after bone chips in his knees caused permanent damage.",
+      "wordToTest": "permanent",
+      "options": [
+         "severe",
+         "vital",
+         "lasting",
+         "chronic"
+      ],
+      "correctAns": "lasting"
+   },
+   {
+      "qnNum": 48,
+      "sentence": "I can't believe you were so naive as to trust him.",
+      "wordToTest": "naive",
+      "options": [
+         "nice",
+         "hard",
+         "kind",
+         "simple"
+      ],
+      "correctAns": "simple"
+   },  
+   {
+      "qnNum": 49,
+      "sentence": "I hadn't bargained for such heavy rain and had left my umbrella at home.",
+      "wordToTest": "bargained for",
+      "options": [
+         "expected",
+         "imagined",
+         "forecast",
+         "known"
+      ],
+      "correctAns": "expected"
+   }, 
+   {
+      "qnNum": 50,
+      "sentence": "The X-rays revealed his knee joints were closing up.",
+      "wordToTest": "revealed",
+      "options": [
+         "told",
+         "diagnosed",
+         "disclosed",
+         "checked"
+      ],
+      "correctAns": "disclosed"
    }
 ]
