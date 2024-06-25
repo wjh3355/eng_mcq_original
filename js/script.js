@@ -2,6 +2,8 @@ var optionButtons;
 var nextQnButton;
 var sentenceElement;
 var qnsAttempted = 0;
+var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
+var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	optionButtons = document.querySelectorAll(".option");
@@ -84,8 +86,7 @@ function correctAnsHandler() {
 	console.log(`CORRECT ANS CLICKED!: ${this.textContent}`);
 
 	this.classList.add("greenBorder");
-
-	// this.appendChild(<i class="fa-solid fa-circle-check fa-lg green-tick"></i>);
+	this.insertAdjacentHTML("beforeend", tickIcon);
 
 	// displayExplanation();
 	disableOptions();
@@ -97,8 +98,10 @@ function wrongAnsHandler() {
 	console.log(`WRONG ANS CLICKED!: ${this.textContent}`);
 
 	this.classList.add("redBorder");
+	this.insertAdjacentHTML("beforeend", crossIcon);
 
 	document.querySelector(".correctAns").classList.add("greenBorder");
+	document.querySelector(".correctAns").insertAdjacentHTML("beforeend", tickIcon);
 
 	// displayExplanation();
 	disableOptions();
@@ -119,7 +122,7 @@ function assignOptionsRandomly(qnObj) {
 
 	optionButtons.forEach((button, idx) => {
 		var option = options[idx];
-		button.textContent = option;
+		button.innerHTML = `<p>${option}</p>`;
 
 		if (option === correctAns) {
 			// Correct option
@@ -156,7 +159,7 @@ function disableOptions() {
 function resetOptions() {
 	optionButtons.forEach((button) => {
 		button.classList = "option";
-		button.textContent = "";
+		button.innerHTML = "";
 		button.removeEventListener("click", correctAnsHandler);
 		button.removeEventListener("click", wrongAnsHandler);
 	});

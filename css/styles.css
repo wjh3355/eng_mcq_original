@@ -25,22 +25,21 @@ body {}
 	font-size: 18px;
 }
 
-div.justify-content-center {
+div.button-rows {
 	margin-bottom: 20px;
 }
 
-div.justify-content-center > div {
-	/* button columns */
+div.button-columns {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	/* position: relative; */
+	position: relative;
 }
 
-/* i {
+i.fa-circle-check, i.fa-circle-xmark {
 	position: absolute;
-	left: 30px;
+	right: 25px;
 }
 
 i.green-tick {
@@ -49,8 +48,7 @@ i.green-tick {
 
 i.red-cross {
 	color: rgb(190, 44, 44);
-} */
-
+} 
 
 .option {
 	display: flex;
@@ -67,6 +65,11 @@ i.red-cross {
 
 	background-color: white;
 	border: 3px solid rgb(195, 195, 195);
+}
+
+.option > p {
+	margin: 0;
+	width: 250px;
 }
 
 .option-enabled:hover {
