@@ -15,17 +15,13 @@ function initQn() {
 	console.log("=== Initialising question ===");
 
 	resetOptions();
-	
+
 	$ajaxUtils.sendGetRequest("data/source.json", function(responseArray) {
 		var randQnObj = fetchRandQn(responseArray);
 
 		displayQn(randQnObj);
 
 		assignOptionsRandomly(randQnObj);
-
-		qnsAttempted++;
-
-		document.querySelector("#qns-attempted").textContent = `Q${qnsAttempted}`;
 
 		enableOptions();
 
@@ -53,10 +49,16 @@ function displayQn (qnObj) {
 
 	var wordToTestIdx = sentence.indexOf(wordToTest);
 
+	qnsAttempted++;
+
 	// Display formatted sentence
 	document.querySelector("#sentence").innerHTML =
-		`<p>${sentence.substring(0, wordToTestIdx)}<strong>${wordToTest}</strong>
-        ${sentence.substring(wordToTestIdx + wordToTest.length)}</p>`;
+		`<p>
+		<strong>Q${qnsAttempted}. </strong>
+		${sentence.substring(0, wordToTestIdx)}
+		<strong>${wordToTest}</strong>
+      ${sentence.substring(wordToTestIdx + wordToTest.length)}
+		</p>`;
 
 	console.log("Sentence displayed");
 };

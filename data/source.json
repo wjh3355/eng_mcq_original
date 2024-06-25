@@ -650,7 +650,7 @@
    {
       "qnNum": 55,
       "sentence": "People have to travel to the oldest ranch to experience its inhospitable remoteness.",
-      "wordToTest": "pasture",
+      "wordToTest": "inhospitable",
       "options": [
          "harsh and difficult",
          "remote and cold",
@@ -1185,7 +1185,7 @@
          "report",
          "explain"
       ],
-      "correctAns": "justify"
+      "correctAns": "explain"
    },
    {
       "qnNum": 98,
@@ -1209,7 +1209,7 @@
          "resulted in",
          "led"
       ],
-      "correctAns": "fixation"
+      "correctAns": "increased"
    },
    {
       "qnNum": 100,

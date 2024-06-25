@@ -25,11 +25,6 @@ body {}
 	font-size: 18px;
 }
 
-#qns-attempted {
-	font-weight: bold;
-	font-style: italic;
-}
-
 div.justify-content-center {
 	margin-bottom: 20px;
 }
@@ -40,10 +35,10 @@ div.justify-content-center > div {
 	justify-content: center;
 	align-items: center;
 
-	position: relative;
+	/* position: relative; */
 }
 
-i {
+/* i {
 	position: absolute;
 	left: 30px;
 }
@@ -54,7 +49,7 @@ i.green-tick {
 
 i.red-cross {
 	color: rgb(190, 44, 44);
-}
+} */
 
 
 .option {
