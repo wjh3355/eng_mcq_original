@@ -281,7 +281,7 @@
       "wordToTest": "priority",
       "options": [
          "preference",
-         "important",
+         "pending",
          "backup",
          "secret"
       ],
@@ -565,7 +565,7 @@
    },
    {
       "qnNum": 48,
-      "sentence": "I can't believe you were so naive as to trust him.",
+      "sentence": "I can't believe you were so naive as to trust him!",
       "wordToTest": "naive",
       "options": [
          "nice",
@@ -598,5 +598,630 @@
          "checked"
       ],
       "correctAns": "disclosed"
+   }, 
+   {
+      "qnNum": 51,
+      "sentence": "The horse had months of rehabilitation and medication.",
+      "wordToTest": "rehabilitation",
+      "options": [
+         "rest",
+         "recovery",
+         "revamp",
+         "refresh"
+      ],
+      "correctAns": "recovery"
+   }, 
+   {
+      "qnNum": 52,
+      "sentence": "The vet examined the horse's hind feet.",
+      "wordToTest": "vet",
+      "options": [
+         "a caregiver",
+         "a general practitioner",
+         "a humman doctor",
+         "an animal doctor"
+      ],
+      "correctAns": "an animal dcotor"
+   }, 
+   {
+      "qnNum": 53,
+      "sentence": "His unbridled style has been compared to another famous painter.",
+      "wordToTest": "unbridled",
+      "options": [
+         "uncontrolled",
+         "unprecedented",
+         "unconventional",
+         "unrelenting"
+      ],
+      "correctAns": "uncontrolled"
+   }, 
+   {
+      "qnNum": 54,
+      "sentence": "Horses are grazing in the pasture.",
+      "wordToTest": "pasture",
+      "options": [
+         "backyard",
+         "lawn",
+         "mountain",
+         "meadow"
+      ],
+      "correctAns": "meadow"
+   }, 
+   {
+      "qnNum": 55,
+      "sentence": "People have to travel to the oldest ranch to experience its inhospitable remoteness.",
+      "wordToTest": "pasture",
+      "options": [
+         "harsh and difficult",
+         "remote and cold",
+         "hot and humid",
+         "barren and deserted"
+      ],
+      "correctAns": "harsh and difficult"
+   }, 
+   {
+      "qnNum": 56,
+      "sentence": "As the tide receded we were able to look for shells.",
+      "wordToTest": "receded",
+      "options": [
+         "started",
+         "stopped",
+         "subsided",
+         "disappeared"
+      ],
+      "correctAns": "subsided"
+   }, 
+   {
+      "qnNum": 57,
+      "sentence": "The town is located on a peninsula jutting out into the grey sea.",
+      "wordToTest": "jutting out",
+      "options": [
+         "stretching",
+         "sticking out",
+         "crossing over",
+         "recessing"
+      ],
+      "correctAns": "sticking out"
+   }, 
+   {
+      "qnNum": 58,
+      "sentence": "I mainly do pet portraits, which are very lifelike and controlled.",
+      "wordToTest": "lifelike",
+      "options": [
+         "abstract",
+         "realistic",
+         "vivid",
+         "colourful"
+   ],
+      "correctAns": "realistic"
+   }, 
+   {
+      "qnNum": 59,
+      "sentence": "The traffic in the city was chaotic.",
+      "wordToTest": "chaotic",
+      "options": [
+         "bustling",
+         "energetic",
+         "congested",
+         "disordered"
+      ],
+      "correctAns": "disordered"
+   }, 
+   {
+      "qnNum": 60,
+      "sentence": "The horse won eight races in his career, but it took a toll on his knees.",
+      "wordToTest": "took a toll on",
+      "options": [
+         "cost money on",
+         "had a good effect on",
+         "had an adverse effect on",
+         "had an operation on"
+   ],
+      "correctAns": "had an adverse effect on"
+   }, 
+   {
+      "qnNum": 61,
+      "sentence": "He has an extroverted personality.",
+      "wordToTest": "extroverted",
+      "options": [
+         "thoughtful",
+         "enthusiast",
+         "honest",
+         "outgoing"
+      ],
+      "correctAns": "outgoing"
+   }, 
+   {
+      "qnNum": 62,
+      "sentence": "Jan has a vocation for teaching.",
+      "wordToTest": "vocation",
+      "options": [
+         "dream",
+         "interest",
+         "profession",
+         "holiday"
+      ],
+      "correctAns": "profession"
+   }, 
+   {
+      "qnNum": 63,
+      "sentence": "Her feminine intuition told her that he was unhappy.",
+      "wordToTest": "feminine",
+      "options": [
+         "womanly",
+         "motherly",
+         "original",
+         "experienced"
+      ],
+      "correctAns": "womanly"
+   }, 
+   {
+      "qnNum": 64,
+      "sentence": "He has no inclination to slow down.",
+      "wordToTest": "inclination",
+      "options": [
+         "plan",
+         "feeling",
+         "tendency",
+         "intention"
+      ],
+      "correctAns": "tendency"
+   }, 
+   {
+      "qnNum": 65,
+      "sentence": "Provisions were expensive and hard to obtain.",
+      "wordToTest": "provisions",
+      "options": [
+         "energy",
+         "supplies",
+         "commodities",
+         "appliances"
+      ],
+      "correctAns": "supplies"
+   }, 
+   {
+      "qnNum": 66,
+      "sentence": "Has the meat thawed out yet?",
+      "wordToTest": "thawed",
+      "options": [
+         "frozen",
+         "dried out",
+         "been minced",
+         "melted"
+      ],
+      "correctAns": "melted"
+   }, 
+   {
+      "qnNum": 67,
+      "sentence": "The birds seem to be cute but they have surprisingly sharp beaks and will swipe at you.",
+      "wordToTest": "swipe",
+      "options": [
+         "strike",
+         "bite",
+         "scare",
+         "pierce"
+      ],
+      "correctAns": "strike"
+   }, 
+   {
+      "qnNum": 68,
+      "sentence": "The family survived, and slowly prospered, thanks to a prodigious work ethic.",
+      "wordToTest": "prodigious",
+      "options": [
+         "renowned",
+         "serious",
+         "ancient",
+         "enormous"
+      ],
+      "correctAns": "enormous"
+   }, 
+   {
+      "qnNum": 69,
+      "sentence": "I ascended the viewing platform and took the longer view, something started to emerge.",
+      "wordToTest": "ascended",
+      "options": [
+         "walked on",
+         "climbed",
+         "jumped onto",
+         "stepped down"
+      ],
+      "correctAns": "climbed"
+   }, 
+   {
+      "qnNum": 70,
+      "sentence": "Portland is a sprawling city on the banks of the Willamette River.",
+      "wordToTest": "sprawling",
+      "options": [
+         "spreading out",
+         "lifelike",
+         "amazing",
+         "meandering"
+      ],
+      "correctAns": "spreading out"
+   },
+   {
+      "qnNum": 71,
+      "sentence": "This astonishing art form is something that thousands of people are flocking here to see.",
+      "wordToTest": "astonishing",
+      "options": [
+         "scaring",
+         "magnificent",
+         "surprising",
+         "beautiful"
+      ],
+      "correctAns": "surprising"
+   },
+   {
+      "qnNum": 72,
+      "sentence": "Rice Paddy Art consists of thousands of strategically planted rice shoots grown in concert.",
+      "wordToTest": "in concert",
+      "options": [
+         "in a theatre",
+         "in a way that act jointly",
+         "in a way that is accompanied with music",
+         "in a way that is directed by a conductor"
+      ],
+      "correctAns": "surprising"
+   },
+   {
+      "qnNum": 72,
+      "sentence": "Students are required to undertake simple experiments.",
+      "wordToTest": "undertake",
+      "options": [
+         "set about",
+         "set in",
+         "set off",
+         "set up"
+      ],
+      "correctAns": "set about"
+   },
+   {
+      "qnNum": 73,
+      "sentence": "Rice has been cultivated in the area for around 2,000 years.",
+      "wordToTest": "cultivated",
+      "options": [
+         "introduced",
+         "traded",
+         "imported",
+         "planted"
+      ],
+      "correctAns": "planted"
+   },
+   {
+      "qnNum": 74,
+      "sentence": "The village's official flower is rice flower; and its song also features the rice flower.",
+      "wordToTest": "features",
+      "options": [
+         "carries",
+         "presents",
+         "records",
+         "sings"
+      ],
+      "correctAns": "presents"
+   },
+   {
+      "qnNum": 75,
+      "sentence": "They are unsure of how to create the more ambitious picture compared to the simple mountain.",
+      "wordToTest": "ambitious",
+      "options": [
+         "beautiful",
+         "attractive",
+         "stunning",
+         "demanding"
+      ],
+   "correctAns": "demanding"
+   },
+   {
+      "qnNum": 76,
+      "sentence": "A company in the village produces a computer-aided design blueprint.",
+      "wordToTest": "blueprint",
+      "options": [
+         "blue paper",
+         "blue graph",
+         "master plan",
+         "detailed design"
+      ],
+      "correctAns": "master plan"
+   },
+   {
+      "qnNum": 77,
+      "sentence": "The old sheds, workshops and cattle pens are evocative testaments to its heritage.",
+      "wordToTest": "testaments",
+      "options": [
+         "relics",
+         "leftovers",
+         "proofs",
+         "past"
+      ],
+      "correctAns": "proofs"
+   },   
+   {
+      "qnNum": 78,
+      "sentence": "The perspective of the artwork will look right when viewed from the observation points.",
+      "wordToTest": "perspective",
+      "options": [
+         "outlook",
+         "design",
+         "future",
+         "outline"
+      ],
+      "correctAns": "outlook"
+   },   
+   {
+      "qnNum": 79,
+      "sentence": "You can tell the difference quite distinctly.",
+      "wordToTest": "distinctly",
+      "options": [
+         "easily",
+         "completely",
+         "quickly",
+         "clearly"
+      ],
+      "correctAns": "clearly"
+   },  
+   {
+      "qnNum": 80,
+      "sentence": "The living paintings reach peak splendour in July and August.",
+      "wordToTest": "splendour",
+      "options": [
+         "maturity",
+         "value",
+         "magnificence",
+         "charm"
+      ],
+      "correctAns": "magnificence"
+   },  
+   {
+      "qnNum": 81,
+      "sentence": "The town has even built a special viewing tower to accommodate more people.",
+      "wordToTest": "accommodate",
+      "options": [
+         "welcome",
+         "hold",
+         "lure",
+         "entertain"
+      ],
+      "correctAns": "hold"
+   },  
+   {
+      "qnNum": 82,
+      "sentence": "The villagers are increasingly tending toward Japanese motifs.",
+      "wordToTest": "motifs",
+      "options": [
+         "historical stories",
+         "patterns or designs",
+         "ancient thoughts",
+         "cultures and traditions"
+      ],
+      "correctAns": "patterns or designs"
+   }, 
+   {
+      "qnNum": 82,
+      "sentence": "The school envisions adding at least five classes next year.",
+      "wordToTest": "envisions",
+      "options": [
+         "plans",
+         "decides",
+         "discusses",
+         "imagines"
+      ],
+      "correctAns": "imagines"
+   }, 
+   {
+      "qnNum": 83,
+      "sentence": "A bank of fog obscured the farmhouse.",
+      "wordToTest": "obscured",
+      "options": [
+         "soaked",
+         "concealed",
+         "rose from",
+         "fell to"
+      ],
+      "correctAns": "concealed"
+   }, 
+   {
+      "qnNum": 84,
+      "sentence": "The book is both a story of adventure and a poignant documentation of cultures.",
+      "wordToTest": "poignant",
+      "options": [
+         "true and reliable",
+         "chronical",
+         "painful and touching",
+         "exact and detailed"
+      ],
+      "correctAns": "painful and touching"
+   }, 
+   {
+      "qnNum": 85,
+      "sentence": "Victims are demanding retribution for the terrorist attacks.",
+      "wordToTest": "retribution",
+      "options": [
+         "punishment",
+         "compensation",
+         "protection",
+         "eradication"
+      ],
+      "correctAns": "punishment"
+   },
+   {
+      "qnNum": 86,
+      "sentence": "The valiant efforts of her men crippled Imperial Japan Navy carriers.",
+      "wordToTest": "crippled",
+      "options": [
+         "attacked",
+         "sank",
+         "destroyed",
+         "drove away"
+      ],
+      "correctAns": "destroyed"
+   },
+   {
+      "qnNum": 87,
+      "sentence": "Barely breaking a sweat, he cruised the streets on a bike.",
+      "wordToTest": "breaking a sweat",
+      "options": [
+         "beginning to sweat",
+         "breaking down",
+         "making an effort",
+         "taking a break"
+      ],
+      "correctAns": "destroyed"
+   },
+   {
+      "qnNum": 88,
+      "sentence": "The 3m-tall custom-made bike is made of three frames welded on top of each other.",
+      "wordToTest": "welded",
+      "options": [
+         "assembled",
+         "soldered",
+         "tied",
+         "riveted"
+      ],
+      "correctAns": "soldered"
+   },
+   {
+      "qnNum": 89,
+      "sentence": "At a traffic light, he steadied himself on the roof of a bus for a brief moment.",
+      "wordToTest": "steadied",
+      "options": [
+         "held",
+         "stabilised",
+         "hooked",
+         "leaned"
+      ],
+      "correctAns": "stabilised"
+   },
+   {
+      "qnNum": 90,
+      "sentence": "In order to dismount, he simply jumped down and has miraculously managed to never break an ankle.",
+      "wordToTest": "dismount",
+      "options": [
+         "move on",
+         "jump down",
+         "slide down",
+         "get off"
+      ],
+      "correctAns": "stablised"
+   },
+   {
+      "qnNum": 91,
+      "sentence": "She was becoming exasperated with all the questions they were asking.",
+      "wordToTest": "exasperated",
+      "options": [
+         "annoyed",
+         "interested",
+         "indifferent",
+         "excited"
+      ],
+      "correctAns": "annoyed"
+   },
+   {
+      "qnNum": 92,
+      "sentence": "Gambling became his obsession. He eventually lost everything.",
+      "wordToTest": "obsession",
+      "options": [
+         "hobby",
+         "fixation",
+         "occupation",
+         "interest"
+      ],
+      "correctAns": "fixation"
+   },
+   {
+      "qnNum": 93,
+      "sentence": "Learning is a cumulative process.",
+      "wordToTest": "cumulative",
+      "options": [
+         "super long",
+         "accruing",
+         "torturing",
+         "backbreaking"
+      ],
+      "correctAns": "accruing"
+   },
+   {
+      "qnNum": 94,
+      "sentence": "His penchant for cycling never waned.",
+      "wordToTest": "penchant",
+      "options": [
+         "inclination",
+         "imagination",
+         "dream",
+         "attention"
+      ],
+      "correctAns": "inclination"
+   },
+   {
+      "qnNum": 95,
+      "sentence": "He relishes the thrill of pedalling through Havana high above the roofs of passing cars.",
+      "wordToTest": "relishes",
+      "options": [
+         "relieves",
+         "yells",
+         "delights in",
+         "loves"
+      ],
+      "correctAns": "delights in"
+   },
+   {
+      "qnNum": 96,
+      "sentence": "The prison warden allowed him to have his bikes inside the prison.",
+      "wordToTest": "prison warden",
+      "options": [
+         "prison superintendent",
+         "prison guard",
+         "prison doctor",
+         "prison chef"
+      ],
+      "correctAns": "prison superintendent"
+   },
+   {
+      "qnNum": 97,
+      "sentence": "How can you justify spending so much money?",
+      "wordToTest": "justify",
+      "options": [
+         "save",
+         "claim",
+         "report",
+         "explain"
+      ],
+      "correctAns": "justify"
+   },
+   {
+      "qnNum": 98,
+      "sentence": "He spent the long hours in his workshop cobbling together spare parts into magic.",
+      "wordToTest": "cobbling",
+      "options": [
+         "quickly producing",
+         "slowly piling",
+         "roughly assembling",
+         "carefully repairing"
+      ],
+      "correctAns": "roughly assembling"
+   },
+   {
+      "qnNum": 99,
+      "sentence": "Failure only intensified my desire to succeed.",
+      "wordToTest": "intensified",
+      "options": [
+         "sped up",
+         "increased",
+         "resulted in",
+         "led"
+      ],
+      "correctAns": "fixation"
+   },
+   {
+      "qnNum": 100,
+      "sentence": "Dogs evolved from wolves tens of thousands of years ago.",
+      "wordToTest": "evolved",
+      "options": [
+         "started",
+         "originated",
+         "developed",
+         "came"
+      ],
+      "correctAns": "developed"
    }
+
 ]

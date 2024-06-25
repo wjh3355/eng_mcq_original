@@ -1,5 +1,6 @@
 var optionButtons;
 var nextQnButton;
+var qnsAttempted = 0;
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	optionButtons = document.querySelectorAll(".option");
@@ -14,12 +15,17 @@ function initQn() {
 	console.log("=== Initialising question ===");
 
 	resetOptions();
+	
 	$ajaxUtils.sendGetRequest("data/source.json", function(responseArray) {
 		var randQnObj = fetchRandQn(responseArray);
 
-		console.log(`Fetched random question: #${randQnObj.qnNum}`);
-
 		displayQn(randQnObj);
+
+		assignOptionsRandomly(randQnObj);
+
+		qnsAttempted++;
+
+		document.querySelector("#qns-attempted").textContent = `Q${qnsAttempted}`;
 
 		enableOptions();
 
@@ -36,14 +42,14 @@ function fetchRandQn(responseArray) {
 		return;
 	} else {
 		var randQnIdx = Math.floor(Math.random() * responseArray.length);
-		return responseArray[randQnIdx];
+		var randQnObj = responseArray[randQnIdx];
+		console.log(`Fetched random question: #${randQnObj.qnNum}`);
+		return randQnObj;
 	}
 }
 
 function displayQn (qnObj) {
-	var { qnNum, sentence, wordToTest, options, correctAns } = qnObj;
-
-	document.querySelector("#qn-number").textContent = `#${qnNum}`;
+	var { sentence, wordToTest } = qnObj;
 
 	var wordToTestIdx = sentence.indexOf(wordToTest);
 
@@ -53,8 +59,6 @@ function displayQn (qnObj) {
         ${sentence.substring(wordToTestIdx + wordToTest.length)}</p>`;
 
 	console.log("Sentence displayed");
-
-	assignOptionsRandomly(options, correctAns);
 };
 
 function shuffle(array) {
@@ -98,7 +102,9 @@ function wrongAnsHandler() {
 
 // ========== OPTION UTILITIES ==========
 
-function assignOptionsRandomly(options, correctAns) {
+function assignOptionsRandomly(qnObj) {
+	var { options, correctAns } = qnObj;
+
 	shuffle(options);
 
 	optionButtons.forEach((button, idx) => {
@@ -139,10 +145,10 @@ function disableOptions() {
 
 function resetOptions() {
 	optionButtons.forEach((button) => {
-		button.classList = 'option';
+		button.classList = "option";
+		button.textContent = "";
 		button.removeEventListener("click", correctAnsHandler);
 		button.removeEventListener("click", wrongAnsHandler);
-		button.textContent = "";
 	});
 
 	console.log("Options reset");
