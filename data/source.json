@@ -618,10 +618,10 @@
       "options": [
          "a caregiver",
          "a general practitioner",
-         "a humman doctor",
+         "a human doctor",
          "an animal doctor"
       ],
-      "correctAns": "an animal dcotor"
+      "correctAns": "an animal doctor"
    }, 
    {
       "qnNum": 53,
@@ -857,23 +857,11 @@
       "wordToTest": "in concert",
       "options": [
          "in a theatre",
-         "in a way that act jointly",
+         "in a way that acts jointly",
          "in a way that is accompanied with music",
          "in a way that is directed by a conductor"
       ],
-      "correctAns": "surprising"
-   },
-   {
-      "qnNum": 72,
-      "sentence": "Students are required to undertake simple experiments.",
-      "wordToTest": "undertake",
-      "options": [
-         "set about",
-         "set in",
-         "set off",
-         "set up"
-      ],
-      "correctAns": "set about"
+      "correctAns": "in a way that acts jointly"
    },
    {
       "qnNum": 73,
@@ -1065,7 +1053,7 @@
          "making an effort",
          "taking a break"
       ],
-      "correctAns": "destroyed"
+      "correctAns": "beginning to sweat"
    },
    {
       "qnNum": 88,
@@ -1101,7 +1089,7 @@
          "slide down",
          "get off"
       ],
-      "correctAns": "stablised"
+      "correctAns": "get off"
    },
    {
       "qnNum": 91,
@@ -1222,6 +1210,79 @@
          "came"
       ],
       "correctAns": "developed"
+   },
+   {
+      "qnNum": 101,
+      "sentence": "Certain genes make dogs particularly gregarious. ",
+      "wordToTest": "gregarious",
+      "options": [
+         "sociable",
+         "adorable",
+         "docile",
+         "temperate"
+      ],
+      "correctAns": "sociable"
+   },
+   {
+      "qnNum": 102,
+      "sentence": "This may give dogs their distinctive personalities, including a craving for human company.",
+      "wordToTest": "distinctive",
+      "options": [
+         "adorable",
+         "peculiar",
+         "amiable",
+         "persistent"
+      ],
+      "correctAns": "peculiar"
+   },
+   {
+      "qnNum": 103,
+      "sentence": "He knelt before the king and craved for mercy.",
+      "wordToTest": "craved for",
+      "options": [
+         "coveted",
+         "loved",
+         "accepted",
+         "waited for"
+      ],
+      "correctAns": "coveted"
+   },
+   {
+      "qnNum": 104,
+      "sentence": "Who keeps company with the wolf will learn to howl.",
+      "wordToTest": "company",
+      "options": [
+         "following",
+         "companionship",
+         "gathering",
+         "ownership"
+      ],
+      "correctAns": "companionship"
+   },
+   {
+      "qnNum": 105,
+      "sentence": "Our finding of genetic variation in both dogs and wolves provides a possible insight into animal personality.",
+      "wordToTest": "insight",
+      "options": [
+         "study",
+         "research",
+         "understanding",
+         "discovery"
+      ],
+      "correctAns": "understanding"
+   },
+   {
+      "qnNum": 106,
+      "sentence": "Students are required to undertake simple experiments.",
+      "wordToTest": "undertake",
+      "options": [
+         "set about",
+         "set in",
+         "set off",
+         "set up"
+      ],
+      "correctAns": "set about"
    }
+
 
 ]

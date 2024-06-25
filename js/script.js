@@ -1,10 +1,12 @@
 var optionButtons;
 var nextQnButton;
+var sentenceElement;
 var qnsAttempted = 0;
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	optionButtons = document.querySelectorAll(".option");
 	nextQnButton = document.querySelector("#next-qn-button");
+	sentenceElement = document.querySelector("#sentence");
 
 	initQn();
 });
@@ -38,6 +40,7 @@ function fetchRandQn(responseArray) {
 		return;
 	} else {
 		var randQnIdx = Math.floor(Math.random() * responseArray.length);
+		// var randQnIdx = ;
 		var randQnObj = responseArray[randQnIdx];
 		console.log(`Fetched random question: #${randQnObj.qnNum}`);
 		return randQnObj;
@@ -47,18 +50,23 @@ function fetchRandQn(responseArray) {
 function displayQn (qnObj) {
 	var { sentence, wordToTest } = qnObj;
 
-	var wordToTestIdx = sentence.indexOf(wordToTest);
+	var startIdx = sentence.toLowerCase().indexOf(wordToTest);
+	var endIdx = startIdx + wordToTest.length;
+
+	while (endIdx < sentence.length && /[^\w\s]/.test(sentence.charAt(endIdx))) {
+		endIdx++;
+   }
 
 	qnsAttempted++;
 
 	// Display formatted sentence
-	document.querySelector("#sentence").innerHTML =
+	sentenceElement.innerHTML =
 		`<p>
-		<strong>Q${qnsAttempted}. </strong>
-		${sentence.substring(0, wordToTestIdx)}
-		<strong>${wordToTest}</strong>
-      ${sentence.substring(wordToTestIdx + wordToTest.length)}
-		</p>`;
+    	<strong>Q${qnsAttempted}. </strong>
+    	${startIdx > 0 ? sentence.substring(0, startIdx) : ''} 
+    	<strong>${sentence.substring(startIdx, endIdx)}</strong>
+    	${sentence.substring(endIdx)}
+     	</p>`;
 
 	console.log("Sentence displayed");
 };

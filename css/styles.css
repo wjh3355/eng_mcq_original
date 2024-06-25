@@ -56,7 +56,9 @@ i.red-cross {
 	display: flex;
 	flex: 1;
 	margin: 0;
+
 	font-size: 18px;
+	line-height: 95%;
 
 	justify-content: center;
 	align-items: center;
