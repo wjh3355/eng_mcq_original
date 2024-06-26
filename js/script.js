@@ -122,7 +122,7 @@ function assignOptionsRandomly(qnObj) {
 
 	optionButtons.forEach((button, idx) => {
 		var option = options[idx];
-		button.innerHTML = `<p>${option}</p>`;
+		button.textContent = option;
 
 		if (option === correctAns) {
 			// Correct option
@@ -159,6 +159,7 @@ function disableOptions() {
 function resetOptions() {
 	optionButtons.forEach((button) => {
 		button.classList = "option";
+		button.textContent = "";
 		button.innerHTML = "";
 		button.removeEventListener("click", correctAnsHandler);
 		button.removeEventListener("click", wrongAnsHandler);
