@@ -36,19 +36,19 @@ function initQn() {
 	nextQnButton.addEventListener("click", initQn);
 }
 
+// fetch random question from response array
 function fetchRandQn(responseArray) {
 	if (!responseArray) {
-		console.error("Error: Failed to fetch or parse question data.");
-		return;
-	} else {
-		var randQnIdx = Math.floor(Math.random() * responseArray.length);
-		// var randQnIdx = ;
-		var randQnObj = responseArray[randQnIdx];
-		console.log(`Fetched random question: #${randQnObj.qnNum}`);
-		return randQnObj;
+		throw new Error("Error: Failed to fetch or parse question data.");
 	}
+	var randQnIdx = Math.floor(Math.random() * responseArray.length);
+	// var randQnIdx = ;
+	var randQnObj = responseArray[randQnIdx];
+	console.log(`Fetched random question: #${randQnObj.qnNum}`);
+	return randQnObj;
 }
 
+// displays sentence
 function displayQn (qnObj) {
 	var { sentence, wordToTest } = qnObj;
 
@@ -73,6 +73,7 @@ function displayQn (qnObj) {
 	console.log("Sentence displayed");
 };
 
+// shuffles an array
 function shuffle(array) {
 	for (var i = array.length - 1; i > 0; i--) {
 		var j = Math.floor(Math.random() * (i + 1));
@@ -82,6 +83,7 @@ function shuffle(array) {
 
 // ========== ANSWER HANDLERS ==========
 
+// handles correct answer
 function correctAnsHandler() {
 	console.log(`CORRECT ANS CLICKED!: ${this.textContent}`);
 
@@ -94,6 +96,7 @@ function correctAnsHandler() {
 	console.log("Waiting for input...");
 };
 
+// handles wrong answer
 function wrongAnsHandler() {
 	console.log(`WRONG ANS CLICKED!: ${this.textContent}`);
 
@@ -113,8 +116,13 @@ function wrongAnsHandler() {
 // 	// to add later
 // };
 
+// function randQnOrder() {
+// 	// arrange all available qns in random order
+// }
+
 // ========== OPTION UTILITIES ==========
 
+// assign options randomly to buttons, mark correct and wrong
 function assignOptionsRandomly(qnObj) {
 	var { options, correctAns } = qnObj;
 
@@ -122,7 +130,7 @@ function assignOptionsRandomly(qnObj) {
 
 	optionButtons.forEach((button, idx) => {
 		var option = options[idx];
-		button.textContent = option;
+		button.innerHTML = `<p>${option}</p>`;
 
 		if (option === correctAns) {
 			// Correct option
@@ -138,6 +146,7 @@ function assignOptionsRandomly(qnObj) {
 	console.log(`Options (${options}) randomly assigned and displayed`);
 }
 
+// enable options for user interaction
 function enableOptions() {
 	optionButtons.forEach(button => {
 		button.disabled = false;
@@ -147,6 +156,7 @@ function enableOptions() {
 	console.log("Options enabled");
 };
 
+// disable options once answered
 function disableOptions() {
 	optionButtons.forEach(button => {
 		button.disabled = true;
@@ -156,6 +166,7 @@ function disableOptions() {
 	console.log("Options disabled");
 };
 
+// reset options for a new question
 function resetOptions() {
 	optionButtons.forEach((button) => {
 		button.classList = "option";

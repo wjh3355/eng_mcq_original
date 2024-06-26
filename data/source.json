@@ -782,7 +782,7 @@
    {
       "qnNum": 66,
       "sentence": "Has the meat thawed out yet?",
-      "wordToTest": "thawed",
+      "wordToTest": "thawed out",
       "options": [
          "frozen",
          "dried out",
@@ -858,8 +858,8 @@
       "options": [
          "in a theatre",
          "in a way that acts jointly",
-         "in a way that is accompanied with music",
-         "in a way that is directed by a conductor"
+         "in a way accompanied with music",
+         "in a way directed by a conductor"
       ],
       "correctAns": "in a way that acts jointly"
    },
@@ -1282,7 +1282,426 @@
          "set up"
       ],
       "correctAns": "set about"
+   },
+   {
+      "qnNum": 107,
+      "sentence": "The mailman delivered the letters promptly.",
+      "wordToTest": "promptly",
+      "options": [
+         "accurately",
+         "without delay",
+         "without mistake",
+         "suddenly"
+      ],
+      "correctAns": "without delay"
+   },
+   {
+      "qnNum": 108,
+      "sentence": "Their efforts are worthy of your support.",
+      "wordToTest": "worthy of",
+      "options": [
+         "needing",
+         "requesting",
+         "appreciating",
+         "deserving"
+      ],
+      "correctAns": "deserving"
+   },
+   {
+      "qnNum": 109,
+      "sentence": "He felt completely overwhelmed by their kindness.",
+      "wordToTest": " overwhelmed",
+      "options": [
+         "appreciated",
+         "honoured",
+         "moved",
+         "respected"
+      ],
+      "correctAns": "moved"
+   },
+   {
+      "qnNum": 110,
+      "sentence": "He sacrificed his holiday to help his brother's business.",
+      "wordToTest": "sacrificed",
+      "options": [
+         "put off",
+         "set off",
+         "carried out",
+         "gave up"
+      ],
+      "correctAns": "gave up"
+   },
+   {
+      "qnNum": 111,
+      "sentence": "His dog was too old and sick so he had to put the dog down.",
+      "wordToTest": "put the dog down",
+      "options": [
+         "let the dog lie down",
+         "sent the dog to a vet",
+         "left it to a pet store",
+         "euthanised the dog"
+      ],
+      "correctAns": "euthanised the dog"
+   },
+   {
+      "qnNum": 112,
+      "sentence": "The motherless children were starving for affection.",
+      "wordToTest": "affection",
+      "options": [
+         "care",
+         "attention",
+         "fondness",
+         "support"
+      ],
+      "correctAns": "fondness"
+   },
+   {
+      "qnNum": 113,
+      "sentence": "He spent himself in the service of humanity.",
+      "wordToTest": "humanity",
+      "options": [
+         "religion",
+         "racial harmony",
+         "benevolence",
+         "cultures"
+      ],
+      "correctAns": "benevolence"
+   },
+   {
+      "qnNum": 114,
+      "sentence": "He looked behind him to see if anyone was earwigging.",
+      "wordToTest": "earwigging",
+      "options": [
+         "eavesdropping",
+         "watching",
+         "nearing",
+         "following"
+      ],
+      "correctAns": "eavesdropping"
+   },
+   {
+      "qnNum": 114,
+      "sentence": "The house has been restored to its original splendour.",
+      "wordToTest": "restored",
+      "options": [
+         "built",
+         "decorated",
+         "brought back",
+         "designed"
+      ],
+      "correctAns": "brought back"
+   },
+   {
+      "qnNum": 115,
+      "sentence": " He darted across the deserted street.",
+      "wordToTest": "deserted",
+      "options": [
+         "quiet",
+         "run-down",
+         "curving",
+         "abandoned"
+      ],
+      "correctAns": "abandoned"
+   },
+   {
+      "qnNum": 116,
+      "sentence": "Crowds have been flocking to the beaches in this hot weather.",
+      "wordToTest": "flocking",
+      "options": [
+         "flying",
+         "travelling",
+         "swarming",
+         "walking"
+      ],
+      "correctAns": "swarming"
+   },
+   {
+      "qnNum": 117,
+      "sentence": "Her popularity as a singer has waned since the glory days of the 2000s.",
+      "wordToTest": "waned",
+      "options": [
+         "flourished",
+         "stopped",
+         "declined",
+         "disappeared"
+      ],
+      "correctAns": "declined"
+   },
+   {
+      "qnNum": 118,
+      "sentence": " Most domestic freezers operate at below -18°C.",
+      "wordToTest": "domestic",
+      "options": [
+         "commercial",
+         "household",
+         "national",
+         "business"
+      ],
+      "correctAns": "household"
+   },
+   {
+      "qnNum": 119,
+      "sentence": "The researchers studied the behaviour of grey wolves living in captivity.",
+      "wordToTest": "captivity",
+      "options": [
+         "remote area",
+         "the wild",
+         "safari",
+         "confinement"
+      ],
+      "correctAns": "confinement"
+   },
+   {
+      "qnNum": 120,
+      "sentence": " They carried out a number of tests of the animals' skills at sociability.",
+      "wordToTest": "carried out",
+      "options": [
+         "accomplished",
+         "devised",
+         "planned",
+         "set up"
+      ],
+      "correctAns": "accomplished"
+   },
+   {
+      "qnNum": 121,
+      "sentence": " Wolves were somewhat aloof.",
+      "wordToTest": "aloof",
+      "options": [
+         "ferocious",
+         "voracious",
+         "unfriendly",
+         "gregarious"
+      ],
+      "correctAns": "unfriendly"
+   },
+   {
+      "qnNum": 122,
+      "sentence": " There is a prominent sign featuring Sentosa.",
+      "wordToTest": "prominent",
+      "options": [
+         "conspicuous",
+         "large",
+         "tall",
+         "colourful"
+      ],
+      "correctAns": "conspicuous"
+   },
+   {
+      "qnNum": 123,
+      "sentence": " Conceit is associated with stupidity and ignorance.",
+      "wordToTest": "associated with",
+      "options": [
+         "linked with",
+         "caused by",
+         "partnered with",
+         "started from"
+      ],
+      "correctAns": "linked with"
+   },
+   {
+      "qnNum": 124,
+      "sentence": " This observation highlights the utility of the dog for studies of human disease.",
+      "wordToTest": "utility",
+      "options": [
+         "nature",
+         "character",
+         "usefulness",
+         "hint"
+      ],
+      "correctAns": "usefulness"
+   },
+   {
+      "qnNum": 125,
+      "sentence": "She suffered minor cuts and bruises.",
+      "wordToTest": "minor",
+      "options": [
+         "severe",
+         "nasty",
+         "slight",
+         "moderate"
+      ],
+      "correctAns": "slight"
+   },
+   {
+      "qnNum": 126,
+      "sentence": " She would contact the wildlife department to rescue the pangolin.",
+      "wordToTest": "rescue",
+      "options": [
+         "look after",
+         "search",
+         "study",
+         "save"
+      ],
+      "correctAns": "save"
+   },
+   {
+      "qnNum": 127,
+      "sentence": "He is tolerant of those who disagree with him.",
+      "wordToTest": "is tolerant of",
+      "options": [
+         "is against",
+         "is afraid of",
+         "is forbearing with",
+         "is fond of"
+      ],
+      "correctAns": "is forbearing with"
+   },
+   {
+      "qnNum": 128,
+      "sentence": " Wolves sneaked into hunter gatherer camps to feed on food scraps.",
+      "wordToTest": "sneaked",
+      "options": [
+         "crept",
+         "ran",
+         "prowled",
+         "stalked"
+      ],
+      "correctAns": "crept"
+   },
+   {
+      "qnNum": 129,
+      "sentence": " They are descendants of the original English and Scottish settlers.",
+      "wordToTest": "descendants",
+      "options": [
+         "ancestors",
+         "followers",
+         "offsprings",
+         "peers"
+      ],
+      "correctAns": "offsprings"
+   },
+   {
+      "qnNum": 130,
+      "sentence": " Maglevs harness the repulsion by rapidly switching on and off electromagnets.",
+      "wordToTest": "harness",
+      "options": [
+         "utilise",
+         "generate",
+         "control",
+         "push"
+      ],
+      "correctAns": "control"
+   },
+   {
+      "qnNum": 131,
+      "sentence": " As a transportation nut, I must try to ride the Maglev.",
+      "wordToTest": "nut",
+      "options": [
+         "observer",
+         "researcher",
+         "commuter",
+         "enthusiast"
+      ],
+      "correctAns": "enthusiast"
+   },
+   {
+      "qnNum": 132,
+      "sentence": " Rescue centres will need to provide a protocol.",
+      "wordToTest": "a protocol",
+      "options": [
+         "an instruction",
+         "a warning",
+         "a set of rules",
+         "a guideline"
+      ],
+      "correctAns": "a set of rules"
+   },
+   {
+      "qnNum": 133,
+      "sentence": " Public education and outreach is important.",
+      "wordToTest": "outreach",
+      "options": [
+         "bringing services or information to people",
+         "teaching people about relevant topics",
+         "experiencing and practising",
+         "enhancing people's awareness"
+      ],
+      "correctAns": "bringing services or information to people"
+   },
+   {
+      "qnNum": 134,
+      "sentence": "An ex-hunter found a pangolin in his orchard.",
+      "wordToTest": "orchard",
+      "options": [
+         "rice field",
+         "backyard",
+         "fruit farm",
+         "horse stable"
+      ],
+      "correctAns": "fruit farm"
+   },
+   {
+      "qnNum": 135,
+      "sentence": " There was an extremely animated discussion on the subject.",
+      "wordToTest": "animated",
+      "options": [
+         "heated",
+         "constructive",
+         "serious",
+         "lively"
+      ],
+      "correctAns": "lively"
+   },
+   {
+      "qnNum": 136,
+      "sentence": " He appeared nonchalant in court when the judge ordered him to pay $1000.",
+      "wordToTest": "nonchalant",
+      "options": [
+         "sad",
+         "frantic",
+         "calm",
+         "indignant"
+      ],
+      "correctAns": "calm"
+   },
+   {
+      "qnNum": 137,
+      "sentence": "The passengers will not ignore the marvel of the trip.",
+      "wordToTest": "marvel",
+      "options": [
+         "wonder",
+         "encounter",
+         "scenery",
+         "joy"
+      ],
+      "correctAns": "wonder"
+   },
+   {
+      "qnNum": 138,
+      "sentence": "I caught a momentary glimpse of them.",
+      "wordToTest": "momentary",
+      "options": [
+         "noticeable",
+         "surprising",
+         "brief",
+         "lasting"
+      ],
+      "correctAns": "brief"
+   },
+   {
+      "qnNum": 139,
+      "sentence": "She likes to pry into private affairs of others.",
+      "wordToTest": "pry into",
+      "options": [
+         "listen to",
+         "peer at",
+         "collect",
+         "gossip"
+      ],
+      "correctAns": "peer at"
+   },
+   {
+      "qnNum": 140,
+      "sentence": " A moment later I stepped into a gleaming, gold-pillared entrance hall.",
+      "wordToTest": "gleaming",
+      "options": [
+         "shiny",
+         "stunning",
+         "massive",
+         "modern"
+      ],
+      "correctAns": "shiny"
    }
-
 
 ]
