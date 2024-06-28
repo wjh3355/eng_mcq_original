@@ -1,5 +1,6 @@
 var optionButtons;
 var nextQnButton;
+var correctAnsButton;
 var sentenceElement;
 var qnsAttempted = 0;
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
@@ -103,8 +104,8 @@ function wrongAnsHandler() {
 	this.classList.add("redBorder");
 	this.insertAdjacentHTML("beforeend", crossIcon);
 
-	document.querySelector(".correctAns").classList.add("greenBorder");
-	document.querySelector(".correctAns").insertAdjacentHTML("beforeend", tickIcon);
+	correctAnsButton.classList.add("greenBorder");
+	correctAnsButton.insertAdjacentHTML("beforeend", tickIcon);
 
 	// displayExplanation();
 	disableOptions();
@@ -134,6 +135,7 @@ function assignOptionsRandomly(qnObj) {
 
 		if (option === correctAns) {
 			// Correct option
+			correctAnsButton = button;
 			button.classList.add("correctAns");
 			button.addEventListener("click", correctAnsHandler);
 		} else {
