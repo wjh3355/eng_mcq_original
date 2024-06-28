@@ -42,7 +42,7 @@ function fetchRandQn(responseArray) {
 		throw new Error("Error: Failed to fetch or parse question data.");
 	}
 	var randQnIdx = Math.floor(Math.random() * responseArray.length);
-	// var randQnIdx = ;
+	// var randQnIdx = 71;
 	var randQnObj = responseArray[randQnIdx];
 	console.log(`Fetched random question: #${randQnObj.qnNum}`);
 	return randQnObj;

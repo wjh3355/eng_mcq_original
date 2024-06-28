@@ -14,31 +14,35 @@
 
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-expand-lg">
+		<nav id="header-nav" class="navbar navbar-expand-lg bg-dark">
 			<div class="container">
 				<a href="#" class="navbar-brand d-flex align-items-center">
-					<i class="fa-solid fa-dove fa-2xl me-3"></i>
-					<h1 id="maintitle">GEP Vocab MCQ</h1>
+					<i class="fa-solid fa-dove fa-xl me-3" style="color: white"></i>
+					<h2 id="maintitle">GEP Vocab MCQ</h2>
 				</a>
-				<button type="button" class="btn btn-success btn-lg" id="next-qn-button">
+				<button type="button" class="btn btn-primary" id="next-qn-button">
 					Next Question
 				</button>
 			</div>
 		</nav>
 	</header>
 
-	<div class="container">
+	<div class="container mt-3 mb-3 fs-5">
 		<!-- CONTAINER FOR QUESTION SENTENCE -->
 		<div class="row" id="sentence-row">
-			<div class="col-11" id="sentence">
-				<!-- no.of qns attempted + formatted sentence -->
+			<div class="col-12">
+				<div class="card">
+					<div class="card-body" id="sentence">
+						<!-- no.of qns attempted + formatted sentence -->
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
 		<!-- CONTAINER FOR OPTIONS -->
-		<div class="row justify-content-center button-rows">
+		<div class="row justify-content-center mb-3">
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
 				<button class="option">
 					<!-- option -->
@@ -46,7 +50,7 @@
 			</div>
 		</div>
 
-		<div class="row justify-content-center button-rows">
+		<div class="row justify-content-center mb-3">
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
 				<button class="option">
 					<!-- option -->
@@ -54,7 +58,7 @@
 			</div>
 		</div>
 
-		<div class="row justify-content-center button-rows">
+		<div class="row justify-content-center mb-3">
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
 				<button class="option">
 					<!-- option -->
@@ -62,7 +66,7 @@
 			</div>
 		</div>
 
-		<div class="row justify-content-center button-rows">
+		<div class="row justify-content-center mb-3">
 			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
 				<button class="option">
 					<!-- option -->
@@ -75,7 +79,9 @@
 		<!-- CONTAINER FOR INSTRUCTION -->
 		<div class="row">
 			<div class="col-12">
-				<p id="instruction">Select the best <span>synonym</span> to the bolded word in the sentence.</p>
+				<p id="instruction" class="fst-italic">
+					Select the best <u>synonym</u> to the bolded word in the sentence.
+				</p>
 			</div>
 		</div>
 	</div>

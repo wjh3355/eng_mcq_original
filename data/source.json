@@ -858,8 +858,8 @@
       "options": [
          "in a theatre",
          "in a way that acts jointly",
-         "in a way accompanied with music",
-         "in a way directed by a conductor"
+         "in a way that is accompanied with music",
+         "in a way that is directed by a conductor"
       ],
       "correctAns": "in a way that acts jointly"
    },
@@ -971,18 +971,6 @@
       ],
       "correctAns": "hold"
    },  
-   {
-      "qnNum": 82,
-      "sentence": "The villagers are increasingly tending toward Japanese motifs.",
-      "wordToTest": "motifs",
-      "options": [
-         "historical stories",
-         "patterns or designs",
-         "ancient thoughts",
-         "cultures and traditions"
-      ],
-      "correctAns": "patterns or designs"
-   }, 
    {
       "qnNum": 82,
       "sentence": "The school envisions adding at least five classes next year.",
@@ -1337,11 +1325,11 @@
       "wordToTest": "put the dog down",
       "options": [
          "let the dog lie down",
-         "sent the dog to a vet",
-         "left it to a pet store",
-         "euthanised the dog"
+         "send the dog to a vet",
+         "leave it to a pet store",
+         "euthanise the dog"
       ],
-      "correctAns": "euthanised the dog"
+      "correctAns": "euthanise the dog"
    },
    {
       "qnNum": 112,
@@ -1693,7 +1681,7 @@
    },
    {
       "qnNum": 140,
-      "sentence": " A moment later I stepped into a gleaming, gold-pillared entrance hall.",
+      "sentence": "A moment later I stepped into a gleaming, gold-pillared entrance hall.",
       "wordToTest": "gleaming",
       "options": [
          "shiny",
@@ -1702,6 +1690,1002 @@
          "modern"
       ],
       "correctAns": "shiny"
+   },
+   {
+      "qnNum": 141,
+      "sentence": "The villagers are increasingly tending toward Japanese motifs.",
+      "wordToTest": "motifs",
+      "options": [
+         "historical stories",
+         "patterns or designs",
+         "ancient thoughts",
+         "cultures and traditions"
+      ],
+      "correctAns": "patterns or designs"
+   },
+   {
+      "qnNum": 142,
+      "sentence": "The legal amendment required strong scientific evidence.",
+      "wordToTest": "amendment",
+      "options": [
+         "pass of law",
+         "nullification of law",
+         "enactment of law",
+         "change of law"
+      ],
+      "correctAns": "change of law"
+   },
+   {
+      "qnNum": 143,
+      "sentence": "Fatty foods should be eliminated from the diet.",
+      "wordToTest": "eliminated",
+      "options": [
+         "decreased",
+         "increased",
+         "removed",
+         "banned"
+      ],
+      "correctAns": "removed"
+   },
+   {
+      "qnNum": 144,
+      "sentence": "This time I dutifully headed to security and immigration, which moved painfully slow.",
+      "wordToTest": "dutifully",
+      "options": [
+         "obediently",
+         "promptly",
+         "willingly",
+         "reluctantly"
+      ],
+      "correctAns": "obediently"
+   },
+   {
+      "qnNum": 145,
+      "sentence": " Conservationists faced an uphill battle to elevate the status of Sunda pangolin.",
+      "wordToTest": "elevate",
+      "options": [
+         "strengthen",
+         "justify",
+         "raise",
+         "endorse"
+      ],
+      "correctAns": "raise"
+   },
+   {
+      "qnNum": 146,
+      "sentence": "Scientists have no effective means to find and count the elusive animal.",
+      "wordToTest": "means",
+      "options": [
+         "method",
+         "guidance",
+         "theory",
+         "tool"
+      ],
+      "correctAns": "method"
+   },
+   {
+      "qnNum": 148,
+      "sentence": "The house has been restored to its original splendour.",
+      "wordToTest": "restored",
+      "options": [
+         "built",
+         "decorated",
+         "brought back",
+         "designed"
+      ],
+      "correctAns": "brought back"
+   },
+   {
+      "qnNum": 149,
+      "sentence": "Mr Kamprad was one of the greatest entrepreneurs of the 20th.",
+      "wordToTest": "entrepreneurs",
+      "options": [
+         "product salesmen",
+         "philanthropists",
+         "production managers",
+         "people who set up businesses"
+      ],
+      "correctAns": "people who set up businesses"
+   },
+   {
+      "qnNum": 150,
+      "sentence": "He worked until the very end of his life, staying true to his own motto.",
+      "wordToTest": "motto",
+      "options": [
+         "habit",
+         "maxim",
+         "dream",
+         "determination"
+      ],
+      "correctAns": "maxim"
+   },
+   {
+      "qnNum": 151,
+      "sentence": "The alluring demand from Vietnam has changed pangolin hunting in Malaysia.",
+      "wordToTest": "alluring",
+      "options": [
+         "attractive",
+         "significant",
+         "lucrative",
+         "large"
+      ],
+      "correctAns": "attractive"
+   },
+   {
+      "qnNum": 152,
+      "sentence": "Mr Kamprad said that it was in the nature of Småland to be thrifty.",
+      "wordToTest": "thrifty",
+      "options": [
+         "cautious",
+         "smart",
+         "frugal",
+         "generous"
+      ],
+      "correctAns": "frugal"
+   },
+   {
+      "qnNum": 153,
+      "sentence": "The whole ethos of the hotel is effortless service.",
+      "wordToTest": "ethos",
+      "options": [
+         "beliefs",
+         "methods",
+         "meanings",
+         "approaches"
+      ],
+      "correctAns": "beliefs"
+   },
+   {
+      "qnNum": 154,
+      "sentence": "He bought them in bulk cheaply and re-sold them individually at a very low price.",
+      "wordToTest": "in buik",
+      "options": [
+         "in quick way",
+         "in large quantity",
+         "in convenience",
+         "in low value"
+      ],
+      "correctAns": "in large quantity"
+   },
+   {
+      "qnNum": 155,
+      "sentence": "This period saw the use of a catalogue and a showroom to reach the many people.",
+      "wordToTest": "a catalogue",
+      "options": [
+         "a service manual of products",
+         "a publication containing details of items for sale",
+         "a long list of menu",
+         "an assembling instruction"
+      ],
+      "correctAns": "a publication containing details of items for sale"
+   },
+   {
+      "qnNum": 156,
+      "sentence": "This novel may well become a classic.",
+      "wordToTest": "classic",
+      "options": [
+         "popular one",
+         "influential one",
+         "special one",
+         "long-lasting one"
+      ],
+      "correctAns": "long-lasting one"
+   },
+   {
+      "qnNum": 157,
+      "sentence": "Being a teenager, I was completely mortified.",
+      "wordToTest": "mortified",
+      "options": [
+         "horrified",
+         "embarrassed",
+         "surprised",
+         "excited"
+      ],
+      "correctAns": "embarrassed"
+   },
+   {
+      "qnNum": 158,
+      "sentence": "Kalin fiercely defended his small domain from any authorities who tried to take it away.",
+      "wordToTest": "domain",
+      "options": [
+         "territory",
+         "house",
+         "garden",
+         "family"
+      ],
+      "correctAns": "territory"
+   },
+   {
+      "qnNum": 159,
+      "sentence": "Modern office blocks and high-rise flats now surround the overgrown garden.",
+      "wordToTest": "overgrown",
+      "options": [
+         "baren and desolate",
+         "filled with waste",
+         "full of flowers",
+         " covered with dense plants"
+      ],
+      "correctAns": "covered with dense plants"
+   },
+   {
+      "qnNum": 160,
+      "sentence": "Take your time, don't cut corners and follow instructions.",
+      "wordToTest": "cut corners",
+      "options": [
+         "remove corners",
+         "reduce corners",
+         "save money and time",
+         "break the rules"
+      ],
+      "correctAns": "save money and time"
+   },
+   {
+      "qnNum": 161,
+      "sentence": "Fortified against the cold by a heavy coat, he went out into the snow.",
+      "wordToTest": "fortified",
+      "options": [
+         "Equipped",
+         "Armed",
+         "Protected",
+         "Prepared"
+      ],
+      "correctAns": "Protected"
+   },
+   {
+      "qnNum": 162,
+      "sentence": "From his flat he could see the eyesore of the rubbish dump and decided to start there.",
+      "wordToTest": "eyesore",
+      "options": [
+         "eye itch",
+         "ugliness",
+         "headache",
+         "eye pain"
+      ],
+      "correctAns": "ugliness"
+   },
+   {
+      "qnNum": 163,
+      "sentence": "He had this countryside mentality.",
+      "wordToTest": "mentality",
+      "options": [
+         "homesick",
+         "mindset",
+         "logic",
+         "habit"
+      ],
+      "correctAns": "mindset"
+   },
+   {
+      "qnNum": 164,
+      "sentence": "He was cooped up in an apartment.",
+      "wordToTest": "cooped up",
+      "options": [
+         "confined",
+         "kidnapped",
+         "abandoned",
+         "prisoned"
+      ],
+      "correctAns": "confined"
+   },
+   {
+      "qnNum": 165,
+      "sentence": "My grandfather was a devout Muslim, so he didn't drink alcohol.",
+      "wordToTest": "devout",
+      "options": [
+         "aged",
+         "converted",
+         "stubborn",
+         "religious"
+      ],
+      "correctAns": "religious"
+   },
+   {
+      "qnNum": 166,
+      "sentence": "It may be necessary to make alternative arrangements.",
+      "wordToTest": "alternative",
+      "options": [
+         "special",
+         "different",
+         "comprehensive",
+         "careful"
+      ],
+      "correctAns": "religious"
+   },
+   {
+      "qnNum": 167,
+      "sentence": "He was so strong and pugnacious.",
+      "wordToTest": "pugnacious",
+      "options": [
+         "aggressive",
+         "robust",
+         "impolite",
+         "grumpy"
+      ],
+      "correctAns": "aggressive"
+   },
+   {
+      "qnNum": 168,
+      "sentence": "The study also found that smugglers were very mobile.",
+      "wordToTest": "mobile",
+      "options": [
+         "existing everywhere",
+         "moving around",
+         "threating all the time",
+         "thriving rapidly"
+      ],
+      "correctAns": "moving around"
+   },
+   {
+      "qnNum": 169,
+      "sentence": "Checking all the information will be slow and laborious.",
+      "wordToTest": "laborious ",
+      "options": [
+         "impossible",
+         "arduous",
+         "ridiculous",
+         "painstaking"
+      ],
+      "correctAns": "arduous"
+   },
+   {
+      "qnNum": 170,
+      "sentence": "Authorities in 67 countries confiscated shipments of about 47,000 whole pangolins.",
+      "wordToTest": "confiscated",
+      "options": [
+         "discovered",
+         "destroyed",
+         "traced",
+         "seized"
+      ],
+      "correctAns": "seized"
+   },
+   {
+      "qnNum": 171,
+      "sentence": "I couldn't believe that the German authorities saw this letter and they just waived the fine!",
+      "wordToTest": "waived",
+      "options": [
+         "disregarded",
+         "postponed",
+         "changed",
+         "let go"
+      ],
+      "correctAns": "let go"
+   },
+   {
+      "qnNum": 172,
+      "sentence": "She embodied good sportsmanship on the playing field.",
+      "wordToTest": "embodied",
+      "options": [
+         "rewrote",
+         "boosted",
+         "represented",
+         "defined"
+      ],
+      "correctAns": "represented"
+   },
+   {
+      "qnNum": 173,
+      "sentence": "Nobody knew who he was, they saw him merely as a squatter using public space.",
+      "wordToTest": "squatter",
+      "options": [
+         "unknown farmer ",
+         "foreign gardener",
+         "illegal intruder",
+         "illegal occupier"
+      ],
+      "correctAns": "illegal occupier"
+   },
+   {
+      "qnNum": 174,
+      "sentence": "The council decided to evict Kalin.",
+      "wordToTest": "evict",
+      "options": [
+         "remove",
+         "prosecute",
+         "sue",
+         "punish"
+      ],
+      "correctAns": "remove"
+   },
+   {
+      "qnNum": 175,
+      "sentence": "So many people have rallied round to help the family.",
+      "wordToTest": "rallied",
+      "options": [
+         "assembled",
+         "protested",
+         "appealed",
+         "supported"
+      ],
+      "correctAns": "assembled"
+   },
+   {
+      "qnNum": 176,
+      "sentence": "His son now tends to the garden.",
+      "wordToTest": "tends to",
+      "options": [
+         "looks after",
+         "looks for",
+         "turns away",
+         "promotes"
+      ],
+      "correctAns": "looks after"
+   },
+   {
+      "qnNum": 177,
+      "sentence": "Funda uses the fresh onions and garlic as ingredients for her contemporary Turkish food business.",
+      "wordToTest": "contemporary",
+      "options": [
+         "modern",
+         "authentic",
+         "original",
+         "ancient"
+      ],
+      "correctAns": "modern"
+   },
+   {
+      "qnNum": 178,
+      "sentence": "As the land’s value increases, developers may be harder to stave off.",
+      "wordToTest": "stave off",
+      "options": [
+         "grapple with",
+         "back off",
+         "deal with",
+         "fend off"
+      ],
+      "correctAns": "fend off"
+   },
+   {
+      "qnNum": 179,
+      "sentence": "The tree is an imported species that is fast-growing and invasive.",
+      "wordToTest": "invasive",
+      "options": [
+         "intrusive",
+         "prolific",
+         "resilient",
+         "thriving"
+      ],
+      "correctAns": "intrusive"
+   },
+   {
+      "qnNum": 180,
+      "sentence": "He reluctantly accepted it in the end.",
+      "wordToTest": "reluctantly",
+      "options": [
+         "angrily",
+         "unwillingly",
+         "readily",
+         "supposedly"
+      ],
+      "correctAns": "unwillingly"
+   },
+   {
+      "qnNum": 181,
+      "sentence": "Eight species of pangolins live across Africa and Asia, and all are in peril.",
+      "wordToTest": "peril",
+      "options": [
+         "captivity",
+         "danger",
+         "despair",
+         "custody"
+      ],
+      "correctAns": "danger"
+   },
+   {
+      "qnNum": 182,
+      "sentence": "Countries began closing their sea borders - leaving the vessel with no a safe haven.",
+      "wordToTest": "haven",
+      "options": [
+         "heaven",
+         "refuge",
+         "place",
+         "home"
+      ],
+      "correctAns": "refuge"
+   },
+   {
+      "qnNum": 183,
+      "sentence": "They clustered on the foredeck around the tiny radio, intently listening to a crackled voice.",
+      "wordToTest": "clustered",
+      "options": [
+         "gathered",
+         "moved",
+         "worked",
+         "sat"
+      ],
+      "correctAns": "gathered"
+   },
+   {
+      "qnNum": 184,
+      "sentence": "Elisa’s bond with pangolins started when she was 10-years-old.",
+      "wordToTest": "bond",
+      "options": [
+         "liking",
+         "interest",
+         "encounter",
+         "connection"
+      ],
+      "correctAns": "connection"
+   },
+   {
+      "qnNum": 185,
+      "sentence": "She is suspected of complicity in the fraud.",
+      "wordToTest": "complicity ",
+      "options": [
+         "hiding a crime",
+         "investigation of a crime",
+         "plotting a crime",
+         "involvement of a crime"
+      ],
+      "correctAns": "involvement of a crime"
+   },
+   {
+      "qnNum": 186,
+      "sentence": "His former colleagues have denounced him as a spy.",
+      "wordToTest": "denounced",
+      "options": [
+         "condemned",
+         "described",
+         "mentioned",
+         "regarded"
+      ],
+      "correctAns": "condemned"
+   },
+   {
+      "qnNum": 187,
+      "sentence": "Apply the cream sparingly to your face and neck.",
+      "wordToTest": "sparingly",
+      "options": [
+         "often",
+         "slightly",
+         "regularly",
+         "carefully"
+      ],
+      "correctAns": "slightly"
+   },
+   {
+      "qnNum": 188,
+      "sentence": " I am afraid your plan is not financially viable.",
+      "wordToTest": "viable",
+      "options": [
+         "reliable",
+         "foreseeable",
+         "feasible",
+         "vulnerable"
+      ],
+      "correctAns": "feasible"
+   },
+   {
+      "qnNum": 189,
+      "sentence": "Can we finally turn the tide on the pangolin’s declining numbers?",
+      "wordToTest": "turn the tide",
+      "options": [
+         "stop",
+         "reverse",
+         "lessen",
+         "continue"
+      ],
+      "correctAns": "reverse"
+   },
+   {
+      "qnNum": 190,
+      "sentence": "This has also been put in jeopardy by the coronavirus pandemic.",
+      "wordToTest": "in jeopardy",
+      "options": [
+         "in dismay",
+         "in disappointment",
+         "in danger",
+         "in frustration"
+      ],
+      "correctAns": "in danger"
+   },
+   {
+      "qnNum": 191,
+      "sentence": "We get goosebumps while watching horror movies.",
+      "wordToTest": "get goosebumps",
+      "options": [
+         "are cold",
+         "are scared",
+         "are frantic",
+         "are astonished"
+      ],
+      "correctAns": "are scared"
+   },
+   {
+      "qnNum": 192,
+      "sentence": "Before departure they were plagued with doubts and indecision.",
+      "wordToTest": "plagued with",
+      "options": [
+         "dealing with",
+         "facing",
+         "full with",
+         "troubled with"
+      ],
+      "correctAns": "troubled with"
+   },
+   {
+      "qnNum": 193,
+      "sentence": "We had to put such apprehensive thoughts closing aside.",
+      "wordToTest": "apprehensive",
+      "options": [
+         "unreasonable",
+         "fearful",
+         "intangible",
+         "terrible"
+      ],
+      "correctAns": "fearful"
+   },
+   {
+      "qnNum": 194,
+      "sentence": "One crew member decided to bail out at the last minute.",
+      "wordToTest": "bail out",
+      "options": [
+         "join",
+         "continue",
+         "delay",
+         "quit"
+      ],
+      "correctAns": "quit"
+   },
+   {
+      "qnNum": 195,
+      "sentence": "They were sailing at around 13 degrees latitude.",
+      "wordToTest": "latitude",
+      "options": [
+         "longitude",
+         "angular distance to north pole",
+         "angular distance to equator",
+         "angular distance to south pole"
+      ],
+      "correctAns": "angular distance to equator"
+   },
+   {
+      "qnNum": 196,
+      "sentence": "It sounds pathetic that an iPhone was now our most full-featured navigation tool.",
+      "wordToTest": "pathetic",
+      "options": [
+         "realistic",
+         "practical",
+         "ridiculous",
+         "pitiful"
+      ],
+      "correctAns": "pitiful"
+   },
+   {
+      "qnNum": 197,
+      "sentence": "They also needed to anchor somewhere, even an uninhabited atoll.",
+      "wordToTest": "anchor",
+      "options": [
+         "moor",
+         "land",
+         "stop",
+         "stay"
+      ],
+      "correctAns": "moor"
+   },
+   {
+      "qnNum": 198,
+      "sentence": "She is quite eclipsed by her clever younger sister.",
+      "wordToTest": "eclipsed",
+      "options": [
+         "shocked",
+         "surpassed",
+         "overwhelmed",
+         "overseen"
+      ],
+      "correctAns": "surpassed"
+   },
+   {
+      "qnNum": 199,
+      "sentence": "She manoeuvred the car carefully into the garage.",
+      "wordToTest": "manoeuvred",
+      "options": [
+         "moved slowly",
+         "moved skilfully",
+         "moved quickly",
+         "moved effortfully"
+      ],
+      "correctAns": "moved skilfully"
+   },
+   {
+      "qnNum": 200,
+      "sentence": "It's the heavens above and infinite sea around.",
+      "wordToTest": "infinite",
+      "options": [
+         "wavy",
+         "blue",
+         "limitless",
+         "tranquil"
+      ],
+      "correctAns": "limitless"
+   },
+   {
+      "qnNum": 201,
+      "sentence": "The streets were illuminated with strings of coloured lights.",
+      "wordToTest": "illuminated",
+      "options": [
+         "decorated",
+         "demonstrated",
+         "paved",
+         "lit up"
+      ],
+      "correctAns": "lit up"
+   },
+   {
+      "qnNum": 202,
+      "sentence": "She succeeded by virtue of her tenacity rather than her talent.",
+      "wordToTest": "tenacity",
+      "options": [
+         "perseverance",
+         "intelligence",
+         "honesty",
+         "conscience"
+      ],
+      "correctAns": "perseverance"
+   },
+   {
+      "qnNum": 203,
+      "sentence": "She specialises in the Sunda pangolin, a critically endangered species.",
+      "wordToTest": "specialises",
+      "options": [
+         "looks after",
+         "has interest in",
+         "intensively studies",
+         "pursues"
+      ],
+      "correctAns": "intensively studies"
+   },
+   {
+      "qnNum": 204,
+      "sentence": "All her hard work paid off in the end, and she finally passed the exam.",
+      "wordToTest": "paid off",
+      "options": [
+         "got paid",
+         "lasted",
+         "was fruitful",
+         "cost a lot"
+      ],
+      "correctAns": "was fruitful"
+   },
+   {
+      "qnNum": 205,
+      "sentence": "The pangolin’s weird looks fascinated her.",
+      "wordToTest": "fascinated",
+      "options": [
+         "shook",
+         "alerted",
+         "scared",
+         "attracted"
+      ],
+      "correctAns": "attracted"
+   },
+   {
+      "qnNum": 206,
+      "sentence": "Sunda pangolins are solitary and elusive animals.",
+      "wordToTest": "solitary",
+      "options": [
+         "solid",
+         "rare",
+         "alone",
+         "gregarious"
+      ],
+      "correctAns": "perseverance"
+   },
+   {
+      "qnNum": 207,
+      "sentence": "Sunda pangolins are solitary and elusive animals.",
+      "wordToTest": "elusive",
+      "options": [
+         "wild",
+         "outlandish",
+         "aggressive",
+         "evasive"
+      ],
+      "correctAns": "evasive"
+   },
+   {
+      "qnNum": 208,
+      "sentence": "Sunda pangolins tread quietly across the forest floor.",
+      "wordToTest": "tread",
+      "options": [
+         "walk in specified way",
+         "run slowly",
+         "scurry quickly",
+         "stalk cautiously"
+      ],
+      "correctAns": "walk in specified way"
+   },
+   {
+      "qnNum": 209,
+      "sentence": "Pangolin’s brown scales are a perfect camouflage in the forest.",
+      "wordToTest": "camouflage",
+      "options": [
+         "cover",
+         "colour",
+         "texture",
+         "disguise"
+      ],
+      "correctAns": "attracted"
+   },
+   {
+      "qnNum": 210,
+      "sentence": "The team raise public awareness about the Sunda pangolin’s plight.",
+      "wordToTest": "awareness",
+      "options": [
+         "habit",
+         "view",
+         "consciousness",
+         "attention"
+      ],
+      "correctAns": "consciousness"
+   },
+   {
+      "qnNum": 211,
+      "sentence": "The team raise public awareness about the Sunda pangolin’s plight.",
+      "wordToTest": "plight",
+      "options": [
+         "disaster",
+         "trouble",
+         "fate",
+         "tendency"
+      ],
+      "correctAns": "trouble"
+   },
+   {
+      "qnNum": 212,
+      "sentence": " Wild fauna and flora are important parts of ecosystem.",
+      "wordToTest": "fauna",
+      "options": [
+         "creatures",
+         "animals",
+         "plants",
+         "amphibians"
+      ],
+      "correctAns": "animals"
+   },
+   {
+      "qnNum": 213,
+      "sentence": " Wild fauna and flora are important parts of ecosystem.",
+      "wordToTest": "flora",
+      "options": [
+         "creatures",
+         "animals",
+         "plants",
+         "amphibians"
+      ],
+      "correctAns": "plants"
+   },
+   {
+      "qnNum": 214,
+      "sentence": "The team illustrated the immense poaching pressure on Sunda pangolins.",
+      "wordToTest": "illustrated",
+      "options": [
+         "explained",
+         "conveyed",
+         "specified",
+         "learned"
+      ],
+      "correctAns": "explained"
+   },
+   {
+      "qnNum": 215,
+      "sentence": "Pangolins are notoriously difficult captive animals and most die within six months.",
+      "wordToTest": "notoriously",
+      "options": [
+         "famously",
+         "infamously",
+         "remarkably",
+         "extremely"
+      ],
+      "correctAns": "infamously"
+   },
+   {
+      "qnNum": 216,
+      "sentence": " We need to assess the impact on climate change.",
+      "wordToTest": "assess",
+      "options": [
+         "study",
+         "evaluate",
+         "research",
+         "foresee"
+      ],
+      "correctAns": "evaluate"
+   },
+   {
+      "qnNum": 217,
+      "sentence": "Tall jagged rocks jutted out over the beach.",
+      "wordToTest": "jagged",
+      "options": [
+         "round",
+         "smooth",
+         "ugly",
+         "rugged"
+      ],
+      "correctAns": "rugged"
+   },
+   {
+      "qnNum": 218,
+      "sentence": "A neat cluster of whitewashed, red-roofed buildings set on a sheltered bay.",
+      "wordToTest": "sheltered",
+      "options": [
+         "remote",
+         "settled",
+         "protected",
+         "quiet"
+      ],
+      "correctAns": "protected"
+   },
+   {
+      "qnNum": 219,
+      "sentence": "They provided sustenance for sailors shipwrecked off Cape Horn.",
+      "wordToTest": "sustenance",
+      "options": [
+         "help",
+         "provisions",
+         "groceries",
+         "fresh water"
+      ],
+      "correctAns": "provisions"
+   },
+   {
+      "qnNum": 220,
+      "sentence": "The bay provides sanctuary for indigenous people.",
+      "wordToTest": "indigenous",
+      "options": [
+         "foreign",
+         "colonial",
+         "immigrant",
+         "native"
+      ],
+      "correctAns": "native"
+   },
+   {
+      "qnNum": 221,
+      "sentence": "The bay provides sanctuary for indigenous people.",
+      "wordToTest": "sanctuary",
+      "options": [
+         "groceries",
+         "livelihood",
+         "refuge",
+         "comfort"
+      ],
+      "correctAns": "refuge"
+   },
+   {
+      "qnNum": 222,
+      "sentence": " Tierra del Fuego was once the haunt of whalers.",
+      "wordToTest": "haunt",
+      "options": [
+         "training place",
+         "gathering place",
+         "hunting place",
+         "trading place"
+      ],
+      "correctAns": "gathering place"
+   },
+   {
+      "qnNum": 223,
+      "sentence": "They provided sustenance for sailors shipwrecked off Cape Horn.",
+      "wordToTest": "sustenance",
+      "options": [
+         "help",
+         "provisions",
+         "groceries",
+         "fresh water"
+      ],
+      "correctAns": "provisions"
+   },
+   {
+      "qnNum": 224,
+      "sentence": "Digging the garden was backbreaking work.",
+      "wordToTest": "backbreaking",
+      "options": [
+         "strenuous",
+         "causing back injury",
+         "boring",
+         "tedious"
+      ],
+      "correctAns": "strenuous"
    }
 
 ]

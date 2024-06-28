@@ -1,32 +1,21 @@
 body {}
 
-#header-nav {
-	background-color: lightgrey;
-}
-
 #header-nav a {
 	text-decoration: none;
 }
 
-#header-nav a:hover,
-#header-nav a:active {
+#header-nav a:hover, #header-nav a:active {
 	text-decoration: none;
 }
 
 #maintitle {
-	color: black;
+	color: rgb(255, 255, 255);
 }
 
 /* end of header */
 
-#sentence-row {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-size: 18px;
-}
-
-div.button-rows {
-	margin-bottom: 20px;
+#sentence > p {
+	margin-bottom: 0;
 }
 
 div.button-columns {
@@ -42,34 +31,25 @@ i.fa-circle-check, i.fa-circle-xmark {
 	right: 25px;
 }
 
-i.green-tick {
-	color: green;
-}
+i.green-tick {color: green;}
 
-i.red-cross {
-	color: rgb(190, 44, 44);
-} 
+i.red-cross {color: rgb(190, 44, 44);} 
 
 .option {
 	display: flex;
-	flex: 1;
-	margin: 0;
-
-	font-size: 18px;
-	line-height: 95%;
-
 	justify-content: center;
 	align-items: center;
-	height: 55px;
-	width: 330px;
-	padding-left: 13%;
-	padding-right: 13%;
-
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+	padding: 8px 13%;
+	font-size: 18px;
 	background-color: white;
 	border: 3px solid rgb(195, 195, 195);
 }
 
 .option > p {
+	/* CONTAINS OPTION WORDS */
 	margin: 0;
 }
 
@@ -87,12 +67,4 @@ i.red-cross {
 	border-color: rgb(190, 44, 44);
 	color: rgb(190, 44, 44);
 	font-weight: bold;
-}
-
-#instruction {
-	font-style: italic;
-}
-
-#instruction > span {
-	text-decoration: underline;
 }
