@@ -47,7 +47,7 @@ function initQn() {
 		assignOptionsRandomly(qnObj);
 		enableOptions();
 
-		console.log("Waiting for input...");
+		console.log("Waiting for option button input...");
 
 		qnPointer++;
 
@@ -122,7 +122,7 @@ function wrongAnsHandler() {
 	// displayExplanation();
 	disableOptions();
 	nextQnButton.disabled = false;
-	console.log("Waiting for input...");
+	console.log("Waiting for next question button input...");
 };
 
 // ========== OPTION UTILITIES ==========
