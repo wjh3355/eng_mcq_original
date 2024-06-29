@@ -17,11 +17,11 @@
       "wordToTest": "pristine",
       "options": [
          "beautiful",
-         "new",
+         "clean",
          "famous",
          "popular"
       ],
-      "correctAns": "new"
+      "correctAns": "clean"
    },
    {
       "qnNum": 3,
@@ -794,7 +794,7 @@
    {
       "qnNum": 67,
       "sentence": "The birds seem to be cute but they have surprisingly sharp beaks and will swipe at you.",
-      "wordToTest": "swipe",
+      "wordToTest": "swipe at",
       "options": [
          "strike",
          "bite",
@@ -1298,7 +1298,7 @@
    {
       "qnNum": 109,
       "sentence": "He felt completely overwhelmed by their kindness.",
-      "wordToTest": " overwhelmed",
+      "wordToTest": "overwhelmed",
       "options": [
          "appreciated",
          "honoured",
@@ -1381,7 +1381,7 @@
    },
    {
       "qnNum": 115,
-      "sentence": " He darted across the deserted street.",
+      "sentence": "He darted across the deserted street.",
       "wordToTest": "deserted",
       "options": [
          "quiet",
@@ -1417,7 +1417,7 @@
    },
    {
       "qnNum": 118,
-      "sentence": " Most domestic freezers operate at below -18°C.",
+      "sentence": "Most domestic freezers operate at below -18°C.",
       "wordToTest": "domestic",
       "options": [
          "commercial",
@@ -1441,7 +1441,7 @@
    },
    {
       "qnNum": 120,
-      "sentence": " They carried out a number of tests of the animals' skills at sociability.",
+      "sentence": "They carried out a number of tests of the animals' skills at sociability.",
       "wordToTest": "carried out",
       "options": [
          "accomplished",
@@ -1453,7 +1453,7 @@
    },
    {
       "qnNum": 121,
-      "sentence": " Wolves were somewhat aloof.",
+      "sentence": "Wolves were somewhat aloof.",
       "wordToTest": "aloof",
       "options": [
          "ferocious",
@@ -1465,7 +1465,7 @@
    },
    {
       "qnNum": 122,
-      "sentence": " There is a prominent sign featuring Sentosa.",
+      "sentence": "There is a prominent sign featuring Sentosa.",
       "wordToTest": "prominent",
       "options": [
          "conspicuous",
@@ -1477,7 +1477,7 @@
    },
    {
       "qnNum": 123,
-      "sentence": " Conceit is associated with stupidity and ignorance.",
+      "sentence": "Conceit is associated with stupidity and ignorance.",
       "wordToTest": "associated with",
       "options": [
          "linked with",
@@ -1489,7 +1489,7 @@
    },
    {
       "qnNum": 124,
-      "sentence": " This observation highlights the utility of the dog for studies of human disease.",
+      "sentence": "This observation highlights the utility of the dog for studies of human disease.",
       "wordToTest": "utility",
       "options": [
          "nature",
@@ -1513,7 +1513,7 @@
    },
    {
       "qnNum": 126,
-      "sentence": " She would contact the wildlife department to rescue the pangolin.",
+      "sentence": "She would contact the wildlife department to rescue the pangolin.",
       "wordToTest": "rescue",
       "options": [
          "look after",
@@ -1537,7 +1537,7 @@
    },
    {
       "qnNum": 128,
-      "sentence": " Wolves sneaked into hunter gatherer camps to feed on food scraps.",
+      "sentence": "Wolves sneaked into hunter gatherer camps to feed on food scraps.",
       "wordToTest": "sneaked",
       "options": [
          "crept",
@@ -1549,7 +1549,7 @@
    },
    {
       "qnNum": 129,
-      "sentence": " They are descendants of the original English and Scottish settlers.",
+      "sentence": "They are descendants of the original English and Scottish settlers.",
       "wordToTest": "descendants",
       "options": [
          "ancestors",
@@ -1561,7 +1561,7 @@
    },
    {
       "qnNum": 130,
-      "sentence": " Maglevs harness the repulsion by rapidly switching on and off electromagnets.",
+      "sentence": "Maglevs harness the repulsion by rapidly switching on and off electromagnets.",
       "wordToTest": "harness",
       "options": [
          "utilise",
@@ -1573,7 +1573,7 @@
    },
    {
       "qnNum": 131,
-      "sentence": " As a transportation nut, I must try to ride the Maglev.",
+      "sentence": "As a transportation nut, I must try to ride the Maglev.",
       "wordToTest": "nut",
       "options": [
          "observer",
@@ -1585,7 +1585,7 @@
    },
    {
       "qnNum": 132,
-      "sentence": " Rescue centres will need to provide a protocol.",
+      "sentence": "Rescue centres will need to provide a protocol.",
       "wordToTest": "a protocol",
       "options": [
          "an instruction",
@@ -1597,7 +1597,7 @@
    },
    {
       "qnNum": 133,
-      "sentence": " Public education and outreach is important.",
+      "sentence": "Public education and outreach is important.",
       "wordToTest": "outreach",
       "options": [
          "bringing services or information to people",
@@ -1621,7 +1621,7 @@
    },
    {
       "qnNum": 135,
-      "sentence": " There was an extremely animated discussion on the subject.",
+      "sentence": "There was an extremely animated discussion on the subject.",
       "wordToTest": "animated",
       "options": [
          "heated",
@@ -1633,7 +1633,7 @@
    },
    {
       "qnNum": 136,
-      "sentence": " He appeared nonchalant in court when the judge ordered him to pay $1000.",
+      "sentence": "He appeared nonchalant in court when the judge ordered him to pay $1000.",
       "wordToTest": "nonchalant",
       "options": [
          "sad",
@@ -1741,7 +1741,7 @@
    },
    {
       "qnNum": 145,
-      "sentence": " Conservationists faced an uphill battle to elevate the status of Sunda pangolin.",
+      "sentence": "Conservationists faced an uphill battle to elevate the status of Sunda pangolin.",
       "wordToTest": "elevate",
       "options": [
          "strengthen",
@@ -1838,7 +1838,7 @@
    {
       "qnNum": 154,
       "sentence": "He bought them in bulk cheaply and re-sold them individually at a very low price.",
-      "wordToTest": "in buik",
+      "wordToTest": "in bulk",
       "options": [
          "in quick way",
          "in large quantity",
@@ -1903,7 +1903,7 @@
          "baren and desolate",
          "filled with waste",
          "full of flowers",
-         " covered with dense plants"
+         "covered with dense plants"
       ],
       "correctAns": "covered with dense plants"
    },
@@ -1989,7 +1989,7 @@
          "comprehensive",
          "careful"
       ],
-      "correctAns": "religious"
+      "correctAns": "different"
    },
    {
       "qnNum": 167,
@@ -2245,7 +2245,7 @@
    },
    {
       "qnNum": 188,
-      "sentence": " I am afraid your plan is not financially viable.",
+      "sentence": "I am afraid your plan is not financially viable.",
       "wordToTest": "viable",
       "options": [
          "reliable",
@@ -2305,7 +2305,7 @@
    },
    {
       "qnNum": 193,
-      "sentence": "We had to put such apprehensive thoughts closing aside.",
+      "sentence": "We had to put such apprehensive thoughts aside.",
       "wordToTest": "apprehensive",
       "options": [
          "unreasonable",
@@ -2426,12 +2426,12 @@
    {
       "qnNum": 203,
       "sentence": "She specialises in the Sunda pangolin, a critically endangered species.",
-      "wordToTest": "specialises",
+      "wordToTest": "specialises in",
       "options": [
          "looks after",
          "has interest in",
          "intensively studies",
-         "pursues"
+         "is fond of"
       ],
       "correctAns": "intensively studies"
    },
@@ -2469,7 +2469,7 @@
          "alone",
          "gregarious"
       ],
-      "correctAns": "perseverance"
+      "correctAns": "alone"
    },
    {
       "qnNum": 207,
@@ -2505,7 +2505,7 @@
          "texture",
          "disguise"
       ],
-      "correctAns": "attracted"
+      "correctAns": "disguise"
    },
    {
       "qnNum": 210,
@@ -2533,7 +2533,7 @@
    },
    {
       "qnNum": 212,
-      "sentence": " Wild fauna and flora are important parts of ecosystem.",
+      "sentence": "Wild fauna and flora are important parts of ecosystem.",
       "wordToTest": "fauna",
       "options": [
          "creatures",
@@ -2545,7 +2545,7 @@
    },
    {
       "qnNum": 213,
-      "sentence": " Wild fauna and flora are important parts of ecosystem.",
+      "sentence": "Wild fauna and flora are important parts of ecosystem.",
       "wordToTest": "flora",
       "options": [
          "creatures",
@@ -2581,7 +2581,7 @@
    },
    {
       "qnNum": 216,
-      "sentence": " We need to assess the impact on climate change.",
+      "sentence": "We need to assess the impact on climate change.",
       "wordToTest": "assess",
       "options": [
          "study",
@@ -2634,7 +2634,7 @@
       "options": [
          "foreign",
          "colonial",
-         "immigrant",
+         "migrant",
          "native"
       ],
       "correctAns": "native"
@@ -2653,7 +2653,7 @@
    },
    {
       "qnNum": 222,
-      "sentence": " Tierra del Fuego was once the haunt of whalers.",
+      "sentence": "Tierra del Fuego was once the haunt of whalers.",
       "wordToTest": "haunt",
       "options": [
          "training place",
@@ -2686,6 +2686,389 @@
          "tedious"
       ],
       "correctAns": "strenuous"
+   },
+   {
+      "qnNum": 225,
+      "sentence": "They made the treacherous journey across stormy seas.",
+      "wordToTest": "treacherous",
+      "options": [
+         "unimaginable",
+         "dangerous",
+         "extreme",
+         "rough"
+      ],
+      "correctAns": "dangerous"
+   },
+   {
+      "qnNum": 226,
+      "sentence": "The school appeared essentially unchanged since my day.",
+      "wordToTest": "essentially ",
+      "options": [
+         "basically",
+         "completely",
+         "hardly",
+         "scarcely"
+      ],
+      "correctAns": "basically"
+   },
+   {
+      "qnNum": 227,
+      "sentence": "Although the birds looked amiable, the skipper warned me not to go near them.",
+      "wordToTest": "amiable",
+      "options": [
+         "fierce",
+         "naive",
+         "mature",
+         "friendly"
+      ],
+      "correctAns": "friendly"
+   },
+   {
+      "qnNum": 228,
+      "sentence": "The birds expel salt ingested during their fishing trips by loud sneezes.",
+      "wordToTest": "expel",
+      "options": [
+         "defecate",
+         "urinate",
+         "throw out",
+         "swallow"
+      ],
+      "correctAns": "throw out"
+   },
+   {
+      "qnNum": 229,
+      "sentence": "It was her first encounter and it became her favourite animal.",
+      "wordToTest": "encounter",
+      "options": [
+         "impression",
+         "meeting",
+         "reaction",
+         "love"
+      ],
+      "correctAns": "meeting"
+   },
+   {
+      "qnNum": 230,
+      "sentence": "The students began to read the text in chorus.",
+      "wordToTest": "chorus",
+      "options": [
+         "unison",
+         "action",
+         "line",
+         "sequence"
+      ],
+      "correctAns": "unison"
+   },
+   {
+      "qnNum": 231,
+      "sentence": "These bones came from a carcass that washed up on a nearby beach.",
+      "wordToTest": "carcass",
+      "options": [
+         "dead fish",
+         "animal torso",
+         "dead human body",
+         "dead animal body"
+      ],
+      "correctAns": "dead animal body"
+   },
+   {
+      "qnNum": 232,
+      "sentence": "Meetings are held periodically to monitor progress on the case.",
+      "wordToTest": "periodically",
+      "options": [
+         "immediately",
+         "usually",
+         "impulsively",
+         "regularly"
+      ],
+      "correctAns": "regularly"
+   },
+   {
+      "qnNum": 233,
+      "sentence": "He went on to found a museum and laboratory dedicated to the study of the region’s wildlife.",
+      "wordToTest": "found",
+      "options": [
+         "find",
+         "locate",
+         "request",
+         "establish"
+      ],
+      "correctAns": "establish"
+   },
+   {
+      "qnNum": 234,
+      "sentence": "He went on to found a museum and laboratory dedicated to the study of the region’s wildlife.",
+      "wordToTest": "dedicated to",
+      "options": [
+         "committed to",
+         "involved in",
+         "specialised in",
+         "provided with"
+      ],
+      "correctAns": "committed to"
+   },
+   {
+      "qnNum": 235,
+      "sentence": "Many tigers were killed by bounty hunters.",
+      "wordToTest": "bounty",
+      "options": [
+         "award",
+         "honour",
+         "reward",
+         "forest"
+      ],
+      "correctAns": "reward"
+   },
+   {
+      "qnNum": 236,
+      "sentence": "I'm very sorry for tweeting out such fake news.",
+      "wordToTest": "fake",
+      "options": [
+         "bad",
+         "false",
+         "annoying",
+         "horrible"
+      ],
+      "correctAns": "false"
+   },
+   {
+      "qnNum": 237,
+      "sentence": "Sometimes she is grouchy, but all in all she is an excellent teacher.",
+      "wordToTest": "all in all",
+      "options": [
+         "no matter what",
+         "even though",
+         "on the whole",
+         "nevertheless"
+      ],
+      "correctAns": "on the whole"
+   },
+   {
+      "qnNum": 238,
+      "sentence": "The quartet will be performing in a series of lunchtime concerts.",
+      "wordToTest": "quartet",
+      "options": [
+         "a symphony orchestra",
+         "a group of four musicians",
+         "a band of violinists",
+         "a troupe of dancers"
+      ],
+      "correctAns": "a group of four musicians"
+   },
+   {
+      "qnNum": 239,
+      "sentence": "It's important to differentiate between fact and opinion.",
+      "wordToTest": "differentiate",
+      "options": [
+         "distinguish",
+         "compare",
+         "be careful of",
+         "understand"
+      ],
+      "correctAns": "distinguish"
+   },
+   {
+      "qnNum": 240,
+      "sentence": "Just the smell of liver cooking makes me gag.",
+      "wordToTest": "gag",
+      "options": [
+         "vomit",
+         "sicken",
+         "hiccup",
+         "choke"
+      ],
+      "correctAns": "choke"
+   },
+   {
+      "qnNum": 241,
+      "sentence": "The soldiers trudged through the mud.",
+      "wordToTest": "trudged",
+      "options": [
+         "walked",
+         "lumbered",
+         "ran",
+         "sauntered"
+      ],
+      "correctAns": "lumbered"
+   },
+   {
+      "qnNum": 242,
+      "sentence": "His paintings capture the essence of France.",
+      "wordToTest": "essence",
+      "options": [
+         "reality",
+         "portrait",
+         "scenery",
+         "heart"
+      ],
+      "correctAns": "heart"
+   },
+   {
+      "qnNum": 243,
+      "sentence": "It's good to have you on board for this project.",
+      "wordToTest": "on board",
+      "options": [
+         "engaged in",
+         "on the plane",
+         "on the ship",
+         "on the train"
+      ],
+      "correctAns": "engaged in"
+   },
+   {
+      "qnNum": 244,
+      "sentence": "The prices in this shop are extortionate.",
+      "wordToTest": "extortionate",
+      "options": [
+         "reasonable",
+         "exorbitant",
+         "cheap",
+         "negotiable"
+      ],
+      "correctAns": "exorbitant"
+   },
+   {
+      "qnNum": 245,
+      "sentence": "She put him off with the excuse that she had too much work to do.",
+      "wordToTest": "put him off",
+      "options": [
+         "deterred him",
+         "promised him",
+         "apologized him",
+         "discussed with him"
+      ],
+      "correctAns": "deterred him"
+   },
+   {
+      "qnNum": 246,
+      "sentence": "It is their interpretation of incidents that they put a spin on.",
+      "wordToTest": "put a spin on",
+      "options": [
+         "twisted",
+         "reported",
+         "wrote",
+         "discovered"
+      ],
+      "correctAns": "twisted"
+   },
+   {
+      "qnNum": 247,
+      "sentence": "Her designs have a strong visual appeal.",
+      "wordToTest": "appeal",
+      "options": [
+         "perception",
+         "impression",
+         "effect",
+         "attraction"
+      ],
+      "correctAns": "attraction"
+   },
+   {
+      "qnNum": 248,
+      "sentence": "The holiday was a refreshing change for us.",
+      "wordToTest": "refreshing",
+      "options": [
+         "lasting",
+         "unforgettable",
+         "stimulating",
+         "huge"
+      ],
+      "correctAns": "stimulating"
+   },
+   {
+      "qnNum": 249,
+      "sentence": "They stripped him of his citizenship and deported him.",
+      "wordToTest": "stripped him of",
+      "options": [
+         "disposed of",
+         "granted",
+         "approved him of",
+         "deprived him of"
+      ],
+      "correctAns": "deprived him of"
+   },
+   {
+      "qnNum": 250,
+      "sentence": "Damage to farmland was catastrophic and main rail links were severed.",
+      "wordToTest": "catastrophic",
+      "options": [
+         "unprecedented",
+         "repairable",
+         "disastrous",
+         "limited"
+      ],
+      "correctAns": "disastrous"
+   },
+   {
+      "qnNum": 251,
+      "sentence": "Her greatest dread was that she would lose her job.",
+      "wordToTest": "dread",
+      "options": [
+         "fear",
+         "question",
+         "sadness",
+         "doubt"
+      ],
+      "correctAns": "fear"
+   },
+   {
+      "qnNum": 252,
+      "sentence": "He embraced my offer to employ him.",
+      "wordToTest": "embraced",
+      "options": [
+         "rejected",
+         "questioned",
+         "accepted",
+         "requested"
+      ],
+      "correctAns": "accepted"
+   },
+   {
+      "qnNum": 253,
+      "sentence": "He took part in a great naval battle.",
+      "wordToTest": "naval",
+      "options": [
+         "riverside",
+         "airborne",
+         "marine",
+         "continental"
+      ],
+      "correctAns": "marine"
+   },
+   {
+      "qnNum": 254,
+      "sentence": "Once Britain was lauded for its education system.",
+      "wordToTest": "lauded",
+      "options": [
+         "famous",
+         "proud",
+         "criticised",
+         "acclaimed"
+      ],
+      "correctAns": "acclaimed"
+   },
+   {
+      "qnNum": 255,
+      "sentence": "He died from complications related to type 1 diabetes.",
+      "wordToTest": "complications",
+      "options": [
+         "acute diseases",
+         "allergy problems",
+         "complicated symptoms",
+         "extra medical problems"
+      ],
+      "correctAns": "extra medical problems"
+   },
+   {
+      "qnNum": 256,
+      "sentence": "Doctors told the family that his organs would deteriorate the longer he was kept on life support.",
+      "wordToTest": "deteriorate",
+      "options": [
+         "function",
+         "survive",
+         "worsen",
+         "improve"
+      ],
+      "correctAns": "worsen"
    }
-
 ]

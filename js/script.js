@@ -5,53 +5,65 @@ var sentenceElement;
 var qnsAttempted = 0;
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
+var qnsObjArray = [];
+var qnPointer = 0;
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	optionButtons = document.querySelectorAll(".option");
 	nextQnButton = document.querySelector("#next-qn-button");
 	sentenceElement = document.querySelector("#sentence");
 
-	initQn();
+	$ajaxUtils.sendGetRequest("data/source.json", function(responseArray) {
+		console.log("Fetching question array...");
+
+		try {
+			qnsObjArray = responseArray
+			shuffle(qnsObjArray);
+			var orderOfQns = qnsObjArray.map(qnObj => {
+				return qnObj.qnNum;
+			});
+			console.log(`Shuffled order of questions: \n${orderOfQns}`);
+
+			initQn();
+
+		} catch (error) {
+			throw new Error("ERROR: Failed to fetch or parse question data.");
+		}
+
+	})
 });
 
 // ========== QUESTION UTILITIES ==========
 
+// initialises loop
 function initQn() {
-	console.log("=== Initialising question ===");
+	console.log("Initialising qn / Next button clicked...");
 
-	resetOptions();
+	if (qnPointer < qnsObjArray.length) {
+		var qnObj = qnsObjArray[qnPointer];
 
-	$ajaxUtils.sendGetRequest("data/source.json", function(responseArray) {
-		var randQnObj = fetchRandQn(responseArray);
-
-		displayQn(randQnObj);
-
-		assignOptionsRandomly(randQnObj);
-
+		resetOptions();
+		displayQn(qnObj);
+		assignOptionsRandomly(qnObj);
 		enableOptions();
 
 		console.log("Waiting for input...");
-	});
 
-	nextQnButton.disabled = true;
-	nextQnButton.addEventListener("click", initQn);
-}
+		qnPointer++;
 
-// fetch random question from response array
-function fetchRandQn(responseArray) {
-	if (!responseArray) {
-		throw new Error("Error: Failed to fetch or parse question data.");
+		nextQnButton.disabled = true;
+		nextQnButton.addEventListener("click", initQn);
+	} else {
+		throw new Error("End of questions!");
 	}
-	var randQnIdx = Math.floor(Math.random() * responseArray.length);
-	// var randQnIdx = 71;
-	var randQnObj = responseArray[randQnIdx];
-	console.log(`Fetched random question: #${randQnObj.qnNum}`);
-	return randQnObj;
 }
 
 // displays sentence
 function displayQn (qnObj) {
 	var { sentence, wordToTest } = qnObj;
+
+	console.log("Next question:");
+	console.table(qnObj);
 
 	var startIdx = sentence.toLowerCase().indexOf(wordToTest);
 	var endIdx = startIdx + wordToTest.length;
@@ -113,14 +125,6 @@ function wrongAnsHandler() {
 	console.log("Waiting for input...");
 };
 
-// function displayExplanation() {
-// 	// to add later
-// };
-
-// function randQnOrder() {
-// 	// arrange all available qns in random order
-// }
-
 // ========== OPTION UTILITIES ==========
 
 // assign options randomly to buttons, mark correct and wrong
@@ -145,10 +149,11 @@ function assignOptionsRandomly(qnObj) {
 		}
 	});
 
-	console.log(`Options (${options}) randomly assigned and displayed`);
+	console.log("Options randomly assigned and displayed");
+	console.table(options);
 }
 
-// enable options for user interaction
+// enable options for user interaction (darker border when hovering + clickable)
 function enableOptions() {
 	optionButtons.forEach(button => {
 		button.disabled = false;
