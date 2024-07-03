@@ -3,6 +3,10 @@
       "qnNum": 1,
       "sentence": "The Taj Mahal has been threatened by pollution, unabashed construction, and a crematorium.",
       "wordToTest": "unabashed",
+      "expl": {
+         "type": "adjective",
+         "def": "without any worry about possible criticism or embarrassment"
+      },
       "options": [
          "continuous",
          "illegal",

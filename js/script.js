@@ -1,7 +1,4 @@
-var optionButtons;
-var nextQnButton;
-var correctAnsButton;
-var sentenceElement;
+var optionButtons, nextQnButton, correctAnsButton, sentenceElement;
 var qnsAttempted = 0;
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
@@ -17,6 +14,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
 		console.log("Fetching question array...");
 
 		try {
+			if (!Array.isArray(responseArray) || responseArray.length === 0) {
+				throw new Error("Invalid or empty response from server.");
+		  	}
 			qnsObjArray = responseArray
 			shuffle(qnsObjArray);
 			var orderOfQns = qnsObjArray.map(qnObj => {
@@ -27,9 +27,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			initQn();
 
 		} catch (error) {
-			throw new Error("ERROR: Failed to fetch or parse question data.");
+			console.error(error.message);
 		}
 
+	}, function (error) {
+		console.error("Failed to fetch question data:", error);
 	})
 });
 
@@ -74,7 +76,6 @@ function displayQn (qnObj) {
 
 	qnsAttempted++;
 
-	// Display formatted sentence
 	sentenceElement.innerHTML =
 		`<p>
     	<strong>Q${qnsAttempted}. </strong>
@@ -106,7 +107,7 @@ function correctAnsHandler() {
 	// displayExplanation();
 	disableOptions();
 	nextQnButton.disabled = false;
-	console.log("Waiting for input...");
+	console.log("Waiting for next question button input...");
 };
 
 // handles wrong answer
@@ -149,7 +150,7 @@ function assignOptionsRandomly(qnObj) {
 		}
 	});
 
-	console.log("Options randomly assigned and displayed");
+	console.log("Options randomly assigned and displayed:");
 	console.table(options);
 }
 
@@ -175,7 +176,7 @@ function disableOptions() {
 
 // reset options for a new question
 function resetOptions() {
-	optionButtons.forEach((button) => {
+	optionButtons.forEach(button => {
 		button.classList = "option";
 		button.textContent = "";
 		button.innerHTML = "";
@@ -183,5 +184,6 @@ function resetOptions() {
 		button.removeEventListener("click", wrongAnsHandler);
 	});
 
+	correctAnsButton = null;
 	console.log("Options reset");
 }
