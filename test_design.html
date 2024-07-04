@@ -1,0 +1,108 @@
+<!-- 
+ 
+NOTE: MOBILE FORMATTING MIGHT BE SCREWED UP
+
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>English MCQ Quiz</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/ajax-utils.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/ed6b0a85a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-expand-lg bg-dark">
+			<div class="container">
+				<a href="#" class="navbar-brand d-flex align-items-center text-decoration-none">
+					<i class="fa-solid fa-dove fa-xl me-3" style="color: white"></i>
+					<h2 id="maintitle" class="m-0">GEP Vocab MCQ</h2>
+				</a>
+			</div>
+		</nav>
+	</header>
+
+	<div class="container mt-3">
+		<!-- MAIN CONTAINER -->
+		<div class="row">
+
+			<div class="col-md-6 col-lg-7" id="left-col">
+				<!-- LEFT COLUMN: SENTENCE + EXPLANATION -->
+
+				<div class="card card-body fs-5 mb-3" id="sentence-holder">
+					<!-- no.of qns attempted + formatted sentence -->
+				</div>
+
+				<div class="d-flex flex-row-reverse gap-3 mb-3">
+					<button type="button" class="btn btn-success" id="next-qn-button">
+						Next Question
+					</button>
+	
+					<button class="btn btn-primary" type="button" id="disp-expl-button" data-bs-toggle="collapse" data-bs-target="#explanation" aria-expanded="false" aria-controls="collapseExample">
+						Explanation
+					</button>
+				</div>
+
+				<div class="collapse mb-3" id="explanation">
+				</div>
+
+			</div>
+
+			<div class="col-md-6 col-lg-5" id="right-col">
+				<!-- RIGHT COLUMN: ANSWERS -->
+
+				<div class="row row-cols-1">
+
+					<div class="col button-columns mb-3">
+						<button class="option">
+							<!-- option -->
+						</button>
+					</div>
+
+					<div class="col button-columns mb-3">
+						<button class="option">
+							<!-- option -->
+						</button>
+					</div>
+
+					<div class="col button-columns mb-3">
+						<button class="option">
+							<!-- option -->
+						</button>
+					</div>
+
+					<div class="col button-columns mb-3">
+						<button class="option">
+							<!-- option -->
+						</button>
+					</div>
+
+				</div>
+		
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<!-- CONTAINER FOR INSTRUCTION -->
+		<div class="row">
+			<div class="col-12">
+				<p id="instruction" class="fst-italic">
+					Select the best <u>synonym</u> to the bolded word in the sentence.
+				</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

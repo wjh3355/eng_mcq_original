@@ -1,0 +1,50 @@
+[
+   {
+      "qnNum": 48,
+      "sentence": "I can't believe you were so naive as to trust him!",
+      "wordToTest": "naive",
+      "expl":{
+           "type": "adj",
+           "def": "lack of experience; too willing to believe that someone is telling the truth"
+      },
+      "options": [
+         "nice",
+         "hard",
+         "kind",
+         "simple"
+      ],
+      "correctAns": "simple"
+   },  
+   {
+      "qnNum": 49,
+      "sentence": "I hadn't bargained for such heavy rain and had left my umbrella at home.",
+      "wordToTest": "bargained for",
+      "expl":{
+           "type": "phrase",
+           "def": "to be prepared for; to expect"
+      },
+      "options": [
+         "expected",
+         "imagined",
+         "forecast",
+         "known"
+      ],
+      "correctAns": "expected"
+   },
+   {
+      "qnNum": 50,
+      "sentence": "The X-rays revealed his knee joints were closing up.",
+      "wordToTest": "revealed",
+      "expl":{
+           "type": "verb",
+           "def": "to make sth known to sb; show sth that previously could not be seen"
+      },
+      "options": [
+         "told",
+         "diagnosed",
+         "disclosed",
+         "checked"
+      ],
+      "correctAns": "disclosed"
+   }
+  ]

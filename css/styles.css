@@ -1,25 +1,20 @@
 body {}
 
-#header-nav a {
-	text-decoration: none;
-}
-
-#header-nav a:hover, #header-nav a:active {
-	text-decoration: none;
-}
-
 #maintitle {
 	color: rgb(255, 255, 255);
-	margin: 0;
 }
 
 /* end of header */
 
-#sentence > p {
+#sentence-holder > p {
 	margin-bottom: 0;
 }
 
-div.button-columns {
+/* #left-col .collapse {
+	--bs-transition-duration: 0.05s !important;
+} */
+
+.button-columns {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -43,7 +38,7 @@ i.red-cross {color: rgb(190, 44, 44);}
 	height: auto;
 	width: 100%;
 	max-width: 100%;
-	padding: 8px 13%;
+	padding: 12px 13%;
 	font-size: 18px;
 	background-color: white;
 	border: 3px solid rgb(195, 195, 195);
