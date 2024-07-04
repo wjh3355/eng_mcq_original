@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	explCollapseElement = document.querySelector("#explanation");
 
 	nextQnButton.addEventListener("click", initialiseQuestion);
+	dispExplButton.addEventListener("click", explButtonClickedHandler);
 
 	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
 		console.log("Fetching question array...");
@@ -97,12 +98,12 @@ function displayQn() {
 
 // inserts explanation
 function insertExplanation() {
-	var { wordToTest, expl: { type, def } } = qnObj;
+	var { expl: { rootWord, type, def } } = qnObj;
 
 	explCollapseElement.innerHTML = 
 		`
-		<div class="card card-body" id="explanation-holder">
-			<h5><strong>${wordToTest.toLowerCase()}</strong></h5>
+		<div class="card card-body">
+			<h5><strong>${rootWord}</strong></h5>
 			<p class="fst-italic mb-2"><small>${type}</small></p>
 			<p class="mb-0">${def}.</p>
 		</div>
@@ -134,11 +135,10 @@ function assignOptionsRandomly() {
 		if (option === correctAns) {
 			// Correct option
 			correctAnsButton = button;
-			button.classList.add("correctAns");
 			button.addEventListener("click", correctAnsHandler);
+			console.log(`Correct: ${idx+1} (${option})`);
 		} else {
 			// Wrong option
-			button.classList.add("wrongAns");
 			button.addEventListener("click", wrongAnsHandler);
 		}
 	});
@@ -150,7 +150,7 @@ function assignOptionsRandomly() {
 function enableOptions() {
 	optionButtons.forEach(button => {
 		button.disabled = false;
-		button.classList.add("option-enabled");
+		button.classList.add("option-enabled-border");
 	});
 
 	console.log("Options enabled");
@@ -160,7 +160,7 @@ function enableOptions() {
 function disableOptions() {
 	optionButtons.forEach(button => {
 		button.disabled = true;
-		button.classList.remove("option-enabled");
+		button.classList.remove("option-enabled-border");
 	});
 
 	console.log("Options disabled");
@@ -184,11 +184,11 @@ function resetAll() {
 	console.log("Options and explanation reset");
 };
 
-// ========== ANSWER HANDLERS ==========
+// ========== HANDLERS ==========
 
 // handles correct answer
 function correctAnsHandler() {
-	console.log(`Correct ans clicked: ${this.textContent}`);
+	console.log(`Correct ans clicked (${this.textContent})`);
 
 	this.classList.add("greenBorder");
 	this.insertAdjacentHTML("beforeend", tickIcon);
@@ -202,7 +202,7 @@ function correctAnsHandler() {
 
 // handles wrong answer
 function wrongAnsHandler() {
-	console.log(`Wrong ans clicked: ${this.textContent}`);
+	console.log(`Wrong ans clicked (${this.textContent})`);
 
 	this.classList.add("redBorder");
 	this.insertAdjacentHTML("beforeend", crossIcon);
@@ -215,4 +215,13 @@ function wrongAnsHandler() {
 	nextQnButton.disabled = false;
 	dispExplButton.disabled = false;
 	console.log("Waiting for next question button input...");
+};
+
+// toggles text of explanation button between 'show' and 'hide'
+function explButtonClickedHandler() {
+	if (this.getAttribute("aria-expanded") === "true") {
+		this.textContent = "Hide Explanation";
+	} else {
+		this.textContent = "Show Explanation";
+	};
 };

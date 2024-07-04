@@ -14,14 +14,6 @@ body {}
 	--bs-transition-duration: 0.05s !important;
 } */
 
-.button-columns {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	position: relative;
-}
-
 i.fa-circle-check, i.fa-circle-xmark {
 	position: absolute;
 	right: 25px;
@@ -32,16 +24,17 @@ i.green-tick {color: green;}
 i.red-cross {color: rgb(190, 44, 44);} 
 
 .option {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	position: relative;
 	height: auto;
 	width: 100%;
-	max-width: 100%;
 	padding: 12px 13%;
 	font-size: 18px;
 	background-color: white;
 	border: 3px solid rgb(195, 195, 195);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .option > p {
@@ -49,7 +42,7 @@ i.red-cross {color: rgb(190, 44, 44);}
 	margin: 0;
 }
 
-.option-enabled:hover {
+.option-enabled-border:hover {
 	border: 3px solid rgb(84, 84, 84);
 }
 
