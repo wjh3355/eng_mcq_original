@@ -85,7 +85,7 @@ function displayQn() {
 
 	sentenceElement.innerHTML =
 		`
-		<p>
+		<p class="m-0">
     		<strong>Q${qnsAttempted}. </strong>
     		${startIdx > 0 ? sentence.substring(0, startIdx) : ''} 
     		<strong>${sentence.substring(startIdx, endIdx)}</strong>
@@ -130,7 +130,7 @@ function assignOptionsRandomly() {
 
 	optionButtons.forEach((button, idx) => {
 		var option = options[idx];
-		button.innerHTML = `<p>${option}</p>`;
+		button.innerHTML = `<p class="m-0">${option}</p>`;
 
 		if (option === correctAns) {
 			// Correct option

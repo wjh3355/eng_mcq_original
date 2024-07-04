@@ -6,10 +6,6 @@
 
 /* end of header */
 
-#sentence-holder > p {
-	margin-bottom: 0;
-}
-
 /* #left-col .collapse {
 	--bs-transition-duration: 0.05s !important;
 } */
@@ -35,11 +31,6 @@ i.red-cross {color: rgb(190, 44, 44);}
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.option > p {
-	/* CONTAINS OPTION WORDS */
-	margin: 0;
 }
 
 .option-enabled-border:hover {
