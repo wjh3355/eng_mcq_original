@@ -180,6 +180,8 @@ function resetAll() {
 	explCollapseElement.innerHTML = "";
 	explCollapseElement.classList.remove('show');
 
+	dispExplButton.textContent = "Show Explanation";
+
 	correctAnsButton = null;
 	console.log("Options and explanation reset");
 };
