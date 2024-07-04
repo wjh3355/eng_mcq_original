@@ -4,7 +4,8 @@
       "sentence": "The Taj Mahal has been threatened by pollution, unabashed construction, and a crematorium.",
       "wordToTest": "unabashed",
       "expl": {
-         "type": "adjective",
+         "rootWord": "unabashed",
+         "type": "adj",
          "def": "without any worry about possible criticism or embarrassment"
       },
       "options": [
@@ -19,6 +20,11 @@
       "qnNum": 2,
       "sentence": "The bugs leave greenish patches of waste on its pristine white marble walls.",
       "wordToTest": "pristine",
+      "expl": {
+         "rootWord": "pristine",
+         "type": "adj",
+         "def": "clean and fresh as if new; in its original condition"
+      },
       "options": [
          "beautiful",
          "clean",
@@ -31,6 +37,11 @@
       "qnNum": 3,
       "sentence": "India's iconic Taj Mahal has been threatened in recent weeks by insect poo.",
       "wordToTest": "iconic",
+      "expl": {
+         "rootWord": "iconic",
+         "type": "adj",
+         "def": "very famous or popular"
+      },
       "options": [
          "famous",
          "beautiful",
@@ -43,6 +54,11 @@
       "qnNum": 4,
       "sentence": "He has filed a petition in the National Green Tribunal.",
       "wordToTest": "petition",
+      "expl": {
+         "rootWord": "petition",
+         "type": "noun",
+         "def": "a request made for something desired"
+      },
       "options": [
          "gathering",
          "discussion",
@@ -55,6 +71,11 @@
       "qnNum": 5,
       "sentence": "The explosive breeding of the pests in the river is marring the beauty of the monument.",
       "wordToTest": "marring",
+      "expl": {
+         "rootWord": "mar",
+         "type": "verb",
+         "def": "to spoil sth, making it less good or less enjoyable"
+      },
       "options": [
          "spoiling",
          "affecting",
@@ -67,6 +88,11 @@
       "qnNum": 6,
       "sentence": "Drains are pouring waste directly into the river that has become so stagnant.",
       "wordToTest": "stagnant",
+      "expl": {
+         "rootWord": "stagnant",
+         "type": "adj",
+         "def": "(of water or air) not flowing or moving, and smelling unpleasant"
+      },
       "options": [
          "stink",
          "motionless",
@@ -79,6 +105,11 @@
       "qnNum": 7,
       "sentence": "The stagnant waste allows pests to proliferate in the river.",
       "wordToTest": "proliferate",
+      "expl": {
+         "rootWord": "proliferate",
+         "type": "verb",
+         "def": "to increase a lot and suddenly in number"
+      },
       "options": [
          "swim wildly",
          "disappear quickly",
@@ -91,6 +122,11 @@
       "qnNum": 8,
       "sentence": "The stains the bugs leave on the marble are washable.",
       "wordToTest": "stains",
+      "expl": {
+         "rootWord": "stain",
+         "type": "noun",
+         "def": "a coloured patch or dirty mark that is difficult to remove"
+      },
       "options": [
          "spots of dirt",
          "dungs",
@@ -103,6 +139,11 @@
       "qnNum": 9,
       "sentence": "She bears a striking resemblance to her mother.",
       "wordToTest": "striking",
+      "expl": {
+         "rootWord": "striking",
+         "type": "adj",
+         "def": "attracting attention by reason of being unusual, extreme, or prominent"
+      },
       "options": [
          "noticeable",
          "profound",
@@ -113,8 +154,13 @@
    },
    {
       "qnNum": 10,
-      "sentence": "The specialist says frequent scrubbing can take the sheen off the marble.",
+      "sentence": "The specialist says frequent scrubbing can take the sheen off the marble",
       "wordToTest": "sheen",
+      "expl": {
+         "rootWord": "sheen",
+         "type": "noun",
+         "def": "a soft lustre on a surface"
+      },
       "options": [
          "shine",
          "beauty",
@@ -127,6 +173,11 @@
       "qnNum": 11,
       "sentence": "Chief Minister ordered officials to trace the factors behind the problem.",
       "wordToTest": "trace",
+      "expl": {
+         "rootWord": "trace",
+         "type": "verb",
+         "def": "to find or discover by investigation"
+      },
       "options": [
          "study",
          "research",
@@ -139,6 +190,11 @@
       "qnNum": 12,
       "sentence": "The heat wave will dry out the mud-pack too quickly and render it ineffective.",
       "wordToTest": "render",
+      "expl": {
+         "rootWord": "render",
+         "type": "verb",
+         "def": "to cause someone or sth to be in a particular state"
+      },
       "options": [
          "provide",
          "stop",
@@ -151,6 +207,11 @@
       "qnNum": 13,
       "sentence": "During the choppy 15-minute crossing to Isla Martillo, the weather turned dramatically.",
       "wordToTest": "choppy",
+      "expl": {
+         "rootWord": "choppy",
+         "type": "adj",
+         "def": "(of the sea) with a lot of small waves, not calm"
+      },
       "options": [
          "difficult",
          "long",
@@ -163,6 +224,11 @@
       "qnNum": 14,
       "sentence": "The mooring of English pirate ships is banned.",
       "wordToTest": "mooring",
+      "expl": {
+         "rootWord": "moor",
+         "type": "verb",
+         "def": "to tie a boat so that it stays in the same place"
+      },
       "options": [
          "docking",
          "moving",
@@ -175,6 +241,11 @@
       "qnNum": 15,
       "sentence": "A spokesman said that the report tried to discredit them.",
       "wordToTest": "discredit",
+      "expl": {
+         "rootWord": "discredit",
+         "type": "verb",
+         "def": "to harm the good reputation of"
+      },
       "options": [
          "disgrace",
          "disagree",
@@ -187,6 +258,11 @@
       "qnNum": 16,
       "sentence": "The cook will utilise the leftover ham bone to make soup.",
       "wordToTest": "utilise",
+      "expl": {
+         "rootWord": "utilise",
+         "type": "verb",
+         "def": "to make practical and effective use of sth"
+      },
       "options": [
          "consider",
          "look into",
@@ -199,6 +275,11 @@
       "qnNum": 17,
       "sentence": "The government has previously shuttered thousands of factories near the Taj Mahal.",
       "wordToTest": "shuttered",
+      "expl": {
+         "rootWord": "shutter",
+         "type": "verb",
+         "def": "to close (a business)"
+      },
       "options": [
          "removed",
          "closed",
@@ -211,6 +292,11 @@
       "qnNum": 18,
       "sentence": "The marble is still losing its lustre.",
       "wordToTest": "lustre",
+      "expl": {
+         "rootWord": "lustre",
+         "type": "noun",
+         "def": "a gentle sheen or soft glow"
+      },
       "options": [
          "attraction",
          "beauty",
@@ -223,6 +309,11 @@
       "qnNum": 19,
       "sentence": "The early years were brutal. There was a series of severe winters.",
       "wordToTest": "brutal",
+      "expl": {
+         "rootWord": "brutal",
+         "type": "adj",
+         "def": "unpleasant or harsh"
+      },
       "options": [
          "unforgettable",
          "bad",
@@ -235,6 +326,11 @@
       "qnNum": 20,
       "sentence": "Pictures showed the wreck to be well preserved underwater in the Coral Sea.",
       "wordToTest": "preserved",
+      "expl": {
+         "rootWord": "preserve",
+         "type": "verb",
+         "def": "to maintain (sth) in its original or existing state"
+      },
       "options": [
          "found",
          "noticed",
@@ -247,6 +343,11 @@
       "qnNum": 21,
       "sentence": "The valiant efforts of her men crippled Imperial Japan Navy carriers.",
       "wordToTest": "valiant",
+      "expl": {
+         "rootWord": "valiant",
+         "type": "adj",
+         "def": "very brave or determined"
+      },
       "options": [
          "tough",
          "huge",
@@ -259,6 +360,11 @@
       "qnNum": 22,
       "sentence": "The Battle of the Coral Sea is considered a key moment in halting Japan's advance.",
       "wordToTest": "halting",
+      "expl": {
+         "rootWord": "halt",
+         "type": "verb",
+         "def": "to bring or come to an abrupt stop"
+      },
       "options": [
          "ending",
          "destroying",
@@ -271,6 +377,11 @@
       "qnNum": 23,
       "sentence": "The Lexington was scuttled by US forces after being struck by several Japanese torpedoes.",
       "wordToTest": "scuttled",
+      "expl": {
+         "rootWord": "scuttle",
+         "type": "verb",
+         "def": "to sink ( one's own ship) deliberately"
+      },
       "options": [
          "ordered",
          "abandoned",
@@ -283,9 +394,14 @@
       "qnNum": 24,
       "sentence": "Lexington was on the priority list because she was one of the capital ships.",
       "wordToTest": "priority",
+      "expl": {
+         "rootWord": "priority",
+         "type": "noun",
+         "def": "sth that you think is more important than other things and should be dealt with first"
+      },
       "options": [
          "preference",
-         "pending",
+         "important",
          "backup",
          "secret"
       ],
@@ -295,6 +411,11 @@
       "qnNum": 25,
       "sentence": "Some of the ship's aircraft are also shown in remarkably good condition.",
       "wordToTest": "remarkably",
+      "expl": {
+         "rootWord": "remarkably",
+         "type": "adv",
+         "def": "in a way that is worthy of attention"
+      },
       "options": [
          "brand-new",
          "impossibly",
@@ -307,6 +428,11 @@
       "qnNum": 26,
       "sentence": "The bride's hair was adorned with white flowers.",
       "wordToTest": "adorned",
+      "expl": {
+         "rootWord": "adorn",
+         "type": "verb",
+         "def": "to make more beautiful or attractive"
+      },
       "options": [
          "shaped",
          "decorated",
@@ -319,6 +445,11 @@
       "qnNum": 27,
       "sentence": "She joined the expedition after falling in love with the crazy plan.",
       "wordToTest": "expedition",
+      "expl": {
+         "rootWord": "expedition",
+         "type": "noun",
+         "def": "an organized journey for a particular purpose"
+      },
       "options": [
          "group",
          "journey",
@@ -331,6 +462,11 @@
       "qnNum": 28,
       "sentence": "Only three hundred crews were left alive in the shark infested waters.",
       "wordToTest": "infested",
+      "expl": {
+         "rootWord": "infest",
+         "type": "verb",
+         "def": "to cause a problem by being present in large numbers"
+      },
       "options": [
          "overrun",
          "swimming",
@@ -343,6 +479,11 @@
       "qnNum": 29,
       "sentence": "Where the water is shallow, no vessel will ride.",
       "wordToTest": "vessel",
+      "expl": {
+         "rootWord": "vessel",
+         "type": "noun",
+         "def": "a ship or large boat"
+      },
       "options": [
          "fish",
          "rock",
@@ -355,18 +496,28 @@
       "qnNum": 30,
       "sentence": "The brave men and their families played such significant role during WWII.",
       "wordToTest": "significant",
+      "expl": {
+         "rootWord": "significant",
+         "type": "adj",
+         "def": "noteworthy; sufficiently great or important to be worthy of attention"
+      },
       "options": [
-         "important",
+         "noteworthy",
          "unbelievable",
          "famous",
          "valiant"
       ],
-      "correctAns": "important"
+      "correctAns": "noteworthy"
    },
    {
       "qnNum": 31,
       "sentence": "The crew showed their courage in the face of horrendous circumstances.",
       "wordToTest": "horrendous",
+      "expl": {
+         "rootWord": "horrendous",
+         "type": "adj",
+         "def": "extremely shocking; terrible; extremely unpleasant and unacceptable"
+      },
       "options": [
          "dangerous",
          "terrible",
@@ -379,6 +530,11 @@
       "qnNum": 32,
       "sentence": "The navy ship remains will now be considered a protected war memorial.",
       "wordToTest": "memorial",
+      "expl": {
+         "rootWord": "memorial",
+         "type": "noun",
+         "def": "a statue or structure established to remind people of a person or event"
+      },
       "options": [
          "zone",
          "museum",
@@ -391,6 +547,11 @@
       "qnNum": 33,
       "sentence": "Each of them had longed for the day when their ship would be found.",
       "wordToTest": "longed for",
+      "expl": {
+         "rootWord": "long for",
+         "type": "phrase",
+         "def": "to want something very much"
+      },
       "options": [
          "imagined",
          "waited for",
@@ -403,6 +564,11 @@
       "qnNum": 34,
       "sentence": "We live in an era of instant communication.",
       "wordToTest": "era",
+      "expl": {
+         "rootWord": "era",
+         "type": "noun",
+         "def": "a period of time"
+      },
       "options": [
          "history",
          "time period",
@@ -415,6 +581,11 @@
       "qnNum": 35,
       "sentence": "Knowledge makes humble; ignorance makes proud.",
       "wordToTest": "humble",
+      "expl": {
+         "rootWord": "humble",
+         "type": "adj",
+         "def": "showing you do not think that you are as important as other people"
+      },
       "options": [
          "modest",
          "wise",
@@ -427,6 +598,11 @@
       "qnNum": 36,
       "sentence": "The Petrel is a specially outfitted research vessel.",
       "wordToTest": "outfitted",
+      "expl": {
+         "rootWord": "outfit",
+         "type": "verb",
+         "def": "to provide someone or sth with equipment or clothes"
+      },
       "options": [
          "designed",
          "studied",
@@ -439,6 +615,11 @@
       "qnNum": 37,
       "sentence": "Trains in Japan are fitted with speakers that emit sounds of dog barks.",
       "wordToTest": "emit",
+      "expl": {
+         "rootWord": "emit",
+         "type": "verb",
+         "def": "to send out sth such as light, heat, sound, gas, etc."
+      },
       "options": [
          "give in",
          "give off",
@@ -451,6 +632,11 @@
       "qnNum": 38,
       "sentence": "James can imitate the cries of bird perfectly.",
       "wordToTest": "imitate",
+      "expl": {
+         "rootWord": "imitate",
+         "type": "verb",
+         "def": "to copy the speech or behaviour, etc. of someone or sth"
+      },
       "options": [
          "record",
          "mimic",
@@ -463,6 +649,11 @@
       "qnNum": 39,
       "sentence": "They conceived a system where deer snorts are blared to alert deer.",
       "wordToTest": "conceived",
+      "expl": {
+         "rootWord": "conceive",
+         "type": "verb",
+         "def": "to form or devise (a plan or idea) in the mind"
+      },
       "options": [
          "realised",
          "created",
@@ -475,6 +666,11 @@
       "qnNum": 40,
       "sentence": "The simple but resourceful technology aims to be in use soon.",
       "wordToTest": "resourceful",
+      "expl": {
+         "rootWord": "resourceful",
+         "type": "adj",
+         "def": "good at finding ways of dealing with problems"
+      },
       "options": [
          "advanced",
          "new",
@@ -487,6 +683,11 @@
       "qnNum": 41,
       "sentence": "The stolen car was found in the vicinity of the station.",
       "wordToTest": "vicinity",
+      "expl": {
+         "rootWord": "vicinity",
+         "type": "noun",
+         "def": "the immediately surrounding area"
+      },
       "options": [
          "inner area",
          "front area",
@@ -499,6 +700,11 @@
       "qnNum": 42,
       "sentence": "Scientists hope to blare the alerts in deer-populated areas.",
       "wordToTest": "blare",
+      "expl": {
+         "rootWord": "blare",
+         "type": "verb",
+         "def": "to make a loud unpleasant noise"
+      },
       "options": [
          "make a low pitch sound",
          "make a high pitch sound",
@@ -511,6 +717,11 @@
       "qnNum": 43,
       "sentence": "The deer don't need to wander further for their daily dose of iron.",
       "wordToTest": "wander",
+      "expl": {
+         "rootWord": "wander",
+         "type": "verb",
+         "def": "to go slowly in no particular direction"
+      },
       "options": [
          "stroll",
          "run",
@@ -523,6 +734,11 @@
       "qnNum": 44,
       "sentence": "Your invention is ingenious, but not very practical.",
       "wordToTest": "ingenious",
+      "expl": {
+         "rootWord": "ingenious",
+         "type": "adj",
+         "def": "very intelligent and skilful"
+      },
       "options": [
          "effective",
          "new",
@@ -535,6 +751,11 @@
       "qnNum": 45,
       "sentence": "There was no guarantee the horse would paint.",
       "wordToTest": "guarantee",
+      "expl": {
+         "rootWord": "guarantee",
+         "type": "noun",
+         "def": "a promise that something will be done or will happen"
+      },
       "options": [
          "assurance",
          "confidence",
@@ -547,6 +768,11 @@
       "qnNum": 46,
       "sentence": "The young man graduated from a prestigious university.",
       "wordToTest": "prestigious",
+      "expl": {
+         "rootWord": "prestigious",
+         "type": "adj",
+         "def": "respected and admired as very important or of very high quality"
+      },
       "options": [
          "old",
          "local",
@@ -559,6 +785,11 @@
       "qnNum": 47,
       "sentence": "The horse retired after bone chips in his knees caused permanent damage.",
       "wordToTest": "permanent",
+      "expl": {
+         "rootWord": "permanent",
+         "type": "adj",
+         "def": "lasting for a long time or for ever"
+      },
       "options": [
          "severe",
          "vital",
@@ -571,6 +802,11 @@
       "qnNum": 48,
       "sentence": "I can't believe you were so naive as to trust him!",
       "wordToTest": "naive",
+      "expl": {
+         "rootWord": "naive",
+         "type": "adj",
+         "def": "lack of experience; too willing to believe that someone is telling the truth"
+      },
       "options": [
          "nice",
          "hard",
@@ -578,11 +814,16 @@
          "simple"
       ],
       "correctAns": "simple"
-   },  
+   },
    {
       "qnNum": 49,
       "sentence": "I hadn't bargained for such heavy rain and had left my umbrella at home.",
       "wordToTest": "bargained for",
+      "expl": {
+         "rootWord": "bargain for",
+         "type": "phrase",
+         "def": "to be prepared for; to expect"
+      },
       "options": [
          "expected",
          "imagined",
@@ -590,11 +831,16 @@
          "known"
       ],
       "correctAns": "expected"
-   }, 
+   },
    {
       "qnNum": 50,
       "sentence": "The X-rays revealed his knee joints were closing up.",
       "wordToTest": "revealed",
+      "expl": {
+         "rootWord": "reveal",
+         "type": "verb",
+         "def": "to make sth known to sb; show sth that previously could not be seen"
+      },
       "options": [
          "told",
          "diagnosed",
@@ -602,11 +848,16 @@
          "checked"
       ],
       "correctAns": "disclosed"
-   }, 
+   },
    {
       "qnNum": 51,
       "sentence": "The horse had months of rehabilitation and medication.",
       "wordToTest": "rehabilitation",
+      "expl": {
+         "rootWord": "rehabilitation",
+         "type": "noun",
+         "def": "the process of returning to a healthy or good way of life"
+      },
       "options": [
          "rest",
          "recovery",
@@ -614,11 +865,16 @@
          "refresh"
       ],
       "correctAns": "recovery"
-   }, 
+   },
    {
       "qnNum": 52,
       "sentence": "The vet examined the horse's hind feet.",
       "wordToTest": "vet",
+      "expl": {
+         "rootWord": "vet",
+         "type": "noun",
+         "def": "a person with a medical degree trained to take care of the health of animals"
+      },
       "options": [
          "a caregiver",
          "a general practitioner",
@@ -626,11 +882,16 @@
          "an animal doctor"
       ],
       "correctAns": "an animal doctor"
-   }, 
+   },
    {
       "qnNum": 53,
       "sentence": "His unbridled style has been compared to another famous painter.",
       "wordToTest": "unbridled",
+      "expl": {
+         "rootWord": "unbridled",
+         "type": "adj",
+         "def": "uncontrolled; unconstrained"
+      },
       "options": [
          "uncontrolled",
          "unprecedented",
@@ -638,11 +899,16 @@
          "unrelenting"
       ],
       "correctAns": "uncontrolled"
-   }, 
+   },
    {
       "qnNum": 54,
       "sentence": "Horses are grazing in the pasture.",
       "wordToTest": "pasture",
+      "expl": {
+         "rootWord": "pasture",
+         "type": "noun",
+         "def": "land covered with grass that is suitable for feeding animals on"
+      },
       "options": [
          "backyard",
          "lawn",
@@ -650,11 +916,16 @@
          "meadow"
       ],
       "correctAns": "meadow"
-   }, 
+   },
    {
       "qnNum": 55,
       "sentence": "People have to travel to the oldest ranch to experience its inhospitable remoteness.",
       "wordToTest": "inhospitable",
+      "expl": {
+         "rootWord": "inhospitable",
+         "type": "adj",
+         "def": "harsh and difficult to live in"
+      },
       "options": [
          "harsh and difficult",
          "remote and cold",
@@ -662,11 +933,16 @@
          "barren and deserted"
       ],
       "correctAns": "harsh and difficult"
-   }, 
+   },
    {
       "qnNum": 56,
       "sentence": "As the tide receded we were able to look for shells.",
       "wordToTest": "receded",
+      "expl": {
+         "rootWord": "recede",
+         "type": "verb",
+         "def": "to move gradually away from sb or away from a previous position"
+      },
       "options": [
          "started",
          "stopped",
@@ -674,11 +950,16 @@
          "disappeared"
       ],
       "correctAns": "subsided"
-   }, 
+   },
    {
       "qnNum": 57,
       "sentence": "The town is located on a peninsula jutting out into the grey sea.",
       "wordToTest": "jutting out",
+      "expl": {
+         "rootWord": "jut out",
+         "type": "phrase",
+         "def": "to stick out, esp. above or past the edge or surface of sth"
+      },
       "options": [
          "stretching",
          "sticking out",
@@ -686,23 +967,33 @@
          "recessing"
       ],
       "correctAns": "sticking out"
-   }, 
+   },
    {
       "qnNum": 58,
       "sentence": "I mainly do pet portraits, which are very lifelike and controlled.",
       "wordToTest": "lifelike",
+      "expl": {
+         "rootWord": "lifelike",
+         "type": "adj",
+         "def": "very similar to the person or thing represented"
+      },
       "options": [
          "abstract",
          "realistic",
          "vivid",
          "colourful"
-   ],
+      ],
       "correctAns": "realistic"
-   }, 
+   },
    {
       "qnNum": 59,
       "sentence": "The traffic in the city was chaotic.",
       "wordToTest": "chaotic",
+      "expl": {
+         "rootWord": "chaotic",
+         "type": "adj",
+         "def": "in a state of complete confusion and disorder"
+      },
       "options": [
          "bustling",
          "energetic",
@@ -710,23 +1001,33 @@
          "disordered"
       ],
       "correctAns": "disordered"
-   }, 
+   },
    {
       "qnNum": 60,
       "sentence": "The horse won eight races in his career, but it took a toll on his knees.",
-      "wordToTest": "took a toll on",
+      "wordToTest": "took a toll",
+      "expl": {
+         "rootWord": "take a toll",
+         "type": "phrase",
+         "def": "to cause harm or suffering"
+      },
       "options": [
-         "cost money on",
-         "had a good effect on",
-         "had an adverse effect on",
-         "had an operation on"
-   ],
-      "correctAns": "had an adverse effect on"
-   }, 
+         "cost money",
+         "had a good effect",
+         "had an adverse effect",
+         "had an operation"
+      ],
+      "correctAns": "had an adverse effect"
+   },
    {
       "qnNum": 61,
       "sentence": "He has an extroverted personality.",
       "wordToTest": "extroverted",
+      "expl": {
+         "rootWord": "extroverted",
+         "type": "adj",
+         "def": "outgoing and socially confident"
+      },
       "options": [
          "thoughtful",
          "enthusiast",
@@ -734,11 +1035,16 @@
          "outgoing"
       ],
       "correctAns": "outgoing"
-   }, 
+   },
    {
       "qnNum": 62,
       "sentence": "Jan has a vocation for teaching.",
       "wordToTest": "vocation",
+      "expl": {
+         "rootWord": "vocation",
+         "type": "noun",
+         "def": "a person's employment or main occupation"
+      },
       "options": [
          "dream",
          "interest",
@@ -746,23 +1052,33 @@
          "holiday"
       ],
       "correctAns": "profession"
-   }, 
+   },
    {
       "qnNum": 63,
       "sentence": "Her feminine intuition told her that he was unhappy.",
       "wordToTest": "feminine",
+      "expl": {
+         "rootWord": "feminine",
+         "type": "adj",
+         "def": "relating to women; female"
+      },
       "options": [
          "womanly",
          "motherly",
-         "original",
-         "experienced"
+         "girlish",
+         "holiday"
       ],
       "correctAns": "womanly"
-   }, 
+   },
    {
       "qnNum": 64,
       "sentence": "He has no inclination to slow down.",
       "wordToTest": "inclination",
+      "expl": {
+         "rootWord": "inclination",
+         "type": "noun",
+         "def": "a tendency to do sth"
+      },
       "options": [
          "plan",
          "feeling",
@@ -770,11 +1086,16 @@
          "intention"
       ],
       "correctAns": "tendency"
-   }, 
+   },
    {
       "qnNum": 65,
       "sentence": "Provisions were expensive and hard to obtain.",
       "wordToTest": "provisions",
+      "expl": {
+         "rootWord": "provisions",
+         "type": "noun",
+         "def": "necessary supplies, such as food and clothing, as for a journey"
+      },
       "options": [
          "energy",
          "supplies",
@@ -782,11 +1103,16 @@
          "appliances"
       ],
       "correctAns": "supplies"
-   }, 
+   },
    {
       "qnNum": 66,
-      "sentence": "Has the meat thawed out yet?",
-      "wordToTest": "thawed out",
+      "sentence": "The lake thawed in March.",
+      "wordToTest": "thawed",
+      "expl": {
+         "rootWord": "thaw",
+         "type": "verb",
+         "def": "to change from a solid, frozen state to a liquid or soft one"
+      },
       "options": [
          "frozen",
          "dried out",
@@ -794,11 +1120,16 @@
          "melted"
       ],
       "correctAns": "melted"
-   }, 
+   },
    {
       "qnNum": 67,
       "sentence": "The birds seem to be cute but they have surprisingly sharp beaks and will swipe at you.",
       "wordToTest": "swipe at",
+      "expl": {
+         "rootWord": "swipe at",
+         "type": "verb",
+         "def": "to hit or try to hit with a swinging blow"
+      },
       "options": [
          "strike",
          "bite",
@@ -806,11 +1137,16 @@
          "pierce"
       ],
       "correctAns": "strike"
-   }, 
+   },
    {
       "qnNum": 68,
       "sentence": "The family survived, and slowly prospered, thanks to a prodigious work ethic.",
       "wordToTest": "prodigious",
+      "expl": {
+         "rootWord": "prodigious",
+         "type": "adj",
+         "def": "very large or powerful and causing surprise or admiration"
+      },
       "options": [
          "renowned",
          "serious",
@@ -818,11 +1154,16 @@
          "enormous"
       ],
       "correctAns": "enormous"
-   }, 
+   },
    {
       "qnNum": 69,
       "sentence": "I ascended the viewing platform and took the longer view, something started to emerge.",
       "wordToTest": "ascended",
+      "expl": {
+         "rootWord": "ascend",
+         "type": "verb",
+         "def": "to rise; go up; climb up"
+      },
       "options": [
          "walked on",
          "climbed",
@@ -830,11 +1171,16 @@
          "stepped down"
       ],
       "correctAns": "climbed"
-   }, 
+   },
    {
       "qnNum": 70,
       "sentence": "Portland is a sprawling city on the banks of the Willamette River.",
       "wordToTest": "sprawling",
+      "expl": {
+         "rootWord": "sprawling",
+         "type": "adj",
+         "def": "spreading out over a large area in an unity or irregular way"
+      },
       "options": [
          "spreading out",
          "lifelike",
@@ -847,6 +1193,11 @@
       "qnNum": 71,
       "sentence": "This astonishing art form is something that thousands of people are flocking here to see.",
       "wordToTest": "astonishing",
+      "expl": {
+         "rootWord": "astonishing",
+         "type": "verb",
+         "def": "very surprising"
+      },
       "options": [
          "scaring",
          "magnificent",
@@ -859,6 +1210,11 @@
       "qnNum": 72,
       "sentence": "Rice Paddy Art consists of thousands of strategically planted rice shoots grown in concert.",
       "wordToTest": "in concert",
+      "expl": {
+         "rootWord": "in concert",
+         "type": "phrase",
+         "def": "acting jointly"
+      },
       "options": [
          "in a theatre",
          "in a way that acts jointly",
@@ -871,6 +1227,11 @@
       "qnNum": 73,
       "sentence": "Rice has been cultivated in the area for around 2,000 years.",
       "wordToTest": "cultivated",
+      "expl": {
+         "rootWord": "cultivate",
+         "type": "verb",
+         "def": "to prepare land and grow crops on it"
+      },
       "options": [
          "introduced",
          "traded",
@@ -883,6 +1244,11 @@
       "qnNum": 74,
       "sentence": "The village's official flower is rice flower; and its song also features the rice flower.",
       "wordToTest": "features",
+      "expl": {
+         "rootWord": "feature",
+         "type": "verb",
+         "def": "to include someone or sth as an important part"
+      },
       "options": [
          "carries",
          "presents",
@@ -895,18 +1261,28 @@
       "qnNum": 75,
       "sentence": "They are unsure of how to create the more ambitious picture compared to the simple mountain.",
       "wordToTest": "ambitious",
+      "expl": {
+         "rootWord": "ambitious",
+         "type": "adj",
+         "def": "intended to satisfy high aspirations and therefore difficult to achieve"
+      },
       "options": [
          "beautiful",
          "attractive",
          "stunning",
          "demanding"
       ],
-   "correctAns": "demanding"
+      "correctAns": "demanding"
    },
    {
       "qnNum": 76,
       "sentence": "A company in the village produces a computer-aided design blueprint.",
       "wordToTest": "blueprint",
+      "expl": {
+         "rootWord": "blueprint",
+         "type": "noun",
+         "def": "an early plan or design that explains how sth might be achieved"
+      },
       "options": [
          "blue paper",
          "blue graph",
@@ -919,6 +1295,11 @@
       "qnNum": 77,
       "sentence": "The old sheds, workshops and cattle pens are evocative testaments to its heritage.",
       "wordToTest": "testaments",
+      "expl": {
+         "rootWord": "testament",
+         "type": "noun",
+         "def": "sth that serves as a sign or evidence of a specified fact, event, or quality"
+      },
       "options": [
          "relics",
          "leftovers",
@@ -926,11 +1307,16 @@
          "past"
       ],
       "correctAns": "proofs"
-   },   
+   },
    {
       "qnNum": 78,
       "sentence": "The perspective of the artwork will look right when viewed from the observation points.",
       "wordToTest": "perspective",
+      "expl": {
+         "rootWord": "perspective",
+         "type": "noun",
+         "def": " the appearance of viewed objects"
+      },
       "options": [
          "outlook",
          "design",
@@ -938,11 +1324,16 @@
          "outline"
       ],
       "correctAns": "outlook"
-   },   
+   },
    {
       "qnNum": 79,
       "sentence": "You can tell the difference quite distinctly.",
       "wordToTest": "distinctly",
+      "expl": {
+         "rootWord": "distinctly",
+         "type": "adv",
+         "def": "in a way that is very noticeable or apparent; clearly"
+      },
       "options": [
          "easily",
          "completely",
@@ -950,11 +1341,16 @@
          "clearly"
       ],
       "correctAns": "clearly"
-   },  
+   },
    {
       "qnNum": 80,
       "sentence": "The living paintings reach peak splendour in July and August.",
       "wordToTest": "splendour",
+      "expl": {
+         "rootWord": "splendour",
+         "type": "noun",
+         "def": "great beauty that attracts admiration and attention"
+      },
       "options": [
          "maturity",
          "value",
@@ -962,11 +1358,16 @@
          "charm"
       ],
       "correctAns": "magnificence"
-   },  
+   },
    {
       "qnNum": 81,
       "sentence": "The town has even built a special viewing tower to accommodate more people.",
       "wordToTest": "accommodate",
+      "expl": {
+         "rootWord": "accommodate",
+         "type": "verb",
+         "def": "to provide lodging or sufficient space for people"
+      },
       "options": [
          "welcome",
          "hold",
@@ -974,11 +1375,16 @@
          "entertain"
       ],
       "correctAns": "hold"
-   },  
+   },
    {
       "qnNum": 82,
       "sentence": "The school envisions adding at least five classes next year.",
       "wordToTest": "envisions",
+      "expl": {
+         "rootWord": "envision",
+         "type": "verb",
+         "def": "to imagine or expect sth in the future, esp. sth good"
+      },
       "options": [
          "plans",
          "decides",
@@ -986,11 +1392,16 @@
          "imagines"
       ],
       "correctAns": "imagines"
-   }, 
+   },
    {
       "qnNum": 83,
       "sentence": "A bank of fog obscured the farmhouse.",
       "wordToTest": "obscured",
+      "expl": {
+         "rootWord": "obscure",
+         "type": "verb",
+         "def": "to make sth difficult to discover and understand"
+      },
       "options": [
          "soaked",
          "concealed",
@@ -998,11 +1409,16 @@
          "fell to"
       ],
       "correctAns": "concealed"
-   }, 
+   },
    {
       "qnNum": 84,
       "sentence": "The book is both a story of adventure and a poignant documentation of cultures.",
       "wordToTest": "poignant",
+      "expl": {
+         "rootWord": "poignant",
+         "type": "adj",
+         "def": "evoking a keen sense of sadness or regret"
+      },
       "options": [
          "true and reliable",
          "chronical",
@@ -1010,11 +1426,16 @@
          "exact and detailed"
       ],
       "correctAns": "painful and touching"
-   }, 
+   },
    {
       "qnNum": 85,
       "sentence": "Victims are demanding retribution for the terrorist attacks.",
       "wordToTest": "retribution",
+      "expl": {
+         "rootWord": "retribution",
+         "type": "noun",
+         "def": "deserved and severe punishment"
+      },
       "options": [
          "punishment",
          "compensation",
@@ -1027,6 +1448,11 @@
       "qnNum": 86,
       "sentence": "The valiant efforts of her men crippled Imperial Japan Navy carriers.",
       "wordToTest": "crippled",
+      "expl": {
+         "rootWord": "cripple",
+         "type": "verb",
+         "def": "to cause severe and disabling damage to"
+      },
       "options": [
          "attacked",
          "sank",
@@ -1039,18 +1465,28 @@
       "qnNum": 87,
       "sentence": "Barely breaking a sweat, he cruised the streets on a bike.",
       "wordToTest": "breaking a sweat",
+      "expl": {
+         "rootWord": "break a sweat",
+         "type": "phrase",
+         "def": "to put forth a large amount of energy or effort into or toward a task"
+      },
       "options": [
-         "beginning to sweat",
+         "putting effort",
          "breaking down",
          "making an effort",
          "taking a break"
       ],
-      "correctAns": "beginning to sweat"
+      "correctAns": "putting effort"
    },
    {
       "qnNum": 88,
       "sentence": "The 3m-tall custom-made bike is made of three frames welded on top of each other.",
       "wordToTest": "welded",
+      "expl": {
+         "rootWord": "weld",
+         "type": "verb",
+         "def": "to join together (metal parts) by heating the surfaces to the point of melting with a blowpipe"
+      },
       "options": [
          "assembled",
          "soldered",
@@ -1063,6 +1499,11 @@
       "qnNum": 89,
       "sentence": "At a traffic light, he steadied himself on the roof of a bus for a brief moment.",
       "wordToTest": "steadied",
+      "expl": {
+         "rootWord": "steady",
+         "type": "verb",
+         "def": "to stop sb from moving, shaking, or falling"
+      },
       "options": [
          "held",
          "stabilised",
@@ -1075,18 +1516,28 @@
       "qnNum": 90,
       "sentence": "In order to dismount, he simply jumped down and has miraculously managed to never break an ankle.",
       "wordToTest": "dismount",
+      "expl": {
+         "rootWord": "dismount",
+         "type": "verb",
+         "def": "to get off a horse, bicycle, or anything that one is riding"
+      },
       "options": [
          "move on",
          "jump down",
          "slide down",
          "get off"
       ],
-      "correctAns": "get off"
+      "correctAns": "stabilised"
    },
    {
       "qnNum": 91,
       "sentence": "She was becoming exasperated with all the questions they were asking.",
       "wordToTest": "exasperated",
+      "expl": {
+         "rootWord": "exasperated",
+         "type": "adj",
+         "def": "annoyed or irritated very much; infuriated"
+      },
       "options": [
          "annoyed",
          "interested",
@@ -1099,6 +1550,11 @@
       "qnNum": 92,
       "sentence": "Gambling became his obsession. He eventually lost everything.",
       "wordToTest": "obsession",
+      "expl": {
+         "rootWord": "obsession",
+         "type": "noun",
+         "def": "something or someone that you think about all the time"
+      },
       "options": [
          "hobby",
          "fixation",
@@ -1111,6 +1567,11 @@
       "qnNum": 93,
       "sentence": "Learning is a cumulative process.",
       "wordToTest": "cumulative",
+      "expl": {
+         "rootWord": "cumulative",
+         "type": "adj",
+         "def": "increasing or increased in quantity, degree, or force by successive additions"
+      },
       "options": [
          "super long",
          "accruing",
@@ -1123,6 +1584,11 @@
       "qnNum": 94,
       "sentence": "His penchant for cycling never waned.",
       "wordToTest": "penchant",
+      "expl": {
+         "rootWord": "penchant",
+         "type": "noun",
+         "def": "a strong or habitual liking for sth or tendency to do sth"
+      },
       "options": [
          "inclination",
          "imagination",
@@ -1135,6 +1601,11 @@
       "qnNum": 95,
       "sentence": "He relishes the thrill of pedalling through Havana high above the roofs of passing cars.",
       "wordToTest": "relishes",
+      "expl": {
+         "rootWord": "relish",
+         "type": "verb",
+         "def": "to get great pleasure from sth"
+      },
       "options": [
          "relieves",
          "yells",
@@ -1147,6 +1618,11 @@
       "qnNum": 96,
       "sentence": "The prison warden allowed him to have his bikes inside the prison.",
       "wordToTest": "prison warden",
+      "expl": {
+         "rootWord": "prison warden",
+         "type": "phrase",
+         "def": "a person responsible for the supervision of a prison"
+      },
       "options": [
          "prison superintendent",
          "prison guard",
@@ -1159,6 +1635,11 @@
       "qnNum": 97,
       "sentence": "How can you justify spending so much money?",
       "wordToTest": "justify",
+      "expl": {
+         "rootWord": "justify",
+         "type": "verb",
+         "def": "to give an explanation or excuse for sth or for doing sth"
+      },
       "options": [
          "save",
          "claim",
@@ -1171,6 +1652,11 @@
       "qnNum": 98,
       "sentence": "He spent the long hours in his workshop cobbling together spare parts into magic.",
       "wordToTest": "cobbling",
+      "expl": {
+         "rootWord": "cobble",
+         "type": "verb",
+         "def": "to roughly assemble or produce sth from available parts or elements"
+      },
       "options": [
          "quickly producing",
          "slowly piling",
@@ -1183,6 +1669,11 @@
       "qnNum": 99,
       "sentence": "Failure only intensified my desire to succeed.",
       "wordToTest": "intensified",
+      "expl": {
+         "rootWord": "intensify",
+         "type": "verb",
+         "def": "to become or make more great or strong"
+      },
       "options": [
          "sped up",
          "increased",
@@ -1195,6 +1686,11 @@
       "qnNum": 100,
       "sentence": "Dogs evolved from wolves tens of thousands of years ago.",
       "wordToTest": "evolved",
+      "expl": {
+         "rootWord": "evolve",
+         "type": "verb",
+         "def": "to develop gradually"
+      },
       "options": [
          "started",
          "originated",
@@ -1207,6 +1703,11 @@
       "qnNum": 101,
       "sentence": "Certain genes make dogs particularly gregarious. ",
       "wordToTest": "gregarious",
+      "expl": {
+         "rootWord": "gregarious",
+         "type": "adj",
+         "def": "(esp. of animals) living in groups"
+      },
       "options": [
          "sociable",
          "adorable",
@@ -1219,6 +1720,11 @@
       "qnNum": 102,
       "sentence": "This may give dogs their distinctive personalities, including a craving for human company.",
       "wordToTest": "distinctive",
+      "expl": {
+         "rootWord": "distinctive",
+         "type": "adj",
+         "def": "having a special quality or feature which makes it easily recognizable and different"
+      },
       "options": [
          "adorable",
          "peculiar",
@@ -1231,8 +1737,13 @@
       "qnNum": 103,
       "sentence": "He knelt before the king and craved for mercy.",
       "wordToTest": "craved for",
+      "expl": {
+         "rootWord": "crave for",
+         "type": "phrase",
+         "def": "to feel a powerful desire for (sth)"
+      },
       "options": [
-         "coveted",
+         "covet",
          "loved",
          "accepted",
          "waited for"
@@ -1243,6 +1754,11 @@
       "qnNum": 104,
       "sentence": "Who keeps company with the wolf will learn to howl.",
       "wordToTest": "company",
+      "expl": {
+         "rootWord": "company",
+         "type": "noun",
+         "def": "the fact or condition of being with another or others"
+      },
       "options": [
          "following",
          "companionship",
@@ -1255,6 +1771,11 @@
       "qnNum": 105,
       "sentence": "Our finding of genetic variation in both dogs and wolves provides a possible insight into animal personality.",
       "wordToTest": "insight",
+      "expl": {
+         "rootWord": "insight",
+         "type": "noun",
+         "def": "a clear, deep, and sometimes sudden understanding of a complicated problem or situation"
+      },
       "options": [
          "study",
          "research",
@@ -1267,6 +1788,11 @@
       "qnNum": 106,
       "sentence": "Students are required to undertake simple experiments.",
       "wordToTest": "undertake",
+      "expl": {
+         "rootWord": "undertake",
+         "type": "verb",
+         "def": "to do or begin to do sth, esp. sth that will take a long time or be difficult"
+      },
       "options": [
          "set about",
          "set in",
@@ -1279,6 +1805,11 @@
       "qnNum": 107,
       "sentence": "The mailman delivered the letters promptly.",
       "wordToTest": "promptly",
+      "expl": {
+         "rootWord": "promptly",
+         "type": "adv",
+         "def": "with little or no delay; immediately"
+      },
       "options": [
          "accurately",
          "without delay",
@@ -1291,6 +1822,11 @@
       "qnNum": 108,
       "sentence": "Their efforts are worthy of your support.",
       "wordToTest": "worthy of",
+      "expl": {
+         "rootWord": "worthy of",
+         "type": "phrase",
+         "def": "deserving to be given attention, notice, etc."
+      },
       "options": [
          "needing",
          "requesting",
@@ -1303,6 +1839,11 @@
       "qnNum": 109,
       "sentence": "He felt completely overwhelmed by their kindness.",
       "wordToTest": "overwhelmed",
+      "expl": {
+         "rootWord": "overwhelmed",
+         "type": "adj",
+         "def": "feeling sudden strong emotion; overpowered"
+      },
       "options": [
          "appreciated",
          "honoured",
@@ -1315,6 +1856,11 @@
       "qnNum": 110,
       "sentence": "He sacrificed his holiday to help his brother's business.",
       "wordToTest": "sacrificed",
+      "expl": {
+         "rootWord": "sacrifice",
+         "type": "verb",
+         "def": "to give up sth valued for the sake of other considerations"
+      },
       "options": [
          "put off",
          "set off",
@@ -1327,6 +1873,11 @@
       "qnNum": 111,
       "sentence": "His dog was too old and sick so he had to put the dog down.",
       "wordToTest": "put the dog down",
+      "expl": {
+         "rootWord": "put the dog down",
+         "type": "phrase",
+         "def": "to euthanise the dog"
+      },
       "options": [
          "let the dog lie down",
          "send the dog to a vet",
@@ -1339,6 +1890,11 @@
       "qnNum": 112,
       "sentence": "The motherless children were starving for affection.",
       "wordToTest": "affection",
+      "expl": {
+         "rootWord": "affection",
+         "type": "noun",
+         "def": "a feeling of liking someone or sth"
+      },
       "options": [
          "care",
          "attention",
@@ -1351,6 +1907,11 @@
       "qnNum": 113,
       "sentence": "He spent himself in the service of humanity.",
       "wordToTest": "humanity",
+      "expl": {
+         "rootWord": "humanity",
+         "type": "noun",
+         "def": "understanding and kindness towards other people"
+      },
       "options": [
          "religion",
          "racial harmony",
@@ -1363,6 +1924,11 @@
       "qnNum": 114,
       "sentence": "He looked behind him to see if anyone was earwigging.",
       "wordToTest": "earwigging",
+      "expl": {
+         "rootWord": "earwig",
+         "type": "verb",
+         "def": "to eavesdrop on a conversation"
+      },
       "options": [
          "eavesdropping",
          "watching",
@@ -1372,21 +1938,14 @@
       "correctAns": "eavesdropping"
    },
    {
-      "qnNum": 114,
-      "sentence": "The house has been restored to its original splendour.",
-      "wordToTest": "restored",
-      "options": [
-         "built",
-         "decorated",
-         "brought back",
-         "designed"
-      ],
-      "correctAns": "brought back"
-   },
-   {
       "qnNum": 115,
       "sentence": "He darted across the deserted street.",
       "wordToTest": "deserted",
+      "expl": {
+         "rootWord": "deserted",
+         "type": "adj",
+         "def": "(of a place) empty of people.left alone in a difficult situation"
+      },
       "options": [
          "quiet",
          "run-down",
@@ -1399,6 +1958,11 @@
       "qnNum": 116,
       "sentence": "Crowds have been flocking to the beaches in this hot weather.",
       "wordToTest": "flocking",
+      "expl": {
+         "rootWord": "flock",
+         "type": "verb",
+         "def": "to move or come together in large numbers"
+      },
       "options": [
          "flying",
          "travelling",
@@ -1411,6 +1975,11 @@
       "qnNum": 117,
       "sentence": "Her popularity as a singer has waned since the glory days of the 2000s.",
       "wordToTest": "waned",
+      "expl": {
+         "rootWord": "wane",
+         "type": "verb",
+         "def": "to become weaker in strength or influence"
+      },
       "options": [
          "flourished",
          "stopped",
@@ -1423,6 +1992,11 @@
       "qnNum": 118,
       "sentence": "Most domestic freezers operate at below -18°C.",
       "wordToTest": "domestic",
+      "expl": {
+         "rootWord": "domestic",
+         "type": "adj",
+         "def": "of or for use in the home rather than in an industrial or office environment"
+      },
       "options": [
          "commercial",
          "household",
@@ -1435,6 +2009,11 @@
       "qnNum": 119,
       "sentence": "The researchers studied the behaviour of grey wolves living in captivity.",
       "wordToTest": "captivity",
+      "expl": {
+         "rootWord": "captivity",
+         "type": "noun",
+         "def": "state of being kept as a prisoner or in an enclosed space"
+      },
       "options": [
          "remote area",
          "the wild",
@@ -1447,6 +2026,11 @@
       "qnNum": 120,
       "sentence": "They carried out a number of tests of the animals' skills at sociability.",
       "wordToTest": "carried out",
+      "expl": {
+         "rootWord": "carry out",
+         "type": "phrase",
+         "def": "do or complete sth"
+      },
       "options": [
          "accomplished",
          "devised",
@@ -1459,6 +2043,11 @@
       "qnNum": 121,
       "sentence": "Wolves were somewhat aloof.",
       "wordToTest": "aloof",
+      "expl": {
+         "rootWord": "aloof",
+         "type": "adj",
+         "def": "not friendly or forthcoming; cool and distant"
+      },
       "options": [
          "ferocious",
          "voracious",
@@ -1471,6 +2060,11 @@
       "qnNum": 122,
       "sentence": "There is a prominent sign featuring Sentosa.",
       "wordToTest": "prominent",
+      "expl": {
+         "rootWord": "prominent",
+         "type": "adj",
+         "def": "noticeable, outstanding"
+      },
       "options": [
          "conspicuous",
          "large",
@@ -1483,6 +2077,11 @@
       "qnNum": 123,
       "sentence": "Conceit is associated with stupidity and ignorance.",
       "wordToTest": "associated with",
+      "expl": {
+         "rootWord": "associate with",
+         "type": "phrase",
+         "def": "to connect (someone or sth) with sth else in one's mind"
+      },
       "options": [
          "linked with",
          "caused by",
@@ -1495,6 +2094,11 @@
       "qnNum": 124,
       "sentence": "This observation highlights the utility of the dog for studies of human disease.",
       "wordToTest": "utility",
+      "expl": {
+         "rootWord": "utility",
+         "type": "noun",
+         "def": "the state of being useful, profitable, or beneficial; a public utility"
+      },
       "options": [
          "nature",
          "character",
@@ -1507,6 +2111,11 @@
       "qnNum": 125,
       "sentence": "She suffered minor cuts and bruises.",
       "wordToTest": "minor",
+      "expl": {
+         "rootWord": "minor",
+         "type": "adj",
+         "def": "lesser in importance, seriousness, or significance"
+      },
       "options": [
          "severe",
          "nasty",
@@ -1519,6 +2128,11 @@
       "qnNum": 126,
       "sentence": "She would contact the wildlife department to rescue the pangolin.",
       "wordToTest": "rescue",
+      "expl": {
+         "rootWord": "rescue",
+         "type": "verb",
+         "def": "to save sb/sth from a dangerous or harmful situation"
+      },
       "options": [
          "look after",
          "search",
@@ -1531,6 +2145,11 @@
       "qnNum": 127,
       "sentence": "He is tolerant of those who disagree with him.",
       "wordToTest": "is tolerant of",
+      "expl": {
+         "rootWord": "be tolerant of",
+         "type": "phrase",
+         "def": "to be able to accept what other people say or do even if you do not agree with it"
+      },
       "options": [
          "is against",
          "is afraid of",
@@ -1543,6 +2162,11 @@
       "qnNum": 128,
       "sentence": "Wolves sneaked into hunter gatherer camps to feed on food scraps.",
       "wordToTest": "sneaked",
+      "expl": {
+         "rootWord": "sneak",
+         "type": "verb",
+         "def": "to go somewhere secretly"
+      },
       "options": [
          "crept",
          "ran",
@@ -1555,6 +2179,11 @@
       "qnNum": 129,
       "sentence": "They are descendants of the original English and Scottish settlers.",
       "wordToTest": "descendants",
+      "expl": {
+         "rootWord": "descendant",
+         "type": "noun",
+         "def": "a person who is an offspring, however remote, of a certain ancestor, family group, etc."
+      },
       "options": [
          "ancestors",
          "followers",
@@ -1567,6 +2196,11 @@
       "qnNum": 130,
       "sentence": "Maglevs harness the repulsion by rapidly switching on and off electromagnets.",
       "wordToTest": "harness",
+      "expl": {
+         "rootWord": "harness",
+         "type": "verb",
+         "def": "to control sth, usually in order to use its power"
+      },
       "options": [
          "utilise",
          "generate",
@@ -1579,6 +2213,11 @@
       "qnNum": 131,
       "sentence": "As a transportation nut, I must try to ride the Maglev.",
       "wordToTest": "nut",
+      "expl": {
+         "rootWord": "nut",
+         "type": "noun",
+         "def": "someone who is extremely enthusiastic about a particular activity or thing"
+      },
       "options": [
          "observer",
          "researcher",
@@ -1591,6 +2230,11 @@
       "qnNum": 132,
       "sentence": "Rescue centres will need to provide a protocol.",
       "wordToTest": "a protocol",
+      "expl": {
+         "rootWord": "protocol",
+         "type": "noun",
+         "def": "the formal system of rules for correct behaviour on official occasions"
+      },
       "options": [
          "an instruction",
          "a warning",
@@ -1603,11 +2247,16 @@
       "qnNum": 133,
       "sentence": "Public education and outreach is important.",
       "wordToTest": "outreach",
+      "expl": {
+         "rootWord": "outreach",
+         "type": "noun",
+         "def": "an effort to bring services or information to people where they live or spend time"
+      },
       "options": [
          "bringing services or information to people",
          "teaching people about relevant topics",
          "experiencing and practising",
-         "enhancing people's awareness"
+         "enhancing people’s awareness"
       ],
       "correctAns": "bringing services or information to people"
    },
@@ -1615,6 +2264,11 @@
       "qnNum": 134,
       "sentence": "An ex-hunter found a pangolin in his orchard.",
       "wordToTest": "orchard",
+      "expl": {
+         "rootWord": "orchard",
+         "type": "noun",
+         "def": "a piece of land, normally enclosed, in which fruit trees are grown"
+      },
       "options": [
          "rice field",
          "backyard",
@@ -1627,6 +2281,11 @@
       "qnNum": 135,
       "sentence": "There was an extremely animated discussion on the subject.",
       "wordToTest": "animated",
+      "expl": {
+         "rootWord": "animated",
+         "type": "adj",
+         "def": "full of interest and energy"
+      },
       "options": [
          "heated",
          "constructive",
@@ -1639,6 +2298,11 @@
       "qnNum": 136,
       "sentence": "He appeared nonchalant in court when the judge ordered him to pay $1000.",
       "wordToTest": "nonchalant",
+      "expl": {
+         "rootWord": "nonchalant",
+         "type": "adj",
+         "def": "(of a person or manner) feeling or appearing casually calm and relaxed"
+      },
       "options": [
          "sad",
          "frantic",
@@ -1651,6 +2315,11 @@
       "qnNum": 137,
       "sentence": "The passengers will not ignore the marvel of the trip.",
       "wordToTest": "marvel",
+      "expl": {
+         "rootWord": "marvel",
+         "type": "noun",
+         "def": "a wonderful or astonishing person or thing"
+      },
       "options": [
          "wonder",
          "encounter",
@@ -1663,6 +2332,11 @@
       "qnNum": 138,
       "sentence": "I caught a momentary glimpse of them.",
       "wordToTest": "momentary",
+      "expl": {
+         "rootWord": "momentary",
+         "type": "adj",
+         "def": "lasting for a very short time; brief"
+      },
       "options": [
          "noticeable",
          "surprising",
@@ -1675,6 +2349,11 @@
       "qnNum": 139,
       "sentence": "She likes to pry into private affairs of others.",
       "wordToTest": "pry into",
+      "expl": {
+         "rootWord": "pry into",
+         "type": "phrase",
+         "def": "to try to find out private facts about a person"
+      },
       "options": [
          "listen to",
          "peer at",
@@ -1685,8 +2364,13 @@
    },
    {
       "qnNum": 140,
-      "sentence": "A moment later I stepped into a gleaming, gold-pillared entrance hall.",
+      "sentence": "A moment later I stepped into a gleaming, gold-pillared entrance hall. ",
       "wordToTest": "gleaming",
+      "expl": {
+         "rootWord": "gleaming",
+         "type": "adj",
+         "def": "reflecting light, typically because very clean or polished"
+      },
       "options": [
          "shiny",
          "stunning",
@@ -1699,6 +2383,11 @@
       "qnNum": 141,
       "sentence": "The villagers are increasingly tending toward Japanese motifs.",
       "wordToTest": "motifs",
+      "expl": {
+         "rootWord": "motif",
+         "type": "noun",
+         "def": "a pattern or design; an idea that is used many times in a piece of writing or music"
+      },
       "options": [
          "historical stories",
          "patterns or designs",
@@ -1711,6 +2400,11 @@
       "qnNum": 142,
       "sentence": "The legal amendment required strong scientific evidence.",
       "wordToTest": "amendment",
+      "expl": {
+         "rootWord": "amendment",
+         "type": "noun",
+         "def": "a change to a law that is not yet in operation and is still being discussed"
+      },
       "options": [
          "pass of law",
          "nullification of law",
@@ -1723,6 +2417,11 @@
       "qnNum": 143,
       "sentence": "Fatty foods should be eliminated from the diet.",
       "wordToTest": "eliminated",
+      "expl": {
+         "rootWord": "eliminate",
+         "type": "verb",
+         "def": "to completely remove or get rid of (sth)"
+      },
       "options": [
          "decreased",
          "increased",
@@ -1735,6 +2434,11 @@
       "qnNum": 144,
       "sentence": "This time I dutifully headed to security and immigration, which moved painfully slow.",
       "wordToTest": "dutifully",
+      "expl": {
+         "rootWord": "dutifully",
+         "type": "adv",
+         "def": "in a way that shows that you want to obey and do everything that you are expected to do"
+      },
       "options": [
          "obediently",
          "promptly",
@@ -1747,6 +2451,11 @@
       "qnNum": 145,
       "sentence": "Conservationists faced an uphill battle to elevate the status of Sunda pangolin.",
       "wordToTest": "elevate",
+      "expl": {
+         "rootWord": "elevate",
+         "type": "verb",
+         "def": "to raise sth or lift sth up"
+      },
       "options": [
          "strengthen",
          "justify",
@@ -1759,6 +2468,11 @@
       "qnNum": 146,
       "sentence": "Scientists have no effective means to find and count the elusive animal.",
       "wordToTest": "means",
+      "expl": {
+         "rootWord": "means",
+         "type": "noun",
+         "def": "a method or way of doing sth"
+      },
       "options": [
          "method",
          "guidance",
@@ -1771,6 +2485,11 @@
       "qnNum": 148,
       "sentence": "The house has been restored to its original splendour.",
       "wordToTest": "restored",
+      "expl": {
+         "rootWord": "restore",
+         "type": "verb",
+         "def": "to bring back or re-establish (a previous right, practice, or situation)"
+      },
       "options": [
          "built",
          "decorated",
@@ -1780,9 +2499,31 @@
       "correctAns": "brought back"
    },
    {
+      "qnNum": 148,
+      "sentence": "This company pioneered the use of silicon chip.",
+      "wordToTest": "pioneered",
+      "expl": {
+         "rootWord": "pioneer",
+         "type": "verb",
+         "def": "to develop or be the first to use or apply (a new method, area of knowledge, or activity)"
+      },
+      "options": [
+         "claimed to own",
+         "early researched",
+         "first developed",
+         "finally bought"
+      ],
+      "correctAns": "first developed"
+   },
+   {
       "qnNum": 149,
       "sentence": "Mr Kamprad was one of the greatest entrepreneurs of the 20th.",
       "wordToTest": "entrepreneurs",
+      "expl": {
+         "rootWord": "entrepreneur",
+         "type": "noun",
+         "def": "a person who sets up a business or businesses, taking on financial risks in the hope of profit"
+      },
       "options": [
          "product salesmen",
          "philanthropists",
@@ -1795,6 +2536,11 @@
       "qnNum": 150,
       "sentence": "He worked until the very end of his life, staying true to his own motto.",
       "wordToTest": "motto",
+      "expl": {
+         "rootWord": "motto",
+         "type": "noun",
+         "def": "a short sentence or phrase chosen as expressing the beliefs or ideals of an individual, family, or institution"
+      },
       "options": [
          "habit",
          "maxim",
@@ -1807,6 +2553,11 @@
       "qnNum": 151,
       "sentence": "The alluring demand from Vietnam has changed pangolin hunting in Malaysia.",
       "wordToTest": "alluring",
+      "expl": {
+         "rootWord": "alluring",
+         "type": "adj",
+         "def": "attractive or exciting"
+      },
       "options": [
          "attractive",
          "significant",
@@ -1819,6 +2570,11 @@
       "qnNum": 152,
       "sentence": "Mr Kamprad said that it was in the nature of Småland to be thrifty.",
       "wordToTest": "thrifty",
+      "expl": {
+         "rootWord": "thrifty",
+         "type": "noun",
+         "def": "using money and other resources carefully and not wastefully"
+      },
       "options": [
          "cautious",
          "smart",
@@ -1831,6 +2587,11 @@
       "qnNum": 153,
       "sentence": "The whole ethos of the hotel is effortless service.",
       "wordToTest": "ethos",
+      "expl": {
+         "rootWord": "ethos",
+         "type": "noun",
+         "def": "the set of beliefs, ideas, etc. about the social behaviour and relationships of a person or group"
+      },
       "options": [
          "beliefs",
          "methods",
@@ -1843,6 +2604,11 @@
       "qnNum": 154,
       "sentence": "He bought them in bulk cheaply and re-sold them individually at a very low price.",
       "wordToTest": "in bulk",
+      "expl": {
+         "rootWord": "in bulk",
+         "type": "phrase",
+         "def": "(of goods) in large quantities and generally of a reduced price"
+      },
       "options": [
          "in quick way",
          "in large quantity",
@@ -1855,6 +2621,11 @@
       "qnNum": 155,
       "sentence": "This period saw the use of a catalogue and a showroom to reach the many people.",
       "wordToTest": "a catalogue",
+      "expl": {
+         "rootWord": "catalogue",
+         "type": "noun",
+         "def": "a complete list of items, typically one in alphabetical or other systematic order"
+      },
       "options": [
          "a service manual of products",
          "a publication containing details of items for sale",
@@ -1867,18 +2638,28 @@
       "qnNum": 156,
       "sentence": "This novel may well become a classic.",
       "wordToTest": "classic",
+      "expl": {
+         "rootWord": "classic",
+         "type": "noun",
+         "def": "a work of art of recognised and established value"
+      },
       "options": [
          "popular one",
          "influential one",
          "special one",
-         "long-lasting one"
+         "model one"
       ],
-      "correctAns": "long-lasting one"
+      "correctAns": "model one"
    },
    {
       "qnNum": 157,
       "sentence": "Being a teenager, I was completely mortified.",
       "wordToTest": "mortified",
+      "expl": {
+         "rootWord": "mortify",
+         "type": "verb",
+         "def": "to make sb feel very ashamed or embarrassed"
+      },
       "options": [
          "horrified",
          "embarrassed",
@@ -1891,6 +2672,11 @@
       "qnNum": 158,
       "sentence": "Kalin fiercely defended his small domain from any authorities who tried to take it away.",
       "wordToTest": "domain",
+      "expl": {
+         "rootWord": "domain",
+         "type": "noun",
+         "def": "an area of territory owned or controlled by a particular ruler or government"
+      },
       "options": [
          "territory",
          "house",
@@ -1903,6 +2689,11 @@
       "qnNum": 159,
       "sentence": "Modern office blocks and high-rise flats now surround the overgrown garden.",
       "wordToTest": "overgrown",
+      "expl": {
+         "rootWord": "overgrown",
+         "type": "adj",
+         "def": "covered with plants that have been allowed to grow wild"
+      },
       "options": [
          "baren and desolate",
          "filled with waste",
@@ -1915,6 +2706,11 @@
       "qnNum": 160,
       "sentence": "Take your time, don't cut corners and follow instructions.",
       "wordToTest": "cut corners",
+      "expl": {
+         "rootWord": "cut corners",
+         "type": "phrase",
+         "def": "to save money or time when doing sth by not including some parts, actions, or details"
+      },
       "options": [
          "remove corners",
          "reduce corners",
@@ -1927,6 +2723,11 @@
       "qnNum": 161,
       "sentence": "Fortified against the cold by a heavy coat, he went out into the snow.",
       "wordToTest": "fortified",
+      "expl": {
+         "rootWord": "fortify",
+         "type": "verb",
+         "def": "to provide (a place) with defensive works as protection against attack"
+      },
       "options": [
          "Equipped",
          "Armed",
@@ -1939,6 +2740,11 @@
       "qnNum": 162,
       "sentence": "From his flat he could see the eyesore of the rubbish dump and decided to start there.",
       "wordToTest": "eyesore",
+      "expl": {
+         "rootWord": "eyesore",
+         "type": "noun",
+         "def": "a thing that is very ugly"
+      },
       "options": [
          "eye itch",
          "ugliness",
@@ -1951,6 +2757,11 @@
       "qnNum": 163,
       "sentence": "He had this countryside mentality.",
       "wordToTest": "mentality",
+      "expl": {
+         "rootWord": "mentality",
+         "type": "noun",
+         "def": "the characteristic way of thinking of a person or group"
+      },
       "options": [
          "homesick",
          "mindset",
@@ -1963,6 +2774,11 @@
       "qnNum": 164,
       "sentence": "He was cooped up in an apartment.",
       "wordToTest": "cooped up",
+      "expl": {
+         "rootWord": "coop up",
+         "type": "phrase",
+         "def": "to keep (a person or animal) inside a building or in a small space"
+      },
       "options": [
          "confined",
          "kidnapped",
@@ -1975,6 +2791,11 @@
       "qnNum": 165,
       "sentence": "My grandfather was a devout Muslim, so he didn't drink alcohol.",
       "wordToTest": "devout",
+      "expl": {
+         "rootWord": "devout",
+         "type": "adj",
+         "def": "having or showing deep religious feeling or commitment"
+      },
       "options": [
          "aged",
          "converted",
@@ -1987,6 +2808,11 @@
       "qnNum": 166,
       "sentence": "It may be necessary to make alternative arrangements.",
       "wordToTest": "alternative",
+      "expl": {
+         "rootWord": "alternative",
+         "type": "adj",
+         "def": "available as another possibility or choice"
+      },
       "options": [
          "special",
          "different",
@@ -1999,6 +2825,11 @@
       "qnNum": 167,
       "sentence": "He was so strong and pugnacious.",
       "wordToTest": "pugnacious",
+      "expl": {
+         "rootWord": "pugnacious",
+         "type": "adj",
+         "def": "eager or quick to argue, quarrel, or fight"
+      },
       "options": [
          "aggressive",
          "robust",
@@ -2011,6 +2842,11 @@
       "qnNum": 168,
       "sentence": "The study also found that smugglers were very mobile.",
       "wordToTest": "mobile",
+      "expl": {
+         "rootWord": "mobile",
+         "type": "adj",
+         "def": "able to move or be moved freely or easily"
+      },
       "options": [
          "existing everywhere",
          "moving around",
@@ -2022,7 +2858,12 @@
    {
       "qnNum": 169,
       "sentence": "Checking all the information will be slow and laborious.",
-      "wordToTest": "laborious ",
+      "wordToTest": "laborious",
+      "expl": {
+         "rootWord": "laborious",
+         "type": "adj",
+         "def": "able to move or be moved freely or easily"
+      },
       "options": [
          "impossible",
          "arduous",
@@ -2035,6 +2876,11 @@
       "qnNum": 170,
       "sentence": "Authorities in 67 countries confiscated shipments of about 47,000 whole pangolins.",
       "wordToTest": "confiscated",
+      "expl": {
+         "rootWord": "confiscate",
+         "type": "verb",
+         "def": "to take a possession away from someone when you have the right to do so"
+      },
       "options": [
          "discovered",
          "destroyed",
@@ -2047,6 +2893,11 @@
       "qnNum": 171,
       "sentence": "I couldn't believe that the German authorities saw this letter and they just waived the fine!",
       "wordToTest": "waived",
+      "expl": {
+         "rootWord": "waive",
+         "type": "verb",
+         "def": "to not demand sth you have a right to, or not cause a rule to be obeyed"
+      },
       "options": [
          "disregarded",
          "postponed",
@@ -2059,6 +2910,11 @@
       "qnNum": 172,
       "sentence": "She embodied good sportsmanship on the playing field.",
       "wordToTest": "embodied",
+      "expl": {
+         "rootWord": "embody",
+         "type": "verb",
+         "def": "to be an expression of or give a tangible or visible form to (an idea, quality, or feeling)"
+      },
       "options": [
          "rewrote",
          "boosted",
@@ -2071,8 +2927,13 @@
       "qnNum": 173,
       "sentence": "Nobody knew who he was, they saw him merely as a squatter using public space.",
       "wordToTest": "squatter",
+      "expl": {
+         "rootWord": "squatter",
+         "type": "noun",
+         "def": "someone in the past who took land that did not officially belong to them in order to use it for farming"
+      },
       "options": [
-         "unknown farmer ",
+         "unknown farmer",
          "foreign gardener",
          "illegal intruder",
          "illegal occupier"
@@ -2083,6 +2944,11 @@
       "qnNum": 174,
       "sentence": "The council decided to evict Kalin.",
       "wordToTest": "evict",
+      "expl": {
+         "rootWord": "evict",
+         "type": "verb",
+         "def": "to force sb to leave a house or land, esp. when you have the legal right to do so"
+      },
       "options": [
          "remove",
          "prosecute",
@@ -2095,6 +2961,11 @@
       "qnNum": 175,
       "sentence": "So many people have rallied round to help the family.",
       "wordToTest": "rallied",
+      "expl": {
+         "rootWord": "rally",
+         "type": "verb",
+         "def": "to assemble in a mass meeting"
+      },
       "options": [
          "assembled",
          "protested",
@@ -2107,6 +2978,11 @@
       "qnNum": 176,
       "sentence": "His son now tends to the garden.",
       "wordToTest": "tends to",
+      "expl": {
+         "rootWord": "tend to",
+         "type": "phrase",
+         "def": "to deal with the problems or needs of a person or thing"
+      },
       "options": [
          "looks after",
          "looks for",
@@ -2119,6 +2995,11 @@
       "qnNum": 177,
       "sentence": "Funda uses the fresh onions and garlic as ingredients for her contemporary Turkish food business.",
       "wordToTest": "contemporary",
+      "expl": {
+         "rootWord": "contemporary",
+         "type": "adj",
+         "def": "belonging to the present time, modern"
+      },
       "options": [
          "modern",
          "authentic",
@@ -2129,8 +3010,13 @@
    },
    {
       "qnNum": 178,
-      "sentence": "As the land’s value increases, developers may be harder to stave off.",
+      "sentence": "As the land's value increases, developers may be harder to stave off.",
       "wordToTest": "stave off",
+      "expl": {
+         "rootWord": "stave off",
+         "type": "phrase",
+         "def": "to prevent sth, or prevent someone from doing sth"
+      },
       "options": [
          "grapple with",
          "back off",
@@ -2143,6 +3029,11 @@
       "qnNum": 179,
       "sentence": "The tree is an imported species that is fast-growing and invasive.",
       "wordToTest": "invasive",
+      "expl": {
+         "rootWord": "invasive",
+         "type": "adj",
+         "def": "moving into all areas of sth and difficult to stop"
+      },
       "options": [
          "intrusive",
          "prolific",
@@ -2155,6 +3046,11 @@
       "qnNum": 180,
       "sentence": "He reluctantly accepted it in the end.",
       "wordToTest": "reluctantly",
+      "expl": {
+         "rootWord": "reluctantly",
+         "type": "adv",
+         "def": "in a way that shows that you are not willing to do sth and are therefore slow to do it"
+      },
       "options": [
          "angrily",
          "unwillingly",
@@ -2167,6 +3063,11 @@
       "qnNum": 181,
       "sentence": "Eight species of pangolins live across Africa and Asia, and all are in peril.",
       "wordToTest": "peril",
+      "expl": {
+         "rootWord": "peril",
+         "type": "noun",
+         "def": "serious and immediate danger"
+      },
       "options": [
          "captivity",
          "danger",
@@ -2179,6 +3080,11 @@
       "qnNum": 182,
       "sentence": "Countries began closing their sea borders - leaving the vessel with no a safe haven.",
       "wordToTest": "haven",
+      "expl": {
+         "rootWord": "haven",
+         "type": "noun",
+         "def": "a place that is safe and peaceful where people go to rest or to be protected from sth"
+      },
       "options": [
          "heaven",
          "refuge",
@@ -2191,6 +3097,11 @@
       "qnNum": 183,
       "sentence": "They clustered on the foredeck around the tiny radio, intently listening to a crackled voice.",
       "wordToTest": "clustered",
+      "expl": {
+         "rootWord": "cluster",
+         "type": "verb",
+         "def": "to form a group, sometimes by surrounding sth or someone"
+      },
       "options": [
          "gathered",
          "moved",
@@ -2203,6 +3114,11 @@
       "qnNum": 184,
       "sentence": "Elisa’s bond with pangolins started when she was 10-years-old.",
       "wordToTest": "bond",
+      "expl": {
+         "rootWord": "bond",
+         "type": "noun",
+         "def": "a close connection joining two or more people"
+      },
       "options": [
          "liking",
          "interest",
@@ -2215,6 +3131,11 @@
       "qnNum": 185,
       "sentence": "She is suspected of complicity in the fraud.",
       "wordToTest": "complicity ",
+      "expl": {
+         "rootWord": "complicity",
+         "type": "noun",
+         "def": "the fact or condition of being involved with others in an activity that is unlawful or morally wrong"
+      },
       "options": [
          "hiding a crime",
          "investigation of a crime",
@@ -2227,6 +3148,11 @@
       "qnNum": 186,
       "sentence": "His former colleagues have denounced him as a spy.",
       "wordToTest": "denounced",
+      "expl": {
+         "rootWord": "denounce",
+         "type": "verb",
+         "def": "to publicly declare to be wrong or evil; inform against"
+      },
       "options": [
          "condemned",
          "described",
@@ -2239,6 +3165,11 @@
       "qnNum": 187,
       "sentence": "Apply the cream sparingly to your face and neck.",
       "wordToTest": "sparingly",
+      "expl": {
+         "rootWord": "sparingly",
+         "type": "adv",
+         "def": "using very little of sth; in small quantities"
+      },
       "options": [
          "often",
          "slightly",
@@ -2251,6 +3182,11 @@
       "qnNum": 188,
       "sentence": "I am afraid your plan is not financially viable.",
       "wordToTest": "viable",
+      "expl": {
+         "rootWord": "viable",
+         "type": "adj",
+         "def": "that can be done; that will be successful"
+      },
       "options": [
          "reliable",
          "foreseeable",
@@ -2263,6 +3199,11 @@
       "qnNum": 189,
       "sentence": "Can we finally turn the tide on the pangolin’s declining numbers?",
       "wordToTest": "turn the tide",
+      "expl": {
+         "rootWord": "turn the tide",
+         "type": "phrase",
+         "def": "to reverse the trend of events"
+      },
       "options": [
          "stop",
          "reverse",
@@ -2275,6 +3216,11 @@
       "qnNum": 190,
       "sentence": "This has also been put in jeopardy by the coronavirus pandemic.",
       "wordToTest": "in jeopardy",
+      "expl": {
+         "rootWord": "in jeopardy",
+         "type": "phrase",
+         "def": "in danger of loss, harm, or failure"
+      },
       "options": [
          "in dismay",
          "in disappointment",
@@ -2287,6 +3233,11 @@
       "qnNum": 191,
       "sentence": "We get goosebumps while watching horror movies.",
       "wordToTest": "get goosebumps",
+      "expl": {
+         "rootWord": "get goosebumps",
+         "type": "phrase",
+         "def": "to be cold or experience strong emotions such as fear"
+      },
       "options": [
          "are cold",
          "are scared",
@@ -2299,6 +3250,11 @@
       "qnNum": 192,
       "sentence": "Before departure they were plagued with doubts and indecision.",
       "wordToTest": "plagued with",
+      "expl": {
+         "rootWord": "plague with",
+         "type": "phrase",
+         "def": "to cause worry, pain, or difficulty to someone or sth over a period of time"
+      },
       "options": [
          "dealing with",
          "facing",
@@ -2311,6 +3267,11 @@
       "qnNum": 193,
       "sentence": "We had to put such apprehensive thoughts aside.",
       "wordToTest": "apprehensive",
+      "expl": {
+         "rootWord": "apprehensive",
+         "type": "adj",
+         "def": "(about/for/of) worried or frightened that sth unpleasant may happen"
+      },
       "options": [
          "unreasonable",
          "fearful",
@@ -2323,6 +3284,11 @@
       "qnNum": 194,
       "sentence": "One crew member decided to bail out at the last minute.",
       "wordToTest": "bail out",
+      "expl": {
+         "rootWord": "bail out",
+         "type": "phrase",
+         "def": "to stop doing or being involved with sth"
+      },
       "options": [
          "join",
          "continue",
@@ -2335,6 +3301,11 @@
       "qnNum": 195,
       "sentence": "They were sailing at around 13 degrees latitude.",
       "wordToTest": "latitude",
+      "expl": {
+         "rootWord": "latitude",
+         "type": "noun",
+         "def": "the angular distance of a place north or south of the earth's equator"
+      },
       "options": [
          "longitude",
          "angular distance to north pole",
@@ -2347,6 +3318,11 @@
       "qnNum": 196,
       "sentence": "It sounds pathetic that an iPhone was now our most full-featured navigation tool.",
       "wordToTest": "pathetic",
+      "expl": {
+         "rootWord": "pathetic",
+         "type": "adj",
+         "def": "causing feelings of sadness, sympathy, or sometimes lack of respect"
+      },
       "options": [
          "realistic",
          "practical",
@@ -2359,6 +3335,11 @@
       "qnNum": 197,
       "sentence": "They also needed to anchor somewhere, even an uninhabited atoll.",
       "wordToTest": "anchor",
+      "expl": {
+         "rootWord": "anchor",
+         "type": "verb",
+         "def": "to lower an anchor into the water in order to stop a boat from moving away"
+      },
       "options": [
          "moor",
          "land",
@@ -2371,6 +3352,11 @@
       "qnNum": 198,
       "sentence": "She is quite eclipsed by her clever younger sister.",
       "wordToTest": "eclipsed",
+      "expl": {
+         "rootWord": "eclipse",
+         "type": "verb",
+         "def": "to make another person or thing seem much less important, good, or famous"
+      },
       "options": [
          "shocked",
          "surpassed",
@@ -2383,6 +3369,11 @@
       "qnNum": 199,
       "sentence": "She manoeuvred the car carefully into the garage.",
       "wordToTest": "manoeuvred",
+      "expl": {
+         "rootWord": "manoeuvre",
+         "type": "verb",
+         "def": "to move skilfully or carefully"
+      },
       "options": [
          "moved slowly",
          "moved skilfully",
@@ -2395,6 +3386,11 @@
       "qnNum": 200,
       "sentence": "It's the heavens above and infinite sea around.",
       "wordToTest": "infinite",
+      "expl": {
+         "rootWord": "infinite",
+         "type": "adj",
+         "def": "limitless or endless in space, extent, or size"
+      },
       "options": [
          "wavy",
          "blue",
@@ -2407,6 +3403,11 @@
       "qnNum": 201,
       "sentence": "The streets were illuminated with strings of coloured lights.",
       "wordToTest": "illuminated",
+      "expl": {
+         "rootWord": "illuminate",
+         "type": "verb",
+         "def": "to light up"
+      },
       "options": [
          "decorated",
          "demonstrated",
@@ -2419,6 +3420,11 @@
       "qnNum": 202,
       "sentence": "She succeeded by virtue of her tenacity rather than her talent.",
       "wordToTest": "tenacity",
+      "expl": {
+         "rootWord": "tenacity",
+         "type": "noun",
+         "def": "persistence; stubbornness"
+      },
       "options": [
          "perseverance",
          "intelligence",
@@ -2431,6 +3437,11 @@
       "qnNum": 203,
       "sentence": "She specialises in the Sunda pangolin, a critically endangered species.",
       "wordToTest": "specialises in",
+      "expl": {
+         "rootWord": "specialise in",
+         "type": "phrase",
+         "def": "to spend most of your time studying one particular subject or doing one type of business"
+      },
       "options": [
          "looks after",
          "has interest in",
@@ -2443,6 +3454,11 @@
       "qnNum": 204,
       "sentence": "All her hard work paid off in the end, and she finally passed the exam.",
       "wordToTest": "paid off",
+      "expl": {
+         "rootWord": "pay off",
+         "type": "phrase",
+         "def": "to turn out to be profitable, effective, etc."
+      },
       "options": [
          "got paid",
          "lasted",
@@ -2455,6 +3471,11 @@
       "qnNum": 205,
       "sentence": "The pangolin’s weird looks fascinated her.",
       "wordToTest": "fascinated",
+      "expl": {
+         "rootWord": "fascinate",
+         "type": "verb",
+         "def": "to attract or interest sb very much"
+      },
       "options": [
          "shook",
          "alerted",
@@ -2467,6 +3488,11 @@
       "qnNum": 206,
       "sentence": "Sunda pangolins are solitary and elusive animals.",
       "wordToTest": "solitary",
+      "expl": {
+         "rootWord": "solitary",
+         "type": "adj",
+         "def": "done alone; without other people"
+      },
       "options": [
          "solid",
          "rare",
@@ -2479,6 +3505,11 @@
       "qnNum": 207,
       "sentence": "Sunda pangolins are solitary and elusive animals.",
       "wordToTest": "elusive",
+      "expl": {
+         "rootWord": "elusive",
+         "type": "adj",
+         "def": "too difficult to find, define, or achieve"
+      },
       "options": [
          "wild",
          "outlandish",
@@ -2491,6 +3522,11 @@
       "qnNum": 208,
       "sentence": "Sunda pangolins tread quietly across the forest floor.",
       "wordToTest": "tread",
+      "expl": {
+         "rootWord": "tread",
+         "type": "verb",
+         "def": "to put your foot on sth or to press sth down with your foot; walk in a specified way"
+      },
       "options": [
          "walk in specified way",
          "run slowly",
@@ -2503,6 +3539,11 @@
       "qnNum": 209,
       "sentence": "Pangolin’s brown scales are a perfect camouflage in the forest.",
       "wordToTest": "camouflage",
+      "expl": {
+         "rootWord": "camouflage",
+         "type": "noun",
+         "def": "the act, means, or results of obscuring things to deceive an enemy"
+      },
       "options": [
          "cover",
          "colour",
@@ -2515,6 +3556,11 @@
       "qnNum": 210,
       "sentence": "The team raise public awareness about the Sunda pangolin’s plight.",
       "wordToTest": "awareness",
+      "expl": {
+         "rootWord": "awareness",
+         "type": "noun",
+         "def": "knowledge or perception of a situation or fact"
+      },
       "options": [
          "habit",
          "view",
@@ -2527,6 +3573,11 @@
       "qnNum": 211,
       "sentence": "The team raise public awareness about the Sunda pangolin’s plight.",
       "wordToTest": "plight",
+      "expl": {
+         "rootWord": "plight",
+         "type": "noun",
+         "def": "a dangerous, difficult and sad situation"
+      },
       "options": [
          "disaster",
          "trouble",
@@ -2539,6 +3590,11 @@
       "qnNum": 212,
       "sentence": "Wild fauna and flora are important parts of ecosystem.",
       "wordToTest": "fauna",
+      "expl": {
+         "rootWord": "fauna",
+         "type": "noun",
+         "def": "all the animals living in an area or in a particular period of history"
+      },
       "options": [
          "creatures",
          "animals",
@@ -2551,6 +3607,11 @@
       "qnNum": 213,
       "sentence": "Wild fauna and flora are important parts of ecosystem.",
       "wordToTest": "flora",
+      "expl": {
+         "rootWord": "flora",
+         "type": "noun",
+         "def": "plants considered as a group, esp. the plants of a particular country, region, or time"
+      },
       "options": [
          "creatures",
          "animals",
@@ -2563,6 +3624,11 @@
       "qnNum": 214,
       "sentence": "The team illustrated the immense poaching pressure on Sunda pangolins.",
       "wordToTest": "illustrated",
+      "expl": {
+         "rootWord": "illustrate",
+         "type": "verb",
+         "def": "to show the meaning or truth of sth more clearly, esp. by giving examples"
+      },
       "options": [
          "explained",
          "conveyed",
@@ -2575,6 +3641,11 @@
       "qnNum": 215,
       "sentence": "Pangolins are notoriously difficult captive animals and most die within six months.",
       "wordToTest": "notoriously",
+      "expl": {
+         "rootWord": "notoriously",
+         "type": "adv",
+         "def": "in a way that is famous for sth bad"
+      },
       "options": [
          "famously",
          "infamously",
@@ -2587,6 +3658,11 @@
       "qnNum": 216,
       "sentence": "We need to assess the impact on climate change.",
       "wordToTest": "assess",
+      "expl": {
+         "rootWord": "assess",
+         "type": "verb",
+         "def": "to judge or decide the amount, value, quality, or importance of sth"
+      },
       "options": [
          "study",
          "evaluate",
@@ -2599,6 +3675,11 @@
       "qnNum": 217,
       "sentence": "Tall jagged rocks jutted out over the beach.",
       "wordToTest": "jagged",
+      "expl": {
+         "rootWord": "jagged",
+         "type": "adj",
+         "def": "with rough, pointed, often sharp edges"
+      },
       "options": [
          "round",
          "smooth",
@@ -2611,6 +3692,11 @@
       "qnNum": 218,
       "sentence": "A neat cluster of whitewashed, red-roofed buildings set on a sheltered bay.",
       "wordToTest": "sheltered",
+      "expl": {
+         "rootWord": "sheltered",
+         "type": "adj",
+         "def": "(of a place) protected from bad weather"
+      },
       "options": [
          "remote",
          "settled",
@@ -2623,18 +3709,28 @@
       "qnNum": 219,
       "sentence": "They provided sustenance for sailors shipwrecked off Cape Horn.",
       "wordToTest": "sustenance",
+      "expl": {
+         "rootWord": "sustenance",
+         "type": "noun",
+         "def": "food or drink which a person, animal, or plant needs to remain alive and healthy"
+      },
       "options": [
          "help",
-         "provisions",
-         "groceries",
-         "fresh water"
+         "food or drink",
+         "fresh vegetables",
+         "support"
       ],
-      "correctAns": "provisions"
+      "correctAns": "food or drink"
    },
    {
       "qnNum": 220,
       "sentence": "The bay provides sanctuary for indigenous people.",
       "wordToTest": "indigenous",
+      "expl": {
+         "rootWord": "indigenous",
+         "type": "adj",
+         "def": "naturally existing in a place or country rather than arriving from another place"
+      },
       "options": [
          "foreign",
          "colonial",
@@ -2647,6 +3743,11 @@
       "qnNum": 221,
       "sentence": "The bay provides sanctuary for indigenous people.",
       "wordToTest": "sanctuary",
+      "expl": {
+         "rootWord": "sanctuary",
+         "type": "noun",
+         "def": "an area where wild birds or animals are protected and encouraged to breed"
+      },
       "options": [
          "groceries",
          "livelihood",
@@ -2659,6 +3760,11 @@
       "qnNum": 222,
       "sentence": "Tierra del Fuego was once the haunt of whalers.",
       "wordToTest": "haunt",
+      "expl": {
+         "rootWord": "haunt",
+         "type": "noun",
+         "def": "a place frequented by specified person or animal"
+      },
       "options": [
          "training place",
          "gathering place",
@@ -2669,20 +3775,30 @@
    },
    {
       "qnNum": 223,
-      "sentence": "They provided sustenance for sailors shipwrecked off Cape Horn.",
-      "wordToTest": "sustenance",
+      "sentence": "In severe winters temperatures can plunge below -20C.",
+      "wordToTest": "plunge",
+      "expl": {
+         "rootWord": "plunge",
+         "type": "verb",
+         "def": "to move or fall suddenly and often a long way forward, down, or into sth"
+      },
       "options": [
-         "help",
-         "provisions",
-         "groceries",
-         "fresh water"
+         "drop quickly",
+         "jump quickly",
+         "change quickly",
+         "reach suddenly"
       ],
-      "correctAns": "provisions"
+      "correctAns": "drop quickly"
    },
    {
       "qnNum": 224,
       "sentence": "Digging the garden was backbreaking work.",
       "wordToTest": "backbreaking",
+      "expl": {
+         "rootWord": "backbreaking",
+         "type": "adj",
+         "def": "needing a lot of hard, physical effort and making you feel extremely tired"
+      },
       "options": [
          "strenuous",
          "causing back injury",
@@ -2695,6 +3811,11 @@
       "qnNum": 225,
       "sentence": "They made the treacherous journey across stormy seas.",
       "wordToTest": "treacherous",
+      "expl": {
+         "rootWord": "treacherous",
+         "type": "adj",
+         "def": "(the ground or sea) extremely dangerous, esp. because of bad weather conditions"
+      },
       "options": [
          "unimaginable",
          "dangerous",
@@ -2707,6 +3828,11 @@
       "qnNum": 226,
       "sentence": "The school appeared essentially unchanged since my day.",
       "wordToTest": "essentially ",
+      "expl": {
+         "rootWord": "essentially",
+         "type": "adv",
+         "def": "relating to the most important characteristics or ideas of sth"
+      },
       "options": [
          "basically",
          "completely",
@@ -2719,6 +3845,11 @@
       "qnNum": 227,
       "sentence": "Although the birds looked amiable, the skipper warned me not to go near them.",
       "wordToTest": "amiable",
+      "expl": {
+         "rootWord": "amiable",
+         "type": "adj",
+         "def": "having or displaying a friendly and pleasant manner"
+      },
       "options": [
          "fierce",
          "naive",
@@ -2731,6 +3862,11 @@
       "qnNum": 228,
       "sentence": "The birds expel salt ingested during their fishing trips by loud sneezes.",
       "wordToTest": "expel",
+      "expl": {
+         "rootWord": "expel",
+         "type": "verb",
+         "def": "to force air or water out of a part of the body or from a container"
+      },
       "options": [
          "defecate",
          "urinate",
@@ -2743,6 +3879,11 @@
       "qnNum": 229,
       "sentence": "It was her first encounter and it became her favourite animal.",
       "wordToTest": "encounter",
+      "expl": {
+         "rootWord": "encounter",
+         "type": "noun",
+         "def": "unexpected or casual meeting with someone or sth"
+      },
       "options": [
          "impression",
          "meeting",
@@ -2754,19 +3895,29 @@
    {
       "qnNum": 230,
       "sentence": "The students began to read the text in chorus.",
-      "wordToTest": "chorus",
+      "wordToTest": "in chorus",
+      "expl": {
+         "rootWord": "in chorus",
+         "type": "phrase",
+         "def": "speaking or singing at the same time; simultaneously"
+      },
       "options": [
-         "unison",
-         "action",
-         "line",
-         "sequence"
+         "simultaneously",
+         "loudly",
+         "in a line",
+         "in sequence"
       ],
-      "correctAns": "unison"
+      "correctAns": "simultaneously"
    },
    {
       "qnNum": 231,
       "sentence": "These bones came from a carcass that washed up on a nearby beach.",
       "wordToTest": "carcass",
+      "expl": {
+         "rootWord": "carcass",
+         "type": "noun",
+         "def": "the dead body of an animal"
+      },
       "options": [
          "dead fish",
          "animal torso",
@@ -2779,6 +3930,11 @@
       "qnNum": 232,
       "sentence": "Meetings are held periodically to monitor progress on the case.",
       "wordToTest": "periodically",
+      "expl": {
+         "rootWord": "periodically",
+         "type": "adv",
+         "def": "in a way that is repeated after a particular period of time; from time to time"
+      },
       "options": [
          "immediately",
          "usually",
@@ -2791,6 +3947,11 @@
       "qnNum": 233,
       "sentence": "He went on to found a museum and laboratory dedicated to the study of the region’s wildlife.",
       "wordToTest": "found",
+      "expl": {
+         "rootWord": "found",
+         "type": "verb",
+         "def": "to establish or originate (an institution or organization)"
+      },
       "options": [
          "find",
          "locate",
@@ -2803,6 +3964,11 @@
       "qnNum": 234,
       "sentence": "He went on to found a museum and laboratory dedicated to the study of the region’s wildlife.",
       "wordToTest": "dedicated to",
+      "expl": {
+         "rootWord": "dedicate to",
+         "type": "phrase",
+         "def": "to devote (time or effort) to a particular task or purpose"
+      },
       "options": [
          "committed to",
          "involved in",
@@ -2815,6 +3981,11 @@
       "qnNum": 235,
       "sentence": "Many tigers were killed by bounty hunters.",
       "wordToTest": "bounty",
+      "expl": {
+         "rootWord": "bounty",
+         "type": "noun",
+         "def": "money paid as a reward"
+      },
       "options": [
          "award",
          "honour",
@@ -2827,6 +3998,11 @@
       "qnNum": 236,
       "sentence": "I'm very sorry for tweeting out such fake news.",
       "wordToTest": "fake",
+      "expl": {
+         "rootWord": "fake",
+         "type": "adj",
+         "def": "not genuine; imitation or counterfeit"
+      },
       "options": [
          "bad",
          "false",
@@ -2839,6 +4015,11 @@
       "qnNum": 237,
       "sentence": "Sometimes she is grouchy, but all in all she is an excellent teacher.",
       "wordToTest": "all in all",
+      "expl": {
+         "rootWord": "all in all",
+         "type": "phrase",
+         "def": "everything being taken into account"
+      },
       "options": [
          "no matter what",
          "even though",
@@ -2851,6 +4032,11 @@
       "qnNum": 238,
       "sentence": "The quartet will be performing in a series of lunchtime concerts.",
       "wordToTest": "quartet",
+      "expl": {
+         "rootWord": "quartet",
+         "type": "noun",
+         "def": "a group of four people"
+      },
       "options": [
          "a symphony orchestra",
          "a group of four musicians",
@@ -2863,6 +4049,11 @@
       "qnNum": 239,
       "sentence": "It's important to differentiate between fact and opinion.",
       "wordToTest": "differentiate",
+      "expl": {
+         "rootWord": "differentiate",
+         "type": "verb",
+         "def": "to recognize or ascertain what makes (someone or sth) different"
+      },
       "options": [
          "distinguish",
          "compare",
@@ -2875,6 +4066,11 @@
       "qnNum": 240,
       "sentence": "Just the smell of liver cooking makes me gag.",
       "wordToTest": "gag",
+      "expl": {
+         "rootWord": "gag",
+         "type": "verb",
+         "def": "to choke or retch"
+      },
       "options": [
          "vomit",
          "sicken",
@@ -2887,6 +4083,11 @@
       "qnNum": 241,
       "sentence": "The soldiers trudged through the mud.",
       "wordToTest": "trudged",
+      "expl": {
+         "rootWord": "trudge",
+         "type": "verb",
+         "def": "to walk slowly or with heavy steps because you are tired or carrying sth heavy"
+      },
       "options": [
          "walked",
          "lumbered",
@@ -2899,6 +4100,11 @@
       "qnNum": 242,
       "sentence": "His paintings capture the essence of France.",
       "wordToTest": "essence",
+      "expl": {
+         "rootWord": "essence",
+         "type": "noun",
+         "def": "the basic or most important idea or quality of sth"
+      },
       "options": [
          "reality",
          "portrait",
@@ -2911,6 +4117,11 @@
       "qnNum": 243,
       "sentence": "It's good to have you on board for this project.",
       "wordToTest": "on board",
+      "expl": {
+         "rootWord": "on board",
+         "type": "phrase",
+         "def": "as part of a group or team, esp. for a special purpose"
+      },
       "options": [
          "engaged in",
          "on the plane",
@@ -2923,6 +4134,11 @@
       "qnNum": 244,
       "sentence": "The prices in this shop are extortionate.",
       "wordToTest": "extortionate",
+      "expl": {
+         "rootWord": "extortionate",
+         "type": "adj",
+         "def": "(of a price) much too high; exorbitant"
+      },
       "options": [
          "reasonable",
          "exorbitant",
@@ -2935,6 +4151,11 @@
       "qnNum": 245,
       "sentence": "She put him off with the excuse that she had too much work to do.",
       "wordToTest": "put him off",
+      "expl": {
+         "rootWord": "put someone off",
+         "type": "phrase",
+         "def": "to make someone not want to do something"
+      },
       "options": [
          "deterred him",
          "promised him",
@@ -2947,6 +4168,11 @@
       "qnNum": 246,
       "sentence": "It is their interpretation of incidents that they put a spin on.",
       "wordToTest": "put a spin on",
+      "expl": {
+         "rootWord": "put a spin on",
+         "type": "phrase",
+         "def": "to interpret an event to make it seem favourable or beneficial to oneself"
+      },
       "options": [
          "twisted",
          "reported",
@@ -2959,6 +4185,11 @@
       "qnNum": 247,
       "sentence": "Her designs have a strong visual appeal.",
       "wordToTest": "appeal",
+      "expl": {
+         "rootWord": "appeal",
+         "type": "noun",
+         "def": "a serious, urgent, or heartfelt request"
+      },
       "options": [
          "perception",
          "impression",
@@ -2971,6 +4202,11 @@
       "qnNum": 248,
       "sentence": "The holiday was a refreshing change for us.",
       "wordToTest": "refreshing",
+      "expl": {
+         "rootWord": "refreshing",
+         "type": "adj",
+         "def": "welcome or stimulating because new or different"
+      },
       "options": [
          "lasting",
          "unforgettable",
@@ -2983,6 +4219,11 @@
       "qnNum": 249,
       "sentence": "They stripped him of his citizenship and deported him.",
       "wordToTest": "stripped him of",
+      "expl": {
+         "rootWord": "strip someone of sth",
+         "type": "phrase",
+         "def": "to remove sth from someone or somewhere"
+      },
       "options": [
          "disposed of",
          "granted",
@@ -2995,6 +4236,11 @@
       "qnNum": 250,
       "sentence": "Damage to farmland was catastrophic and main rail links were severed.",
       "wordToTest": "catastrophic",
+      "expl": {
+         "rootWord": "catastrophic",
+         "type": "adj",
+         "def": "causing sudden great damage or suffering"
+      },
       "options": [
          "unprecedented",
          "repairable",
@@ -3007,9 +4253,14 @@
       "qnNum": 251,
       "sentence": "Her greatest dread was that she would lose her job.",
       "wordToTest": "dread",
+      "expl": {
+         "rootWord": "dread",
+         "type": "noun",
+         "def": "a strong feeling of fear or worry"
+      },
       "options": [
          "fear",
-         "question",
+         "expectation",
          "sadness",
          "doubt"
       ],
@@ -3019,6 +4270,11 @@
       "qnNum": 252,
       "sentence": "He embraced my offer to employ him.",
       "wordToTest": "embraced",
+      "expl": {
+         "rootWord": "embrace",
+         "type": "verb",
+         "def": "to accept an idea, a proposal, a set of beliefs, etc. esp. when it is done with enthusiasm"
+      },
       "options": [
          "rejected",
          "questioned",
@@ -3031,6 +4287,11 @@
       "qnNum": 253,
       "sentence": "He took part in a great naval battle.",
       "wordToTest": "naval",
+      "expl": {
+         "rootWord": "naval",
+         "type": "adj",
+         "def": "relating to a navy or navies"
+      },
       "options": [
          "riverside",
          "airborne",
@@ -3043,6 +4304,11 @@
       "qnNum": 254,
       "sentence": "Once Britain was lauded for its education system.",
       "wordToTest": "lauded",
+      "expl": {
+         "rootWord": "laud",
+         "type": "verb",
+         "def": "to praise (a person or their achievements) highly"
+      },
       "options": [
          "famous",
          "proud",
@@ -3055,6 +4321,11 @@
       "qnNum": 255,
       "sentence": "He died from complications related to type 1 diabetes.",
       "wordToTest": "complications",
+      "expl": {
+         "rootWord": "complication",
+         "type": "noun",
+         "def": "extra medical problem that makes it more difficult to treat an existing illness"
+      },
       "options": [
          "acute diseases",
          "allergy problems",
@@ -3067,6 +4338,11 @@
       "qnNum": 256,
       "sentence": "Doctors told the family that his organs would deteriorate the longer he was kept on life support.",
       "wordToTest": "deteriorate",
+      "expl": {
+         "rootWord": "deteriorate",
+         "type": "verb",
+         "def": "to become worse"
+      },
       "options": [
          "function",
          "survive",
@@ -3074,5 +4350,481 @@
          "improve"
       ],
       "correctAns": "worsen"
+   },
+   {
+      "qnNum": 257,
+      "sentence": "People also harbour misconceptions about the organ donation process.",
+      "wordToTest": "harbour",
+      "expl": {
+         "rootWord": "harbour",
+         "type": "verb",
+         "def": "to keep (a thought or feeling, typically a negative one) in one's mind, esp. secretly"
+      },
+      "options": [
+         "agree on",
+         "disbelieve",
+         "expect",
+         "hold"
+      ],
+      "correctAns": "hold"
+   },
+   {
+      "qnNum": 258,
+      "sentence": "New Zealand released a rabbit virus across the country, in an attempt to cull the ballooning population of wild rabbits.",
+      "wordToTest": "ballooning",
+      "expl": {
+         "rootWord": "balloon",
+         "type": "verb",
+         "def": "(of an amount of money spent or owed) increase rapidly"
+      },
+      "options": [
+         "changing erratically",
+         "spreading seriously",
+         "decreasing rapidly",
+         "increasing rapidly"
+      ],
+      "correctAns": "increasing rapidly"
+   },
+   {
+      "qnNum": 259,
+      "sentence": "Other farmers have raised concerns including the risk it may pose to pet rabbits.",
+      "wordToTest": "pose",
+      "expl": {
+         "rootWord": "pose",
+         "type": "verb",
+         "def": "to cause sth, esp. a problem or difficulty"
+      },
+      "options": [
+         "develop",
+         "create",
+         "transfer",
+         "pass"
+      ],
+      "correctAns": "create"
+   },
+   {
+      "qnNum": 260,
+      "sentence": "Their grief soon gave way to anger.",
+      "wordToTest": "grief",
+      "expl": {
+         "rootWord": "grief",
+         "type": "noun",
+         "def": "a feeling of great sadness, esp. when sb dies"
+      },
+      "options": [
+         "great sadness",
+         "great disappointment",
+         "obvious desperation",
+         "sheer madness"
+      ],
+      "correctAns": "great sadness"
+   },
+   {
+      "qnNum": 261,
+      "sentence": "Time had gradually lessened the pain of her grief.",
+      "wordToTest": "lessened",
+      "expl": {
+         "rootWord": "lessen",
+         "type": "verb",
+         "def": "to reduce (sth undesirable) to the smallest possible amount or degree"
+      },
+      "options": [
+         "comforted",
+         "deteriorated",
+         "reduced",
+         "overcame"
+      ],
+      "correctAns": "reduced"
+   },
+   {
+      "qnNum": 262,
+      "sentence": "He quickly relayed the news to the other members of staff.",
+      "wordToTest": "relayed",
+      "expl": {
+         "rootWord": "relay",
+         "type": "verb",
+         "def": "to repeat sth you have heard"
+      },
+      "options": [
+         "related",
+         "transmitted",
+         "attributed",
+         "linked"
+      ],
+      "correctAns": "transmitted"
+   },
+   {
+      "qnNum": 263,
+      "sentence": "Take a deep breath, then exhale slowly.",
+      "wordToTest": "exhale",
+      "expl": {
+         "rootWord": "exhale",
+         "type": "verb",
+         "def": "to breathe out"
+      },
+      "options": [
+         "gasp",
+         "breathe",
+         "breathe in",
+         "breathe out"
+      ],
+      "correctAns": "breathe out"
+   },
+   {
+      "qnNum": 264,
+      "sentence": "Is there any prospect of the weather improving?",
+      "wordToTest": "prospect",
+      "expl": {
+         "rootWord": "prospect",
+         "type": "noun",
+         "def": "the possibility that sth good might happen in the future"
+      },
+      "options": [
+         "forecast",
+         "investigation",
+         "likelihood",
+         "news"
+      ],
+      "correctAns": "likelihood"
+   },
+   {
+      "qnNum": 265,
+      "sentence": "Whales become disoriented in shallow water.",
+      "wordToTest": "disoriented",
+      "expl": {
+         "rootWord": "disoriented",
+         "type": "adj",
+         "def": "confused and not knowing where to go or what to do"
+      },
+      "options": [
+         "bewildered",
+         "endangered",
+         "aggressive",
+         "risk"
+      ],
+      "correctAns": "bewildered"
+   },
+   {
+      "qnNum": 266,
+      "sentence": "Our efforts need to be further coordinated for higher efficiency.",
+      "wordToTest": "coordinated",
+      "expl": {
+         "rootWord": "coordinated",
+         "type": "adj",
+         "def": "effectively organised so that all the parts work well together"
+      },
+      "options": [
+         "improved",
+         "strengthened",
+         "cooperative",
+         "developed"
+      ],
+      "correctAns": "cooperative"
+   },
+   {
+      "qnNum": 267,
+      "sentence": "His anger dissipated as the situation became clear.",
+      "wordToTest": "dissipated",
+      "expl": {
+         "rootWord": "dissipate",
+         "type": "verb",
+         "def": "to gradually disappear or waste"
+      },
+      "options": [
+         "gasp",
+         "",
+         "intensified",
+         "disappeared"
+      ],
+      "correctAns": "disappeared"
+   },
+   {
+      "qnNum": 268,
+      "sentence": "Potato chips, fizzy drinks and chocolate bars are circulated.",
+      "wordToTest": "fizzy",
+      "expl": {
+         "rootWord": "fizzy",
+         "type": "adj",
+         "def": "having a lot of bubbles"
+      },
+      "options": [
+         "alcoholic",
+         "bubbly",
+         "sweat",
+         "soft"
+      ],
+      "correctAns": "bubbly"
+   },
+   {
+      "qnNum": 269,
+      "sentence": "Poison from the weaver fish causes paralysis, swelling, and nausea.",
+      "wordToTest": "paralysis",
+      "expl": {
+         "rootWord": "paralysis",
+         "type": "noun",
+         "def": "the loss of the ability to move in part or most of the body"
+      },
+      "options": [
+         "numb",
+         "pain",
+         "hurt",
+         "immobility"
+      ],
+      "correctAns": "immobility"
+   },
+   {
+      "qnNum": 270,
+      "sentence": "Take a comfortably wide stance and flex your knees a little.",
+      "wordToTest": "flex",
+      "expl": {
+         "rootWord": "flex",
+         "type": "verb",
+         "def": "to bend an arm, leg, etc. or tighten a muscle"
+      },
+      "options": [
+         "stretch",
+         "bend",
+         "shake",
+         "move"
+      ],
+      "correctAns": "bend"
+   },
+   {
+      "qnNum": 271,
+      "sentence": "He said the vibe was perfect, a wonderful place to work in as it's so free.",
+      "wordToTest": "vibe",
+      "expl": {
+         "rootWord": "vibe",
+         "type": "noun",
+         "def": "a person's emotional state or the atmosphere of a place"
+      },
+      "options": [
+         "office",
+         "relation",
+         "atmosphere",
+         "place"
+      ],
+      "correctAns": "atmosphere"
+   },
+   {
+      "qnNum": 272,
+      "sentence": "The robot was programmed to mimic a series of human movements.",
+      "wordToTest": "mimic",
+      "expl": {
+         "rootWord": "mimic",
+         "type": "verb",
+         "def": "to imitate or copy in action, speech, etc."
+      },
+      "options": [
+         "create",
+         "imitate",
+         "conduct",
+         "learn"
+      ],
+      "correctAns": "imitate"
+   },
+   {
+      "qnNum": 273,
+      "sentence": "She was reluctant to voice her suspicions.",
+      "wordToTest": "suspicions",
+      "expl": {
+         "rootWord": "suspicion",
+         "type": "noun",
+         "def": "doubt or lack of trust"
+      },
+      "options": [
+         "opinions",
+         "complaints",
+         "feelings",
+         "doubts"
+      ],
+      "correctAns": "doubts"
+   },
+   {
+      "qnNum": 274,
+      "sentence": "They've worked night and day to publicise their campaign.",
+      "wordToTest": "publicise",
+      "expl": {
+         "rootWord": "publicise",
+         "type": "verb",
+         "def": "to make (sth) widely known"
+      },
+      "options": [
+         "promote",
+         "develop",
+         "plan",
+         "undertake"
+      ],
+      "correctAns": "promote"
+   },
+   {
+      "qnNum": 275,
+      "sentence": "Despite the adverse conditions, the road was finished in just eight months.",
+      "wordToTest": "adverse",
+      "expl": {
+         "rootWord": "adverse",
+         "type": "adj",
+         "def": "harmful; unfavourable"
+      },
+      "options": [
+         "extreme",
+         "favourite",
+         "unfavourable",
+         "good"
+      ],
+      "correctAns": "unfavourable"
+   },
+   {
+      "qnNum": 276,
+      "sentence": "They took a long look into the abyss before deciding whether to jump.",
+      "wordToTest": "abyss",
+      "expl": {
+         "rootWord": "abyss",
+         "type": "noun",
+         "def": "a very deep wide space or hole that seems to have no bottom"
+      },
+      "options": [
+         "dark ground",
+         "deep hole",
+         "rapid river",
+         "steep cliff"
+      ],
+      "correctAns": "deep hole"
+   },
+   {
+      "qnNum": 277,
+      "sentence": "Most of these problems won't simply dissolve.",
+      "wordToTest": "dissolve",
+      "expl": {
+         "rootWord": "dissolve",
+         "type": "verb",
+         "def": "to disappear, vanish"
+      },
+      "options": [
+         "exist",
+         "last",
+         "solve",
+         "dissolve"
+      ],
+      "correctAns": "dissolve"
+   },
+   {
+      "qnNum": 278,
+      "sentence": " There is more than one way to tackle the problem.",
+      "wordToTest": "tackle",
+      "expl": {
+         "rootWord": "tackle",
+         "type": "verb",
+         "def": "to make a determined effort to deal with a difficult problem or situation"
+      },
+      "options": [
+         "face",
+         "undertake",
+         "understand",
+         "manage"
+      ],
+      "correctAns": "undertake"
+   },
+   {
+      "qnNum": 279,
+      "sentence": "I hereby certify that the above information is true and accurate.",
+      "wordToTest": "certify",
+      "expl": {
+         "rootWord": "certify",
+         "type": "verb",
+         "def": "to say in a formal or official way, usually in writing, that sth is true or correct"
+      },
+      "options": [
+         "admit",
+         "consider",
+         "confirm",
+         "indicate"
+      ],
+      "correctAns": "confirm"
+   },
+   {
+      "qnNum": 280,
+      "sentence": "She was dressed casually in jeans and a sweatshirt.",
+      "wordToTest": "casually",
+      "expl": {
+         "rootWord": "casually",
+         "type": "adv",
+         "def": "in a relaxed and informal way"
+      },
+      "options": [
+         "seriously",
+         "smartly",
+         "carelessly",
+         "informally"
+      ],
+      "correctAns": "informally"
+   },
+   {
+      "qnNum": 281,
+      "sentence": "A mutual respect and understanding developed between them.",
+      "wordToTest": "mutual",
+      "expl": {
+         "rootWord": "mutual",
+         "type": "adj",
+         "def": "feeling the same emotion, or doing the same thing to or for each other"
+      },
+      "options": [
+         "deep",
+         "shared",
+         "sincere",
+         "clear"
+      ],
+      "correctAns": "shared"
+   },
+   {
+      "qnNum": 282,
+      "sentence": "It was, in retrospect, the happiest day of her life.",
+      "wordToTest": "in retrospect",
+      "expl": {
+         "rootWord": "in retrospect",
+         "type": "phrase",
+         "def": "thinking now about sth in the past"
+      },
+      "options": [
+         "in store",
+         "in other words",
+         "in her opinion",
+         "in hindsight"
+      ],
+      "correctAns": "in hindsight"
+   },
+   {
+      "qnNum": 283,
+      "sentence": "He hastily stuffed a few clothes into a bag.",
+      "wordToTest": "hastily",
+      "expl": {
+         "rootWord": "hastily",
+         "type": "adv",
+         "def": "with excessive speed or urgency; hurriedly"
+      },
+      "options": [
+         "excitedly",
+         "quietly",
+         "hurriedly",
+         "angrily"
+      ],
+      "correctAns": "hurriedly"
+   },
+   {
+      "qnNum": 284,
+      "sentence": "His deed revealed him to be a kind man.",
+      "wordToTest": "deed",
+      "expl": {
+         "rootWord": "deed",
+         "type": "noun",
+         "def": "an action that is performed intentionally or consciously"
+      },
+      "options": [
+         "action",
+         "words",
+         "preference",
+         "interest"
+      ],
+      "correctAns": "action"
    }
 ]
