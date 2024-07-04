@@ -4,7 +4,7 @@ var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
 var qnsObjArray = [];
 var qnPointer = 0;
-var jsonSource = "data/source-test1.json";
+var jsonSource = "data/source.json";
 
 document.addEventListener("DOMContentLoaded", function (event) {
 	optionButtons = document.querySelectorAll(".option");

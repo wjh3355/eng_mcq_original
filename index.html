@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<script src="js/ajax-utils.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script src="https://kit.fontawesome.com/ed6b0a85a0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,66 +17,68 @@
 	<header>
 		<nav id="header-nav" class="navbar navbar-expand-lg bg-dark">
 			<div class="container">
-				<a href="#" class="navbar-brand d-flex align-items-center">
+				<a href="#" class="navbar-brand d-flex align-items-center text-decoration-none">
 					<i class="fa-solid fa-dove fa-xl me-3" style="color: white"></i>
-					<h2 id="maintitle">GEP Vocab MCQ</h2>
+					<h2 id="maintitle" class="m-0">GEP Vocab MCQ</h2>
 				</a>
-				<button type="button" class="btn btn-primary" id="next-qn-button">
-					Next Question
-				</button>
 			</div>
 		</nav>
 	</header>
 
-	<div class="container mt-3 mb-3 fs-5">
-		<!-- CONTAINER FOR QUESTION SENTENCE -->
+	<div class="container mt-3">
+		<!-- MAIN CONTAINER -->
 		<div class="row">
-			<div class="col-12">
-				<div class="card">
-					<div class="card-body" id="sentence">
-						<!-- no.of qns attempted + formatted sentence -->
-					</div>
+
+			<div class="col-md-7 col-lg-8" id="left-col">
+				<!-- LEFT COLUMN: SENTENCE + EXPLANATION -->
+
+				<div class="card card-body fs-5 mb-3" id="sentence-holder">
+					<!-- no.of qns attempted + formatted sentence -->
 				</div>
+
+				<div class="d-flex flex-row-reverse gap-3 mb-3">
+					<button class="btn btn-success" type="button" id="next-qn-button">
+						Next Question
+					</button>
+	
+					<button class="btn btn-primary" type="button" id="disp-expl-button" data-bs-toggle="collapse" data-bs-target="#explanation" aria-expanded="false" aria-controls="collapseExample">
+						Show Explanation
+					</button>
+				</div>
+
+				<div class="collapse mb-3" id="explanation">
+				</div>
+
+			</div>
+
+			<div class="col-md-5 col-lg-4" id="right-col">
+				<!-- RIGHT COLUMN: ANSWERS -->
+
+				<div class="vstack gap-3">
+
+					<button class="option">
+						<!-- option -->
+					</button>
+
+					<button class="option">
+						<!-- option -->
+					</button>
+
+					<button class="option">
+						<!-- option -->
+					</button>
+
+					<button class="option">
+						<!-- option -->
+					</button>
+
+				</div>
+		
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
-		<!-- CONTAINER FOR OPTIONS -->
-		<div class="row justify-content-center mb-3">
-			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
-				<button class="option">
-					<!-- option -->
-				</button>
-			</div>
-		</div>
-
-		<div class="row justify-content-center mb-3">
-			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
-				<button class="option">
-					<!-- option -->
-				</button>
-			</div>
-		</div>
-
-		<div class="row justify-content-center mb-3">
-			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
-				<button class="option">
-					<!-- option -->
-				</button>
-			</div>
-		</div>
-
-		<div class="row justify-content-center mb-3">
-			<div class="col-lg-4 col-md-6 col-sm-8 col-10 button-columns">
-				<button class="option">
-					<!-- option -->
-				</button>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
+	<div class="container mt-3">
 		<!-- CONTAINER FOR INSTRUCTION -->
 		<div class="row">
 			<div class="col-12">
