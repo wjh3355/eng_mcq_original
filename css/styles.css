@@ -6,9 +6,13 @@
 
 /* end of header */
 
-/* #left-col .collapse {
-	--bs-transition-duration: 0.05s !important;
-} */
+#disp-expl-button, #next-qn-button {
+	width: 50%;
+}
+
+#sentence-holder > p, #explanation > div {
+	text-align: justify;
+}
 
 i.fa-circle-check, i.fa-circle-xmark {
 	position: absolute;

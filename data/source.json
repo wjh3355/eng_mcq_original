@@ -2704,7 +2704,7 @@
    },
    {
       "qnNum": 160,
-      "sentence": "Take your time, don't cut corners and follow instructions.",
+      "sentence": "Take your time, follow instructions and don't cut corners.",
       "wordToTest": "cut corners",
       "expl": {
          "rootWord": "cut corners",
@@ -3140,9 +3140,9 @@
          "hiding a crime",
          "investigation of a crime",
          "plotting a crime",
-         "involvement of a crime"
+         "involvement in a crime"
       ],
-      "correctAns": "involvement of a crime"
+      "correctAns": "involvement in a crime"
    },
    {
       "qnNum": 186,

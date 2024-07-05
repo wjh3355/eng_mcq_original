@@ -178,7 +178,7 @@ function resetAll() {
 
 	explCollapseElement.textContent = "";
 	explCollapseElement.innerHTML = "";
-	explCollapseElement.classList.remove('show');
+	explCollapseElement.classList.remove("show");
 
 	dispExplButton.textContent = "Show Explanation";
 
