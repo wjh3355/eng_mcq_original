@@ -380,7 +380,7 @@
       "expl": {
          "rootWord": "scuttle",
          "type": "verb",
-         "def": "to sink ( one's own ship) deliberately"
+         "def": "to sink (one's own ship) deliberately"
       },
       "options": [
          "ordered",
@@ -1471,12 +1471,12 @@
          "def": "to put forth a large amount of energy or effort into or toward a task"
       },
       "options": [
-         "putting effort",
+         "bursting out",
          "breaking down",
          "making an effort",
          "taking a break"
       ],
-      "correctAns": "putting effort"
+      "correctAns": "making an effort"
    },
    {
       "qnNum": 88,
@@ -1527,7 +1527,7 @@
          "slide down",
          "get off"
       ],
-      "correctAns": "stabilised"
+      "correctAns": "get off"
    },
    {
       "qnNum": 91,
@@ -1658,7 +1658,7 @@
          "def": "to roughly assemble or produce sth from available parts or elements"
       },
       "options": [
-         "quickly producing",
+         "quickly dismantling",
          "slowly piling",
          "roughly assembling",
          "carefully repairing"
@@ -1743,7 +1743,7 @@
          "def": "to feel a powerful desire for (sth)"
       },
       "options": [
-         "covet",
+         "coveted",
          "loved",
          "accepted",
          "waited for"
@@ -1876,7 +1876,7 @@
       "expl": {
          "rootWord": "put the dog down",
          "type": "phrase",
-         "def": "to euthanise the dog"
+         "def": "to euthanise the dog (kill the dog humanely)"
       },
       "options": [
          "let the dog lie down",
@@ -1944,7 +1944,7 @@
       "expl": {
          "rootWord": "deserted",
          "type": "adj",
-         "def": "(of a place) empty of people.left alone in a difficult situation"
+         "def": "(of a place) empty of people. left alone in a difficult situation"
       },
       "options": [
          "quiet",
@@ -2392,7 +2392,7 @@
          "historical stories",
          "patterns or designs",
          "ancient thoughts",
-         "cultures and traditions"
+         "cultures or traditions"
       ],
       "correctAns": "patterns or designs"
    },
@@ -2704,7 +2704,7 @@
    },
    {
       "qnNum": 160,
-      "sentence": "Take your time, follow instructions and don't cut corners.",
+      "sentence": "Take your time, don't cut corners and follow instructions.",
       "wordToTest": "cut corners",
       "expl": {
          "rootWord": "cut corners",
@@ -2862,7 +2862,7 @@
       "expl": {
          "rootWord": "laborious",
          "type": "adj",
-         "def": "able to move or be moved freely or easily"
+         "def": "needing a lot of time and effort"
       },
       "options": [
          "impossible",
@@ -2933,7 +2933,7 @@
          "def": "someone in the past who took land that did not officially belong to them in order to use it for farming"
       },
       "options": [
-         "unknown farmer",
+         "unknown farmer ",
          "foreign gardener",
          "illegal intruder",
          "illegal occupier"
@@ -3010,7 +3010,7 @@
    },
    {
       "qnNum": 178,
-      "sentence": "As the land's value increases, developers may be harder to stave off.",
+      "sentence": "As the land’s value increases, developers may be harder to stave off.",
       "wordToTest": "stave off",
       "expl": {
          "rootWord": "stave off",
@@ -3140,9 +3140,9 @@
          "hiding a crime",
          "investigation of a crime",
          "plotting a crime",
-         "involvement in a crime"
+         "involvement of a crime"
       ],
-      "correctAns": "involvement in a crime"
+      "correctAns": "involvement of a crime"
    },
    {
       "qnNum": 186,
@@ -4188,7 +4188,7 @@
       "expl": {
          "rootWord": "appeal",
          "type": "noun",
-         "def": "a serious, urgent, or heartfelt request"
+         "def": "the quality of being attractive or interesting"
       },
       "options": [
          "perception",
@@ -4375,7 +4375,7 @@
       "expl": {
          "rootWord": "balloon",
          "type": "verb",
-         "def": "(of an amount of money spent or owed) increase rapidly"
+         "def": "to quickly increase in size, weight, or importance"
       },
       "options": [
          "changing erratically",
@@ -4531,8 +4531,8 @@
          "def": "to gradually disappear or waste"
       },
       "options": [
-         "gasp",
-         "",
+         "gasped",
+         "erupted",
          "intensified",
          "disappeared"
       ],
@@ -4704,9 +4704,9 @@
          "exist",
          "last",
          "solve",
-         "dissolve"
+         "vanish"
       ],
-      "correctAns": "dissolve"
+      "correctAns": "vanish"
    },
    {
       "qnNum": 278,
@@ -4826,5 +4826,294 @@
          "interest"
       ],
       "correctAns": "action"
+   },
+   {
+      "qnNum": 285,
+      "sentence": "She recoiled in horror at the sight of an enormous spider.",
+      "wordToTest": "recoiled",
+      "expl": {
+         "rootWord": "recoil",
+         "type": "verb",
+         "def": "to move back because of fear or disgust"
+      },
+      "options": [
+         "quailed",
+         "yelled",
+         "fell",
+         "was petrified"
+      ],
+      "correctAns": "quailed"
+   },
+   {
+      "qnNum": 286,
+      "sentence": " The government issued an official denial of the rumour.",
+      "wordToTest": "denial",
+      "expl": {
+         "rootWord": "denial",
+         "type": "noun",
+         "def": "a statement that sth is not true or does not exist"
+      },
+      "options": [
+         "announcement",
+         "explanation",
+         "confirmation",
+         "dismissal"
+      ],
+      "correctAns": "dismissal"
+   },
+   {
+      "qnNum": 287,
+      "sentence": "The group held weekly clandestine meetings in a church.",
+      "wordToTest": "clandestine",
+      "expl": {
+         "rootWord": "clandestine",
+         "type": "adj",
+         "def": "planned or done in secret, esp. describing sth that is not officially allowed"
+      },
+      "options": [
+         "religious",
+         "secret",
+         "regular",
+         "sacred"
+      ],
+      "correctAns": "secret"
+   },
+   {
+      "qnNum": 288,
+      "sentence": "She uses her charm to manipulate people.",
+      "wordToTest": "manipulate",
+      "expl": {
+         "rootWord": "manipulate",
+         "type": "verb",
+         "def": "to control sth or someone to your advantage, often unfairly or dishonestly"
+      },
+      "options": [
+         "attract",
+         "influence",
+         "cheat",
+         "lie to"
+      ],
+      "correctAns": "influence"
+   },
+   {
+      "qnNum": 289,
+      "sentence": "The child was removed from the school for persistent bad behaviour.",
+      "wordToTest": "persistent",
+      "expl": {
+         "rootWord": "persistent",
+         "type": "adj",
+         "def": "continuing to exist or happen for a long time"
+      },
+      "options": [
+         "extreme",
+         "outrageous",
+         "continuous",
+         "annoying"
+      ],
+      "correctAns": "continuous"
+   },
+   {
+      "qnNum": 290,
+      "sentence": " The 14 pound feline is so fat she can hardly walk.",
+      "wordToTest": "feline",
+      "expl": {
+         "rootWord": "feline",
+         "type": "noun",
+         "def": "a cat; an animal of the cat family"
+      },
+      "options": [
+         "dog",
+         "cat",
+         "baby",
+         "rabbit"
+      ],
+      "correctAns": "cat"
+   },
+   {
+      "qnNum": 291,
+      "sentence": "The company initially had struck a deal with Motorola.",
+      "wordToTest": "struck a deal",
+      "expl": {
+         "rootWord": "strike a deal",
+         "type": "phrase",
+         "def": "to come to an agreement"
+      },
+      "options": [
+         "negotiated",
+         "talked",
+         "made a transaction",
+         "had an agreement"
+      ],
+      "correctAns": "had an agreement"
+   },
+   {
+      "qnNum": 292,
+      "sentence": "We all speculated about the reasons for her resignation.",
+      "wordToTest": "speculated about",
+      "expl": {
+         "rootWord": "speculate",
+         "type": "verb",
+         "def": "to guess possible answers to a question when you do not have enough info."
+      },
+      "options": [
+         "sighed about",
+         "thought about",
+         "talked about",
+         "guessed"
+      ],
+      "correctAns": "guessed"
+   },
+   {
+      "qnNum": 293,
+      "sentence": "Migrating birds and fish have a strong homing instinct.",
+      "wordToTest": "instinct",
+      "expl": {
+         "rootWord": "instinct",
+         "type": "noun",
+         "def": "a natural or intuitive way of acting or thinking"
+      },
+      "options": [
+         "trained talent",
+         "travel ability",
+         "travel orientation",
+         "natural aptitude"
+      ],
+      "correctAns": "natural aptitude"
+   },
+   {
+      "qnNum": 294,
+      "sentence": "She wheedled her husband into buying a lottery ticket.",
+      "wordToTest": "wheedled",
+      "expl": {
+         "rootWord": "wheedle",
+         "type": "verb",
+         "def": "to try to persuade someone to do sth or give you sth by praising them or being intentionally charming"
+      },
+      "options": [
+         "requested",
+         "persuaded",
+         "deceived",
+         "praised"
+      ],
+      "correctAns": "persuaded"
+   },
+   {
+      "qnNum": 295,
+      "sentence": "He was deliberately trying to upset her.",
+      "wordToTest": "deliberately",
+      "expl": {
+         "rootWord": "deliberately",
+         "type": "adv",
+         "def": "intentionally"
+      },
+      "options": [
+         "skilfully",
+         "readily",
+         "intentionally",
+         "plainly"
+      ],
+      "correctAns": "intentionally"
+   },
+   {
+      "qnNum": 296,
+      "sentence": "There are many mysteries to be unravelled.",
+      "wordToTest": "unravelled",
+      "expl": {
+         "rootWord": "unravel",
+         "type": "verb",
+         "def": "to investigate and solve or explain (sth complicated or puzzling)"
+      },
+      "options": [
+         "noticed",
+         "accessed",
+         "recorded",
+         "solved"
+      ],
+      "correctAns": "solved"
+   },
+   {
+      "qnNum": 297,
+      "sentence": "His style of painting is reminiscent of Da Vinci's.",
+      "wordToTest": "reminiscent of",
+      "expl": {
+         "rootWord": "reminiscent",
+         "type": "adj",
+         "def": "making you remember a particular person, event, or thing"
+      },
+      "options": [
+         "remindful of",
+         "equivalent to",
+         "opposite to",
+         "copied from"
+      ],
+      "correctAns": "remindful of"
+   },
+   {
+      "qnNum": 298,
+      "sentence": "Her maternal grandfather was Mayor of Karachi.",
+      "wordToTest": "maternal",
+      "expl": {
+         "rootWord": "maternal",
+         "type": "adj",
+         "def": "relating to a mother; motherly"
+      },
+      "options": [
+         "ancestral",
+         "womanly",
+         "fatherly",
+         "motherly"
+      ],
+      "correctAns": "motherly"
+   },
+   {
+      "qnNum": 299,
+      "sentence": "Rescue crews had scoured an area of 30 square miles.",
+      "wordToTest": "scoured",
+      "expl": {
+         "rootWord": "scour",
+         "type": "verb",
+         "def": "to search a place or thing thoroughly in order to find sb/sth"
+      },
+      "options": [
+         "discovered",
+         "searched",
+         "covered",
+         "walked in"
+      ],
+      "correctAns": "searched"
+   },
+   {
+      "qnNum": 300,
+      "sentence": "I'm surprised you fell for that trick.",
+      "wordToTest": "fell for",
+      "expl": {
+         "rootWord": "fall for sth",
+         "type": "phrase",
+         "def": "to be tricked into believing sth that is not true"
+      },
+      "options": [
+         "loved",
+         "believed",
+         "cheated",
+         "hated"
+      ],
+      "correctAns": "believed"
+   },
+   {
+      "qnNum": 301,
+      "sentence": "Dick fell for football when he was a little boy.",
+      "wordToTest": "fell for",
+      "expl": {
+         "rootWord": "fall for",
+         "type": "phrase",
+         "def": "to start to love someone or sth"
+      },
+      "options": [
+         "loved",
+         "believed in",
+         "disliked",
+         "hated"
+      ],
+      "correctAns": "loved"
    }
 ]
