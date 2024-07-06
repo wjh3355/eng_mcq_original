@@ -1,16 +1,8 @@
 /* body {} */
 
-#maintitle {
-	color: rgb(255, 255, 255);
-}
-
 /* end of header */
 
-#disp-expl-button, #next-qn-button {
-	width: 50%;
-}
-
-#sentence-holder > p, #explanation > div {
+#explanation > div {
 	text-align: justify;
 }
 
