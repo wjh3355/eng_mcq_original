@@ -1,9 +1,14 @@
-var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, explCollapseElement, qnObj;
-var qnsAttempted = 0;
+var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, explCollapseElement, accuScoreElement, qnObj;
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
+
 var qnsObjArray = [];
-var qnPointer = 0;
+var qnsObjArrayPtr = 0;
+
+var numQnsAttempted = 0;
+var accuScore = 0;
+var wasLastQnCorrect = null;
+
 var jsonSource = "data/source.json";
 
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -12,9 +17,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	dispExplButton = document.querySelector("#disp-expl-button");
 	sentenceElement = document.querySelector("#sentence-holder");
 	explCollapseElement = document.querySelector("#explanation");
+	accuScoreElement = document.querySelector("#accumulative-score");
 
 	nextQnButton.addEventListener("click", initialiseQuestion);
 	dispExplButton.addEventListener("click", explButtonClickedHandler);
+
+	accuScoreElement.innerHTML = "0";
 
 	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
 		console.log("Fetching question array...");
@@ -34,10 +42,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 		} catch (error) {
 			console.error(error.message);
+			alert("Failed to load questions. Please try again later.");
 		}
 
 	}, function (error) {
 		console.error("Failed to fetch question data:", error);
+		alert("Failed to fetch questions. Please check your internet connection.");
 	})
 });
 
@@ -45,8 +55,10 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 // initialises loop
 function initialiseQuestion() {
-	if (qnPointer === qnsObjArray.length) {
-		qnPointer = 0;
+	displayLoading();
+
+	if (qnsObjArrayPtr === qnsObjArray.length) {
+		qnsObjArrayPtr = 0;
 		console.log("(End of questions, looping back to first)");
 	};
 
@@ -55,20 +67,21 @@ function initialiseQuestion() {
 	nextQnButton.disabled = true;
 	dispExplButton.disabled = true;
 
-	qnObj = qnsObjArray[qnPointer];
+	qnObj = qnsObjArray[qnsObjArrayPtr];
 
 	resetAll();
-	displayQn();
+	updateScore();
+	displayQnSentence();
 	assignOptionsRandomly();
 	enableOptions();
 
 	console.log("Waiting for option button input...");
 
-	qnPointer++;
+	qnsObjArrayPtr++;
 };
 
 // displays sentence
-function displayQn() {
+function displayQnSentence() {
 	var { sentence, wordToTest } = qnObj;
 
 	console.log("Next question:");
@@ -81,12 +94,10 @@ function displayQn() {
 		endIdx++;
 	}
 
-	qnsAttempted++;
-
 	sentenceElement.innerHTML =
 		`
 		<p class="m-0">
-    		<strong>Q${qnsAttempted}. </strong>
+    		<strong>Q${numQnsAttempted+1}. </strong>
     		${startIdx > 0 ? sentence.substring(0, startIdx) : ''} 
     		<strong>${sentence.substring(startIdx, endIdx)}</strong>
     		${sentence.substring(endIdx)}
@@ -120,6 +131,30 @@ function shuffleArray(array) {
 	}
 };
 
+// refreshes accumulative score
+function updateScore() {
+	if (wasLastQnCorrect === null) {
+		return;
+	}
+
+	if (wasLastQnCorrect) {
+		accuScore = (1/numQnsAttempted)*((numQnsAttempted-1)*accuScore+100);
+	} else {
+		accuScore = (1/numQnsAttempted)*((numQnsAttempted-1)*accuScore);
+	}
+
+	accuScoreElement.textContent = (Math.round(accuScore)).toString();
+	console.log(`Score updated: ${numQnsAttempted} attempted, ${accuScore}% correct`);
+};
+
+// displays "loading" text in sentence and options
+function displayLoading() {
+	sentenceElement.innerHTML = "<p class='m-0'>Loading...</p>";
+	optionButtons.forEach(button => {
+		button.innerHTML = "<p class='m-0'>Loading...</p>";
+	});
+}
+
 // ========== OPTION UTILITIES ==========
 
 // assign options randomly to buttons, mark correct and wrong
@@ -136,7 +171,7 @@ function assignOptionsRandomly() {
 			// Correct option
 			correctAnsButton = button;
 			button.addEventListener("click", correctAnsHandler);
-			console.log(`Correct: ${idx+1} (${option})`);
+			console.log(`Correct answer is button ${idx+1} (${option})`);
 		} else {
 			// Wrong option
 			button.addEventListener("click", wrongAnsHandler);
@@ -192,6 +227,9 @@ function resetAll() {
 function correctAnsHandler() {
 	console.log(`Correct ans clicked (${this.textContent})`);
 
+	numQnsAttempted++;
+	wasLastQnCorrect = true;
+
 	this.classList.add("greenBorder");
 	this.insertAdjacentHTML("beforeend", tickIcon);
 
@@ -205,6 +243,9 @@ function correctAnsHandler() {
 // handles wrong answer
 function wrongAnsHandler() {
 	console.log(`Wrong ans clicked (${this.textContent})`);
+
+	numQnsAttempted++;
+	wasLastQnCorrect = false;
 
 	this.classList.add("redBorder");
 	this.insertAdjacentHTML("beforeend", crossIcon);

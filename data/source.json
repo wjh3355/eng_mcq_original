@@ -1871,20 +1871,20 @@
    },
    {
       "qnNum": 111,
-      "sentence": "His dog was too old and sick so he had to put the dog down.",
-      "wordToTest": "put the dog down",
+      "sentence": "His dog was too old and sick so he had to put it down.",
+      "wordToTest": "put it down",
       "expl": {
-         "rootWord": "put the dog down",
+         "rootWord": "put an animal down",
          "type": "phrase",
-         "def": "to euthanise the dog (kill the dog humanely)"
+         "def": "to euthanise an animal (kill it humanely)"
       },
       "options": [
-         "let the dog lie down",
-         "send the dog to a vet",
+         "let it lie down",
+         "send it to a vet",
          "leave it to a pet store",
-         "euthanise the dog"
+         "euthanise it"
       ],
-      "correctAns": "euthanise the dog"
+      "correctAns": "euthanise it"
    },
    {
       "qnNum": 112,
