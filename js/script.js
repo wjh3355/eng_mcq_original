@@ -1,13 +1,11 @@
-var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, explCollapseElement, accuScoreElement, qnObj;
+var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, numQnsAttemptedElement, qnObj;
+
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
 
-var qnsObjArray = [];
-var qnsObjArrayPtr = 0;
+var qnsObjArray = [], qnsObjArrayPtr = 0;
 
-var numQnsAttempted = 0;
-var accuScore = 0;
-var wasLastQnCorrect = null;
+var numQnsAttempted = 0, score = 0, wasLastQnCorrect = null;
 
 var jsonSource = "data/source.json";
 
@@ -16,13 +14,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	nextQnButton = document.querySelector("#next-qn-button");
 	dispExplButton = document.querySelector("#disp-expl-button");
 	sentenceElement = document.querySelector("#sentence-holder");
-	explCollapseElement = document.querySelector("#explanation");
-	accuScoreElement = document.querySelector("#accumulative-score");
+	collapsibleExplElement = document.querySelector("#explanation");
+	scoreElement = document.querySelector("#accumulative-score");
+	numQnsAttemptedElement = document.querySelector("#num-qns-attempted");
 
 	nextQnButton.addEventListener("click", initialiseQuestion);
 	dispExplButton.addEventListener("click", explButtonClickedHandler);
 
-	accuScoreElement.innerHTML = "0";
+	scoreElement.textContent = "0";
+	numQnsAttemptedElement.textContent = "0";
 
 	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
 		console.log("Fetching question array...");
@@ -96,7 +96,7 @@ function displayQnSentence() {
 
 	sentenceElement.innerHTML =
 		`
-		<p class="m-0">
+		<p class="my-3">
     		<strong>Q${numQnsAttempted+1}. </strong>
     		${startIdx > 0 ? sentence.substring(0, startIdx) : ''} 
     		<strong>${sentence.substring(startIdx, endIdx)}</strong>
@@ -111,7 +111,7 @@ function displayQnSentence() {
 function insertExplanation() {
 	var { expl: { rootWord, type, def } } = qnObj;
 
-	explCollapseElement.innerHTML = 
+	collapsibleExplElement.innerHTML = 
 		`
 		<div class="card card-body">
 			<h5><strong>${rootWord}</strong></h5>
@@ -138,13 +138,14 @@ function updateScore() {
 	}
 
 	if (wasLastQnCorrect) {
-		accuScore = (1/numQnsAttempted)*((numQnsAttempted-1)*accuScore+100);
+		score = (1/numQnsAttempted)*((numQnsAttempted-1)*score+100);
 	} else {
-		accuScore = (1/numQnsAttempted)*((numQnsAttempted-1)*accuScore);
+		score = (1/numQnsAttempted)*((numQnsAttempted-1)*score);
 	}
 
-	accuScoreElement.textContent = (Math.round(accuScore)).toString();
-	console.log(`Score updated: ${numQnsAttempted} attempted, ${accuScore}% correct`);
+	scoreElement.textContent = (Math.round(score)).toString();
+	numQnsAttemptedElement.textContent = numQnsAttempted.toString();
+	console.log(`Score updated: ${numQnsAttempted} attempted, ${score}% correct`);
 };
 
 // displays "loading" text in sentence and options
@@ -211,9 +212,9 @@ function resetAll() {
 		button.removeEventListener("click", wrongAnsHandler);
 	});
 
-	explCollapseElement.textContent = "";
-	explCollapseElement.innerHTML = "";
-	explCollapseElement.classList.remove("show");
+	collapsibleExplElement.textContent = "";
+	collapsibleExplElement.innerHTML = "";
+	collapsibleExplElement.classList.remove("show");
 
 	dispExplButton.textContent = "Show Explanation";
 
