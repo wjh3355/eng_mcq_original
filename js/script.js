@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	nextQnButton.addEventListener("click", initialiseQuestion);
 	dispExplButton.addEventListener("click", explButtonClickedHandler);
 
-	scoreElement.textContent = "0 out of 0 (0%)";
+	scoreElement.textContent = "0 / 0 (0%)";
 
 	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
 		console.log("Fetching question array...");
@@ -123,7 +123,8 @@ function updateScore() {
 	}
 	var percentCorrect = (numCorrectAns/numQnsAttempted)*100;
 
-	scoreElement.textContent = `${numCorrectAns} out of ${numQnsAttempted} (${Math.round(percentCorrect)}%)`;
+	scoreElement.textContent = `${numCorrectAns} / ${numQnsAttempted} (${Math.round(percentCorrect)}%)`;
+	console.log("Updated score");
 };
 
 // displays "loading" text in sentence and options

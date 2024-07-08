@@ -48,3 +48,8 @@ i.red-cross {color: rgb(190, 44, 44);}
 	color: rgb(190, 44, 44);
 	font-weight: bold;
 }
+
+#score-para {
+	font-size: 18px;
+	background-color: #ffe484;
+}

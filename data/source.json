@@ -1871,20 +1871,20 @@
    },
    {
       "qnNum": 111,
-      "sentence": "His dog was too old and sick so he had to put it down.",
-      "wordToTest": "put it down",
+      "sentence": "His dog was too old and sick so he had to put the dog down.",
+      "wordToTest": "put the dog down",
       "expl": {
-         "rootWord": "put an animal down",
+         "rootWord": "put the dog down",
          "type": "phrase",
-         "def": "to euthanise an animal (kill it humanely)"
+         "def": "to euthanise the dog (kill the dog humanely)"
       },
       "options": [
-         "let it lie down",
-         "send it to a vet",
+         "let the dog lie down",
+         "send the dog to a vet",
          "leave it to a pet store",
-         "euthanise it"
+         "euthanise the dog"
       ],
-      "correctAns": "euthanise it"
+      "correctAns": "euthanise the dog"
    },
    {
       "qnNum": 112,
@@ -5115,5 +5115,838 @@
          "hated"
       ],
       "correctAns": "loved"
+   },
+   {
+      "qnNum": 302,
+      "sentence": "The family faced their ordeal with dignity and courage.",
+      "wordToTest": "dignity",
+      "expl": {
+         "rootWord": "dignity",
+         "type": "noun",
+         "def": "a sense of pride in oneself; self-respect"
+      },
+      "options": [
+         "self-esteem",
+         "confidence",
+         "power",
+         "resilience"
+      ],
+      "correctAns": "self-esteem"
+   },
+   {
+      "qnNum": 303,
+      "sentence": "Founded in 1821, the school has an excellent pedigree.",
+      "wordToTest": "pedigree",
+      "expl": {
+         "rootWord": "pedigree",
+         "type": "noun",
+         "def": "a person's family history, education, and experience"
+      },
+      "options": [
+         "record",
+         "origin",
+         "reputation",
+         "heritage"
+      ],
+      "correctAns": "heritage"
+   },
+   {
+      "qnNum": 304,
+      "sentence": "This house is totally devoid of furniture.",
+      "wordToTest": "devoid of",
+      "expl": {
+         "rootWord": "devoid",
+         "type": "adj",
+         "def": "entirely lacking or free from"
+      },
+      "options": [
+         "added by",
+         "equipped with",
+         "lack of",
+         "full of"
+      ],
+      "correctAns": "lack of"
+   },
+   {
+      "qnNum": 305,
+      "sentence": "They established their permanent abode here.",
+      "wordToTest": "abode",
+      "expl": {
+         "rootWord": "abode",
+         "type": "noun",
+         "def": "the place where someone lives"
+      },
+      "options": [
+         "utility",
+         "residence",
+         "store",
+         "facility"
+      ],
+      "correctAns": "residence"
+   },
+   {
+      "qnNum": 306,
+      "sentence": "He took the car without the owner's consent.",
+      "wordToTest": "consent",
+      "expl": {
+         "rootWord": "consent",
+         "type": "noun",
+         "def": "permission to do sth, esp. given by sb in authority"
+      },
+      "options": [
+         "key",
+         "instruction",
+         "permission",
+         "notice"
+      ],
+      "correctAns": "permission"
+   },
+   {
+      "qnNum": 307,
+      "sentence": "He was utterly bereft when his wife died.",
+      "wordToTest": "bereft",
+      "expl": {
+         "rootWord": "bereft",
+         "type": "adj",
+         "def": "sad and lonely, esp. through someone's death or departure"
+      },
+      "options": [
+         "disheartened",
+         "disgruntled",
+         "apprehensive",
+         "sad and lonely"
+      ],
+      "correctAns": "sad and lonely"
+   },
+   {
+      "qnNum": 308,
+      "sentence": "He looked longingly at the food on the table.",
+      "wordToTest": "longingly",
+      "expl": {
+         "rootWord": "longingly",
+         "type": "adv",
+         "def": "with a yearning desire"
+      },
+      "options": [
+         "nonchalantly",
+         "yearningly",
+         "casually",
+         "disgustingly"
+      ],
+      "correctAns": "yearningly"
+   },
+   {
+      "qnNum": 309,
+      "sentence": "He made occasional visits to Tokyo.",
+      "wordToTest": "occasional",
+      "expl": {
+         "rootWord": "occasional",
+         "type": "adj",
+         "def": "not happening or done often or regularly"
+      },
+      "options": [
+         "sporadic",
+         "frequent",
+         "urgent",
+         "often"
+      ],
+      "correctAns": "sporadic"
+   },
+   {
+      "qnNum": 310,
+      "sentence": "It's inconceivable that a handicapped girl is very independent and lives all alone.",
+      "wordToTest": "inconceivable",
+      "expl": {
+         "rootWord": "inconceivable",
+         "type": "adj",
+         "def": "impossible to imagine or think of; extremely unlikely; unbelievable"
+      },
+      "options": [
+         "inappropriate",
+         "improper",
+         "implausible",
+         "inconsiderate"
+      ],
+      "correctAns": "implausible"
+   },
+   {
+      "qnNum": 311,
+      "sentence": "Lucy soothed the baby by rocking it in her arms.",
+      "wordToTest": "soothed",
+      "expl": {
+         "rootWord": "soothe",
+         "type": "verb",
+         "def": "to gently calm (a person or their feelings)"
+      },
+      "options": [
+         "woke",
+         "walked",
+         "braced",
+         "calmed"
+      ],
+      "correctAns": "calmed"
+   },
+   {
+      "qnNum": 312,
+      "sentence": "Her arrival coincided with our departure.",
+      "wordToTest": "coincided with",
+      "expl": {
+         "rootWord": "coincide",
+         "type": "verb",
+         "def": "to occur at the same time"
+      },
+      "options": [
+         "happened ahead of",
+         "happened after",
+         "synchronised with",
+         "accidentally caused"
+      ],
+      "correctAns": "synchronised with"
+   },
+   {
+      "qnNum": 313,
+      "sentence": "He presented two solutions. The latter seems much better.",
+      "wordToTest": "latter",
+      "expl": {
+         "rootWord": "latter",
+         "type": "adj",
+         "def": "near or towards the end of something"
+      },
+      "options": [
+         "first-mentioned",
+         "second-mentioned",
+         "yesterday-mentioned",
+         "later"
+      ],
+      "correctAns": "second-mentioned"
+   },
+   {
+      "qnNum": 314,
+      "sentence": "His illness was initially diagnosed as food poisoning.",
+      "wordToTest": "initially",
+      "expl": {
+         "rootWord": "initially",
+         "type": "adv",
+         "def": "at the beginning"
+      },
+      "options": [
+         "at the beginning",
+         "in the end",
+         "formally",
+         "in theory"
+      ],
+      "correctAns": "at the beginning"
+   },
+   {
+      "qnNum": 315,
+      "sentence": "NO one is immune to his immense charm",
+      "wordToTest": "immune to",
+      "expl": {
+         "rootWord": "immune",
+         "type": "adj",
+         "def": "not affected or influenced by sth"
+      },
+      "options": [
+         "delighted at",
+         "tolerant of",
+         "resistant to",
+         "concerned over"
+      ],
+      "correctAns": "resistant to"
+   },
+   {
+      "qnNum": 316,
+      "sentence": "We advocate for the use of more humane methods.",
+      "wordToTest": "advocate for",
+      "expl": {
+         "rootWord": "advocate",
+         "type": "verb",
+         "def": "to support sth publicly"
+      },
+      "options": [
+         "adhere to",
+         "implement",
+         "support",
+         "praise for"
+      ],
+      "correctAns": "support"
+   },
+   {
+      "qnNum": 317,
+      "sentence": "The virus affects an animal's internal organs, causing respiratory failure.",
+      "wordToTest": "respiratory",
+      "expl": {
+         "rootWord": "respiratory",
+         "type": "adj",
+         "def": "relating to breathing"
+      },
+      "options": [
+         "relating to blood",
+         "relating to breathing",
+         "relating to heart",
+         "relating to digesting"
+      ],
+      "correctAns": "relating to breathing"
+   },
+   {
+      "qnNum": 318,
+      "sentence": "First we need to identify potential problems.",
+      "wordToTest": "potential",
+      "expl": {
+         "rootWord": "potential",
+         "type": "adj",
+         "def": "possible when the necessary conditions exist"
+      },
+      "options": [
+         "major",
+         "new",
+         "old",
+         "possible"
+      ],
+      "correctAns": "possible"
+   },
+   {
+      "qnNum": 319,
+      "sentence": "Professional mountaineers have expressed dismay at the climber's decision.",
+      "wordToTest": "dismay",
+      "expl": {
+         "rootWord": "dismay",
+         "type": "noun",
+         "def": "concern and distress caused by sth unexpected, a feeling of unhappiness and disappointment"
+      },
+      "options": [
+         "concern",
+         "criticism",
+         "interest",
+         "condolences"
+      ],
+      "correctAns": "concern"
+   },
+   {
+      "qnNum": 320,
+      "sentence": "They climbed up the mountain and reached the summit.",
+      "wordToTest": "summit",
+      "expl": {
+         "rootWord": "summit",
+         "type": "noun",
+         "def": "the highest point of a mountain"
+      },
+      "options": [
+         "valley",
+         "peak",
+         "ridge",
+         "base"
+      ],
+      "correctAns": "peak"
+   },
+   {
+      "qnNum": 321,
+      "sentence": "His decision is not correct and does not suit someone of his stature.",
+      "wordToTest": "stature",
+      "expl": {
+         "rootWord": "stature",
+         "type": "noun",
+         "def": "the good reputation a person or organization has, based on their behaviour and ability"
+      },
+      "options": [
+         "style",
+         "principle",
+         "manner",
+         "reputation"
+      ],
+      "correctAns": "reputation"
+   },
+   {
+      "qnNum": 322,
+      "sentence": "He is a capable mountaineer who has conquered all of the world's 14 peaks over 8,000m.",
+      "wordToTest": "conquered",
+      "expl": {
+         "rootWord": "conquer",
+         "type": "verb",
+         "def": "climb (a mountain) successfully"
+      },
+      "options": [
+         "stayed at",
+         "studied",
+         "scaled",
+         "visited"
+      ],
+      "correctAns": "scaled"
+   },
+   {
+      "qnNum": 323,
+      "sentence": "He made headlines by saving a stricken French climber.",
+      "wordToTest": "stricken",
+      "expl": {
+         "rootWord": "stricken",
+         "type": "adj",
+         "def": "suffering severely from the effects of sth unpleasant"
+      },
+      "options": [
+         "abandoned",
+         "afflicted",
+         "solo",
+         "paralysed"
+      ],
+      "correctAns": "afflicted"
+   },
+   {
+      "qnNum": 324,
+      "sentence": "They performed an audacious night-time rescue.",
+      "wordToTest": "audacious",
+      "expl": {
+         "rootWord": "audacious",
+         "type": "adj",
+         "def": "showing a willingness to take surprisingly bold risks"
+      },
+      "options": [
+         "meticulous",
+         "strenuous",
+         "daring",
+         "complicated"
+      ],
+      "correctAns": "daring"
+   },
+   {
+      "qnNum": 325,
+      "sentence": "The pinnacle of the Karakoram range stands at a majestic 8,611m.",
+      "wordToTest": "pinnacle",
+      "expl": {
+         "rootWord": "pinnacle",
+         "type": "noun",
+         "def": "a small pointed tower on top of a building, or the top part of a mountain"
+      },
+      "options": [
+         "highland",
+         "summit",
+         "ridge",
+         "valley"
+      ],
+      "correctAns": "summit"
+   },
+   {
+      "qnNum": 326,
+      "sentence": "It offered the tantalising opportunity of fulfilling a 2,700-year-old dream.",
+      "wordToTest": "tantalising",
+      "expl": {
+         "rootWord": "tantalising",
+         "type": "adj",
+         "def": "causing desire and excitement in someone"
+      },
+      "options": [
+         "rare",
+         "good",
+         "wonderful",
+         "tempting"
+      ],
+      "correctAns": "tempting"
+   },
+   {
+      "qnNum": 327,
+      "sentence": "1,500 of the Jewish refugees perished in the squalid camps.",
+      "wordToTest": "perished",
+      "expl": {
+         "rootWord": "perish",
+         "type": "verb",
+         "def": "to die, esp. in an accident or by being killed, or to be destroyed"
+      },
+      "options": [
+         "suffered by diseases",
+         "lived horrible life",
+         "died in violent way",
+         "worked in poor conditions"
+      ],
+      "correctAns": "died in violent way"
+   },
+   {
+      "qnNum": 328,
+      "sentence": "1,500 of the Jewish refugees perished in the squalid camps.",
+      "wordToTest": "squalid",
+      "expl": {
+         "rootWord": "squalid",
+         "type": "adj",
+         "def": "(of places) extremely dirty and unpleasant"
+      },
+      "options": [
+         "filthy",
+         "impoverished",
+         "rat-infested",
+         "bleak"
+      ],
+      "correctAns": "filthy"
+   },
+   {
+      "qnNum": 329,
+      "sentence": "Ethiopian Jews were spirited out of Sudan to Europe on forged papers, then on to Israel.",
+      "wordToTest": "spirited",
+      "expl": {
+         "rootWord": "spirit",
+         "type": "verb",
+         "def": "to move someone or sth out of or away from a place secretly"
+      },
+      "options": [
+         "forced cruelly",
+         "exiled mercilessly",
+         "driven rapidly",
+         "conveyed secretly"
+      ],
+      "correctAns": "conveyed secretly"
+   },
+   {
+      "qnNum": 330,
+      "sentence": "Ethiopian Jews were spirited out of Sudan to Europe on forged papers, then on to Israel.",
+      "wordToTest": "forged",
+      "expl": {
+         "rootWord": "forge",
+         "type": "verb",
+         "def": "to make an illegal copy of sth in order to deceive"
+      },
+      "options": [
+         "newly released",
+         "pristine",
+         "counterfeit",
+         "authentic"
+      ],
+      "correctAns": "counterfeit"
+   },
+   {
+      "qnNum": 331,
+      "sentence": "He wants to come into the business on his own terms.",
+      "wordToTest": "on his own terms",
+      "expl": {
+         "rootWord": "on one’s own terms",
+         "type": "phrase",
+         "def": "in the manner of timeframe that one prefers"
+      },
+      "options": [
+         "based on his interests",
+         "from school’s new term",
+         "using his own money",
+         "according to his schedule"
+      ],
+      "correctAns": "according to his schedule"
+   },
+   {
+      "qnNum": 332,
+      "sentence": "This was an unauthorised operation carried out by a bunch of freelances.",
+      "wordToTest": "unauthorised",
+      "expl": {
+         "rootWord": "unauthorised",
+         "type": "adj",
+         "def": "not having official permission or approval"
+      },
+      "options": [
+         "unapproved",
+         "unofficial",
+         "informal",
+         "casual"
+      ],
+      "correctAns": "unapproved"
+   },
+   {
+      "qnNum": 333,
+      "sentence": "He had a heated debate with the team leader and left for the summit.",
+      "wordToTest": "debate",
+      "expl": {
+         "rootWord": "debate",
+         "type": "noun",
+         "def": "(a) serious discussion of a subject in which many people take part"
+      },
+      "options": [
+         "conversation",
+         "fight",
+         "quarrel",
+         "discussion"
+      ],
+      "correctAns": "discussion"
+   },
+   {
+      "qnNum": 334,
+      "sentence": "Pharmacists are a godsend when you don't feel sick enough to call the doctor.",
+      "wordToTest": "godsend",
+      "expl": {
+         "rootWord": "godsend",
+         "type": "noun",
+         "def": "a very helpful or valuable event, person, or article"
+      },
+      "options": [
+         "angel",
+         "model",
+         "boon",
+         "comfort"
+      ],
+      "correctAns": "boon"
+   },
+   {
+      "qnNum": 335,
+      "sentence": "Though while it is based on true events, some of the scenes are fictitious.",
+      "wordToTest": "fictitious",
+      "expl": {
+         "rootWord": "fictitious",
+         "type": "adj",
+         "def": "not real or true; imaginary or fabricated"
+      },
+      "options": [
+         "established",
+         "fabricated",
+         "recounted",
+         "copied"
+      ],
+      "correctAns": "fabricated"
+   },
+   {
+      "qnNum": 336,
+      "sentence": "The resort was kitted out with Israeli-made equipment, including air-conditioning units.",
+      "wordToTest": "kitted out with",
+      "expl": {
+         "rootWord": "kit out with",
+         "type": "phrase",
+         "def": "to supply someone or sth with the clothes or equipment that are needed for a particular purpose"
+      },
+      "options": [
+         "given",
+         "made up of",
+         "equipped with",
+         "bristling with"
+      ],
+      "correctAns": "equipped with"
+   },
+   {
+      "qnNum": 337,
+      "sentence": "She was there on her own, seeing to a couple of minor injuries.",
+      "wordToTest": "seeing to",
+      "expl": {
+         "rootWord": "see to",
+         "type": "phrase",
+         "def": "to deal with a person or task that needs to be dealt with"
+      },
+      "options": [
+         "talking about",
+         "locating",
+         "looking for",
+         "dealing with"
+      ],
+      "correctAns": "dealing with"
+   },
+   {
+      "qnNum": 338,
+      "sentence": "We have a rendezvous for next week, don't we?",
+      "wordToTest": "a rendezvous",
+      "expl": {
+         "rootWord": "rendezvous",
+         "type": "noun",
+         "def": "a meeting at an agreed time and place"
+      },
+      "options": [
+         "a luncheon",
+         "a party",
+         "an event",
+         "a meeting"
+      ],
+      "correctAns": "a meeting"
+   },
+   {
+      "qnNum": 339,
+      "sentence": "Other archaeologists are sceptical about his findings.",
+      "wordToTest": "sceptical",
+      "expl": {
+         "rootWord": "sceptical",
+         "type": "adj",
+         "def": "doubting that sth is true or useful"
+      },
+      "options": [
+         "upset",
+         "doubtful",
+         "particular",
+         "enthusiastic"
+      ],
+      "correctAns": "doubtful"
+   },
+   {
+      "qnNum": 340,
+      "sentence": "Did you go anywhere exotic on vacation this year?",
+      "wordToTest": "exotic",
+      "expl": {
+         "rootWord": "exotic",
+         "type": "adj",
+         "def": "originating in or characteristic of a distant foreign country"
+      },
+      "options": [
+         "fresh",
+         "cheap",
+         "pricy",
+         "foreign"
+      ],
+      "correctAns": "foreign"
+   },
+   {
+      "qnNum": 341,
+      "sentence": "We were caught in the storm and got drenched.",
+      "wordToTest": "drenched",
+      "expl": {
+         "rootWord": "drench",
+         "type": "verb",
+         "def": "to make sb or sth completely wet"
+      },
+      "options": [
+         "saved",
+         "shocked",
+         "soaked",
+         "stuck"
+      ],
+      "correctAns": "soaked"
+   },
+   {
+      "qnNum": 342,
+      "sentence": "Playing with him was like being on an oasis in the desert.",
+      "wordToTest": "oasis",
+      "expl": {
+         "rootWord": "oasis",
+         "type": "noun",
+         "def": "a fertile or green area in an arid region (such as a desert)"
+      },
+      "options": [
+         "fertile area",
+         "big dune",
+         "habitable land",
+         "sandhill"
+      ],
+      "correctAns": "fertile area"
+   },
+   {
+      "qnNum": 343,
+      "sentence": "I don't know if the painting is authentic.",
+      "wordToTest": "authentic",
+      "expl": {
+         "rootWord": "authentic",
+         "type": "adj",
+         "def": "of undisputed origin and not a copy; genuine"
+      },
+      "options": [
+         "counterfeit",
+         "unique",
+         "genuine",
+         "antique"
+      ],
+      "correctAns": "genuine"
+   },
+   {
+      "qnNum": 344,
+      "sentence": "Several families were evacuated from their homes.",
+      "wordToTest": "evacuated",
+      "expl": {
+         "rootWord": "evacuate",
+         "type": "verb",
+         "def": "to move people from a dangerous place to somewhere safe"
+      },
+      "options": [
+         "removed",
+         "abandoned",
+         "trapped",
+         "evicted"
+      ],
+      "correctAns": "removed"
+   },
+   {
+      "qnNum": 345,
+      "sentence": "He extracted several glossy prints and spread them out on a low coffee table.",
+      "wordToTest": "glossy",
+      "expl": {
+         "rootWord": "glossy",
+         "type": "adj",
+         "def": "shiny and smooth; superficially attractive, stylish"
+      },
+      "options": [
+         "black and white",
+         "dull and flat",
+         "colourful",
+         "shiny and smooth"
+      ],
+      "correctAns": "shiny and smooth"
+   },
+   {
+      "qnNum": 346,
+      "sentence": "Over a thousand copies of the pamphlet have now been given out.",
+      "wordToTest": "pamphlet",
+      "expl": {
+         "rootWord": "pamphlet",
+         "type": "noun",
+         "def": "a small booklet or leaflet containing info."
+      },
+      "options": [
+         "a historical book",
+         "a small flier",
+         "a small booklet with info.",
+         "a monthly magazine"
+      ],
+      "correctAns": "a small booklet with info."
+   },
+   {
+      "qnNum": 347,
+      "sentence": "The football veteran loved to coach young players.",
+      "wordToTest": "veteran",
+      "expl": {
+         "rootWord": "veteran",
+         "type": "noun",
+         "def": "a person who has had a lot of experience of a particular activity"
+      },
+      "options": [
+         "former player",
+         "new player",
+         "experienced player",
+         "amateur"
+      ],
+      "correctAns": "experienced player"
+   },
+   {
+      "qnNum": 348,
+      "sentence": "He evaded her questions about the war.",
+      "wordToTest": "evaded",
+      "expl": {
+         "rootWord": "evade",
+         "type": "verb",
+         "def": "to avoid or escape from someone or sth"
+      },
+      "options": [
+         "denied",
+         "expected",
+         "avoided",
+         "disliked"
+      ],
+      "correctAns": "avoided"
+   },
+   {
+      "qnNum": 349,
+      "sentence": "The baby could not be pacified.",
+      "wordToTest": "pacified",
+      "expl": {
+         "rootWord": "pacify",
+         "type": "verb",
+         "def": "to cause someone who is angry or upset to be calm and satisfied"
+      },
+      "options": [
+         "indulged",
+         "tampered",
+         "placated",
+         "spoiled"
+      ],
+      "correctAns": "placated"
+   },
+   {
+      "qnNum": 350,
+      "sentence": "Since they got married, they've been in seventh heaven.",
+      "wordToTest": "in seventh heaven",
+      "expl": {
+         "rootWord": "in seventh heaven",
+         "type": "phrase",
+         "def": "extremely happy"
+      },
+      "options": [
+         "seeing eye to eye",
+         "two peas in a pod",
+         "up in the air",
+         "on cloud nine"
+      ],
+      "correctAns": "on cloud nine"
    }
 ]
