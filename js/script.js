@@ -1,28 +1,26 @@
-var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, numQnsAttemptedElement, qnObj;
+var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, qnObj;
 
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
 
 var qnsObjArray = [], qnsObjArrayPtr = 0;
 
-var numQnsAttempted = 0, score = 0, wasLastQnCorrect = null;
+var numQnsAttempted = 0, numCorrectAns = 0;
 
 var jsonSource = "data/source.json";
 
 document.addEventListener("DOMContentLoaded", function (event) {
-	optionButtons = document.querySelectorAll(".option");
-	nextQnButton = document.querySelector("#next-qn-button");
-	dispExplButton = document.querySelector("#disp-expl-button");
-	sentenceElement = document.querySelector("#sentence-holder");
-	collapsibleExplElement = document.querySelector("#explanation");
-	scoreElement = document.querySelector("#accumulative-score");
-	numQnsAttemptedElement = document.querySelector("#num-qns-attempted");
+	optionButtons 				= document.querySelectorAll(".option");
+	nextQnButton 				= document.querySelector("#next-qn-button");
+	dispExplButton 			= document.querySelector("#disp-expl-button");
+	sentenceElement 			= document.querySelector("#sentence-holder");
+	collapsibleExplElement 	= document.querySelector("#explanation");
+	scoreElement 				= document.querySelector("#score");
 
 	nextQnButton.addEventListener("click", initialiseQuestion);
 	dispExplButton.addEventListener("click", explButtonClickedHandler);
 
-	scoreElement.textContent = "0";
-	numQnsAttemptedElement.textContent = "0";
+	scoreElement.textContent = "0 out of 0 (0%)";
 
 	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
 		console.log("Fetching question array...");
@@ -87,22 +85,9 @@ function displayQnSentence() {
 	console.log("Next question:");
 	console.table(qnObj);
 
-	var startIdx = sentence.toLowerCase().indexOf(wordToTest);
-	var endIdx = startIdx + wordToTest.length;
+	sentence = sentence.replace(wordToTest, `<strong>${wordToTest}</strong>`);
 
-	while (endIdx < sentence.length && /[^\w\s]/.test(sentence.charAt(endIdx))) {
-		endIdx++;
-	}
-
-	sentenceElement.innerHTML =
-		`
-		<p class="my-3">
-    		<strong>Q${numQnsAttempted+1}. </strong>
-    		${startIdx > 0 ? sentence.substring(0, startIdx) : ''} 
-    		<strong>${sentence.substring(startIdx, endIdx)}</strong>
-    		${sentence.substring(endIdx)}
-     	</p>
-		`;
+	sentenceElement.innerHTML = `<p class="my-3">${sentence}</p>`;
 
 	console.log("Sentence displayed");
 };
@@ -133,19 +118,12 @@ function shuffleArray(array) {
 
 // refreshes accumulative score
 function updateScore() {
-	if (wasLastQnCorrect === null) {
+	if (numQnsAttempted === 0) {
 		return;
 	}
+	var percentCorrect = (numCorrectAns/numQnsAttempted)*100;
 
-	if (wasLastQnCorrect) {
-		score = (1/numQnsAttempted)*((numQnsAttempted-1)*score+100);
-	} else {
-		score = (1/numQnsAttempted)*((numQnsAttempted-1)*score);
-	}
-
-	scoreElement.textContent = (Math.round(score)).toString();
-	numQnsAttemptedElement.textContent = numQnsAttempted.toString();
-	console.log(`Score updated: ${numQnsAttempted} attempted, ${score}% correct`);
+	scoreElement.textContent = `${numCorrectAns} out of ${numQnsAttempted} (${Math.round(percentCorrect)}%)`;
 };
 
 // displays "loading" text in sentence and options
@@ -179,7 +157,7 @@ function assignOptionsRandomly() {
 		}
 	});
 
-	console.log("Options randomly assigned and displayed");
+	console.log("All options randomly assigned and displayed");
 };
 
 // enable options for user interaction (darker border when hovering + clickable)
@@ -229,7 +207,7 @@ function correctAnsHandler() {
 	console.log(`Correct ans clicked (${this.textContent})`);
 
 	numQnsAttempted++;
-	wasLastQnCorrect = true;
+	numCorrectAns++;
 
 	this.classList.add("greenBorder");
 	this.insertAdjacentHTML("beforeend", tickIcon);
@@ -246,7 +224,6 @@ function wrongAnsHandler() {
 	console.log(`Wrong ans clicked (${this.textContent})`);
 
 	numQnsAttempted++;
-	wasLastQnCorrect = false;
 
 	this.classList.add("redBorder");
 	this.insertAdjacentHTML("beforeend", crossIcon);
