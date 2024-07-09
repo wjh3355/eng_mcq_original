@@ -87,7 +87,7 @@ function displayQnSentence() {
 
 	sentence = sentence.replace(wordToTest, `<strong>${wordToTest}</strong>`);
 
-	sentenceElement.innerHTML = `<p class="my-3">${sentence}</p>`;
+	sentenceElement.innerHTML = `<p class="my-2">${sentence}</p>`;
 
 	// console.log("Sentence displayed");
 };
@@ -99,8 +99,14 @@ function insertExplanation() {
 	collapsibleExplElement.innerHTML = 
 		`
 		<div class="card card-body">
-			<h5><strong>${rootWord}</strong></h5>
-			<p class="fst-italic mb-2"><small>${type}</small></p>
+			<p>
+				<strong class="fs-5 me-1">
+					${rootWord}
+				</strong>
+				<span class="fst-italic">
+					(${type})
+				</span>
+			</p>
 			<p class="mb-0">${def}.</p>
 		</div>
 		`;
