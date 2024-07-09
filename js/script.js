@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 	scoreElement.textContent = "0 / 0 (0%)";
 
 	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
-		console.log("Fetching question array...");
+		// console.log("Fetching question array...");
 
 		try {
 
@@ -34,17 +34,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
 			qnsObjArray = responseArray;
 			shuffleArray(qnsObjArray);
 			var orderOfQns = qnsObjArray.map(qnObj => qnObj.qnNum);
-			console.log(`Shuffled order of questions: \n${orderOfQns}`);
+			// console.log(`Shuffled order of questions: \n${orderOfQns}`);
 
 			initialiseQuestion();
 
 		} catch (error) {
-			console.error(error.message);
+			// console.error(error.message);
 			alert("Failed to load questions. Please try again later.");
 		}
 
 	}, function (error) {
-		console.error("Failed to fetch question data:", error);
+		// console.error("Failed to fetch question data:", error);
 		alert("Failed to fetch questions. Please check your internet connection.");
 	})
 });
@@ -57,10 +57,10 @@ function initialiseQuestion() {
 
 	if (qnsObjArrayPtr === qnsObjArray.length) {
 		qnsObjArrayPtr = 0;
-		console.log("(End of questions, looping back to first)");
+		// console.log("(End of questions, looping back to first)");
 	};
 
-	console.log("Initialising qn / Next button clicked...");
+	// console.log("Initialising qn / Next button clicked...");
 
 	nextQnButton.disabled = true;
 	dispExplButton.disabled = true;
@@ -73,7 +73,7 @@ function initialiseQuestion() {
 	assignOptionsRandomly();
 	enableOptions();
 
-	console.log("Waiting for option button input...");
+	// console.log("Waiting for option button input...");
 
 	qnsObjArrayPtr++;
 };
@@ -82,14 +82,14 @@ function initialiseQuestion() {
 function displayQnSentence() {
 	var { sentence, wordToTest } = qnObj;
 
-	console.log("Next question:");
-	console.table(qnObj);
+	// console.log("Next question:");
+	// console.table(qnObj);
 
 	sentence = sentence.replace(wordToTest, `<strong>${wordToTest}</strong>`);
 
 	sentenceElement.innerHTML = `<p class="my-3">${sentence}</p>`;
 
-	console.log("Sentence displayed");
+	// console.log("Sentence displayed");
 };
 
 // inserts explanation
@@ -105,7 +105,7 @@ function insertExplanation() {
 		</div>
 		`;
 
-	console.log("Explanation inserted");
+	// console.log("Explanation inserted");
 };
 
 // shuffles an array
@@ -124,7 +124,7 @@ function updateScore() {
 	var percentCorrect = (numCorrectAns/numQnsAttempted)*100;
 
 	scoreElement.textContent = `${numCorrectAns} / ${numQnsAttempted} (${Math.round(percentCorrect)}%)`;
-	console.log("Updated score");
+	// console.log("Updated score");
 };
 
 // displays "loading" text in sentence and options
@@ -151,14 +151,14 @@ function assignOptionsRandomly() {
 			// Correct option
 			correctAnsButton = button;
 			button.addEventListener("click", correctAnsHandler);
-			console.log(`Correct answer is button ${idx+1} (${option})`);
+			// console.log(`Correct answer is button ${idx+1} (${option})`);
 		} else {
 			// Wrong option
 			button.addEventListener("click", wrongAnsHandler);
 		}
 	});
 
-	console.log("All options randomly assigned and displayed");
+	// console.log("All options randomly assigned and displayed");
 };
 
 // enable options for user interaction (darker border when hovering + clickable)
@@ -168,7 +168,7 @@ function enableOptions() {
 		button.classList.add("option-enabled-border");
 	});
 
-	console.log("Options enabled");
+	// console.log("Options enabled");
 };
 
 // disable options once answered
@@ -178,7 +178,7 @@ function disableOptions() {
 		button.classList.remove("option-enabled-border");
 	});
 
-	console.log("Options disabled");
+	// console.log("Options disabled");
 };
 
 // reset everything for a new question
@@ -198,14 +198,14 @@ function resetAll() {
 	dispExplButton.textContent = "Show Explanation";
 
 	correctAnsButton = null;
-	console.log("Options and explanation reset");
+	// console.log("Options and explanation reset");
 };
 
 // ========== HANDLERS ==========
 
 // handles correct answer
 function correctAnsHandler() {
-	console.log(`Correct ans clicked (${this.textContent})`);
+	// console.log(`Correct ans clicked (${this.textContent})`);
 
 	numQnsAttempted++;
 	numCorrectAns++;
@@ -217,12 +217,12 @@ function correctAnsHandler() {
 	disableOptions();
 	nextQnButton.disabled = false;
 	dispExplButton.disabled = false;
-	console.log("Waiting for next question button input...");
+	// console.log("Waiting for next question button input...");
 };
 
 // handles wrong answer
 function wrongAnsHandler() {
-	console.log(`Wrong ans clicked (${this.textContent})`);
+	// console.log(`Wrong ans clicked (${this.textContent})`);
 
 	numQnsAttempted++;
 
@@ -236,7 +236,7 @@ function wrongAnsHandler() {
 	disableOptions();
 	nextQnButton.disabled = false;
 	dispExplButton.disabled = false;
-	console.log("Waiting for next question button input...");
+	// console.log("Waiting for next question button input...");
 };
 
 // toggles text of explanation button between 'show' and 'hide'
