@@ -10,6 +10,7 @@ var numQnsAttempted = 0, numCorrectAns = 0;
 var jsonSource = "data/source.json";
 
 document.addEventListener('DOMContentLoaded', function (event) {
+	console.log('Yabbadabbadoo');
 	optionButtons 				= document.querySelectorAll('.option');
 	nextQnButton 				= document.querySelector('#next-qn-button');
 	dispExplButton 			= document.querySelector('#disp-expl-button');
