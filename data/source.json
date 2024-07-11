@@ -1090,7 +1090,7 @@
    {
       "qnNum": 65,
       "sentence": "Provisions were expensive and hard to obtain.",
-      "wordToTest": "provisions",
+      "wordToTest": "Provisions",
       "expl": {
          "rootWord": "provisions",
          "type": "noun",
@@ -2722,7 +2722,7 @@
    {
       "qnNum": 161,
       "sentence": "Fortified against the cold by a heavy coat, he went out into the snow.",
-      "wordToTest": "fortified",
+      "wordToTest": "Fortified",
       "expl": {
          "rootWord": "fortify",
          "type": "verb",
@@ -5637,7 +5637,7 @@
       },
       "options": [
          "unapproved",
-         "unofficial",
+         "unfeasible",
          "informal",
          "casual"
       ],
@@ -5948,5 +5948,855 @@
          "on cloud nine"
       ],
       "correctAns": "on cloud nine"
+   },
+   {
+      "qnNum": 351,
+      "sentence": "He replenished Justin's glass with mineral water.",
+      "wordToTest": "replenished",
+      "expl": {
+         "rootWord": "replenish",
+         "type": "verb",
+         "def": "to make sth full again by replacing what has been used"
+      },
+      "options": [
+         "refilled",
+         "exchanged",
+         "poured into",
+         "ordered"
+      ],
+      "correctAns": "refilled"
+   },
+   {
+      "qnNum": 352,
+      "sentence": "Beneath the city lies a labyrinthine network of tunnels.",
+      "wordToTest": "labyrinthine",
+      "expl": {
+         "rootWord": "labyrinthine",
+         "type": "adj",
+         "def": "used to describe sth that has a lot of parts and is therefore confusing "
+      },
+      "options": [
+         "modern",
+         "newly built",
+         "maze-like",
+         "sophisticated"
+      ],
+      "correctAns": "maze-like"
+   },
+   {
+      "qnNum": 353,
+      "sentence": "Mary's mother gave her a tongue-lashing for coming home late.",
+      "wordToTest": "tongue-lashing",
+      "expl": {
+         "rootWord": "tongue-lashing",
+         "type": "noun",
+         "def": "a loud or severe scolding"
+      },
+      "options": [
+         "wrath",
+         "reproach",
+         "condemnation",
+         "blame"
+      ],
+      "correctAns": "reproach"
+   },
+   {
+      "qnNum": 354,
+      "sentence": "She cherished the child as though he were her own.",
+      "wordToTest": "cherished",
+      "expl": {
+         "rootWord": "cherish",
+         "type": "verb",
+         "def": "to love, protect, and care for someone or sth that is important to you"
+      },
+      "options": [
+         "accompanied",
+         "fed",
+         "taught",
+         "loved"
+      ],
+      "correctAns": "loved"
+   },
+   {
+      "qnNum": 355,
+      "sentence": "The doctors revived her with injections of glucose.",
+      "wordToTest": "revived",
+      "expl": {
+         "rootWord": "revive",
+         "type": "verb",
+         "def": "to come or bring something back to life, health, existence, or use"
+      },
+      "options": [
+         "resuscitated",
+         "retorted",
+         "retained",
+         "recouped"
+      ],
+      "correctAns": "resuscitated"
+   },
+   {
+      "qnNum": 356,
+      "sentence": "Out of the blue, she got an email from her long-lost cousin in Malaysia.",
+      "wordToTest": "out of the blue",
+      "expl": {
+         "rootWord": "out of the blue",
+         "type": "phrase",
+         "def": "without warning; unexpectedly"
+      },
+      "options": [
+         "Once in a blue moon",
+         "Completely unexpected",
+         "At the drop of a hat",
+         "With a pinch of salt"
+      ],
+      "correctAns": "Completely unexpected"
+   },
+   {
+      "qnNum": 357,
+      "sentence": "It rained incessantly for the whole two weeks.",
+      "wordToTest": "incessantly",
+      "expl": {
+         "rootWord": "incessantly",
+         "type": "adv",
+         "def": "in a way that never stops, esp. when this is annoying or unpleasant"
+      },
+      "options": [
+         "heavily",
+         "ceaselessly",
+         "randomly",
+         "periodically"
+      ],
+      "correctAns": "ceaselessly"
+   },
+   {
+      "qnNum": 358,
+      "sentence": "Their indecision has been replaced by confidence and steely determination.",
+      "wordToTest": "steely",
+      "expl": {
+         "rootWord": "steely",
+         "type": "adj",
+         "def": "very strong and determined"
+      },
+      "options": [
+         "incredible",
+         "rare",
+         "perpetual",
+         "firm"
+      ],
+      "correctAns": "firm"
+   },
+   {
+      "qnNum": 359,
+      "sentence": "The road became narrower and eventually petered out.",
+      "wordToTest": "petered out",
+      "expl": {
+         "rootWord": "peter out",
+         "type": "phrase",
+         "def": "to gradually stop or disappear"
+      },
+      "options": [
+         "backed off",
+         "dropped off",
+         "dusted off",
+         "tapered off"
+      ],
+      "correctAns": "tapered off"
+   },
+   {
+      "qnNum": 360,
+      "sentence": "The rain pelted down for nearly four hours.",
+      "wordToTest": "pelted",
+      "expl": {
+         "rootWord": "pelt",
+         "type": "verb",
+         "def": "(rain) to fall very heavily"
+      },
+      "options": [
+         "breezed",
+         "poured",
+         "splattered",
+         "seeped"
+      ],
+      "correctAns": "poured"
+   },
+   {
+      "qnNum": 361,
+      "sentence": "He goes for a brisk jog before work each morning.",
+      "wordToTest": "brisk",
+      "expl": {
+         "rootWord": "brisk",
+         "type": "adj",
+         "def": "quick, energetic, and active"
+      },
+      "options": [
+         "strenuous",
+         "long-distance",
+         "quick",
+         "incessant"
+      ],
+      "correctAns": "quick"
+   },
+   {
+      "qnNum": 362,
+      "sentence": "At last he overtook me at the finishing line.",
+      "wordToTest": "overtook",
+      "expl": {
+         "rootWord": "overtake",
+         "type": "verb",
+         "def": "to come from behind another vehicle or a person and move in front of them"
+      },
+      "options": [
+         "met",
+         "competed with",
+         "fought",
+         "outdid"
+      ],
+      "correctAns": "outdid"
+   },
+   {
+      "qnNum": 363,
+      "sentence": "The robbers ditched the stolen goods.",
+      "wordToTest": "ditched",
+      "expl": {
+         "rootWord": "ditch",
+         "type": "verb",
+         "def": "to get rid of something or someone that is no longer wanted"
+      },
+      "options": [
+         "repaired",
+         "drove",
+         "searched",
+         "abandoned"
+      ],
+      "correctAns": "abandoned"
+   },
+   {
+      "qnNum": 364,
+      "sentence": "His voice resonated in the empty church.",
+      "wordToTest": "resonated",
+      "expl": {
+         "rootWord": "resonate",
+         "type": "verb",
+         "def": "to produce or be filled with a deep, full, reverberating sound"
+      },
+      "options": [
+         "amplified",
+         "faded",
+         "increased",
+         "echoed"
+      ],
+      "correctAns": "echoed"
+   },
+   {
+      "qnNum": 365,
+      "sentence": "Most of the relief work was done by volunteers.",
+      "wordToTest": "relief",
+      "expl": {
+         "rootWord": "relief",
+         "type": "noun",
+         "def": "food, money, or services that provide help for people in need"
+      },
+      "options": [
+         "a feeling of happiness",
+         "services for people in need",
+         "first aid",
+         "difficult"
+      ],
+      "correctAns": "services for people in need"
+   },
+   {
+      "qnNum": 366,
+      "sentence": "Early diagnosis of the syndrome is difficult, but it is important to begin treatment as soon as possible ",
+      "wordToTest": "syndrome",
+      "expl": {
+         "rootWord": "syndrome",
+         "type": "noun",
+         "def": "a combination of medical problems that shows the existence of a particular disease or mental condition"
+      },
+      "options": [
+         "a combination of medical problems",
+         "a mental problem",
+         "an internal injury",
+         "vascular diseases"
+      ],
+      "correctAns": "a combination of medical problems"
+   },
+   {
+      "qnNum": 367,
+      "sentence": "Warships will accompany the convoy.",
+      "wordToTest": "convoy",
+      "expl": {
+         "rootWord": "convoy",
+         "type": "noun",
+         "def": "a group of vehicles or ships that travel together"
+      },
+      "options": [
+         "a container ship",
+         "an aircraft carrier",
+         "a group of ships",
+         "a cruise ship"
+      ],
+      "correctAns": "a group of ships"
+   },
+   {
+      "qnNum": 368,
+      "sentence": "Many people feel bewildered by the speed of technological innovation.",
+      "wordToTest": "bewildered",
+      "expl": {
+         "rootWord": "bewildered",
+         "type": "adj",
+         "def": "confused and indecisive; puzzled"
+      },
+      "options": [
+         "spooked",
+         "surprised",
+         "baffled",
+         "frustrated"
+      ],
+      "correctAns": "baffled"
+   },
+   {
+      "qnNum": 369,
+      "sentence": "They were in fact heavily sedated, and only semi-conscious during the journey.",
+      "wordToTest": "sedated",
+      "expl": {
+         "rootWord": "sedate",
+         "type": "verb",
+         "def": "to cause a person or animal to be very calm or go to sleep by giving them a drug"
+      },
+      "options": [
+         "awakened",
+         "paralysed",
+         "tranquillised",
+         "befuddled"
+      ],
+      "correctAns": "tranquillised"
+   },
+   {
+      "qnNum": 370,
+      "sentence": "Jubilant crowds lined the streets leading to the hospital, cheering on the ambulances.",
+      "wordToTest": "Jubilant",
+      "expl": {
+         "rootWord": "jubilant",
+         "type": "adj",
+         "def": "feeling or showing great happiness because of a success"
+      },
+      "options": [
+         "Elated",
+         "Boisterous",
+         "Vehement",
+         "Hospitable"
+      ],
+      "correctAns": "Elated"
+   },
+   {
+      "qnNum": 371,
+      "sentence": "After two agonising weeks the Thai cave boys and their coach were finally out at last.",
+      "wordToTest": "agonising",
+      "expl": {
+         "rootWord": "agonising",
+         "type": "adj",
+         "def": "causing great pain, anxiety or difficulty"
+      },
+      "options": [
+         "painstaking",
+         "long",
+         "arduous",
+         "excruciating"
+      ],
+      "correctAns": "excruciating"
+   },
+   {
+      "qnNum": 372,
+      "sentence": "Dressed in gowns and wearing face masks, the Thai cave boys sat up in their hospital beds and waved to the world.",
+      "wordToTest": "gowns",
+      "expl": {
+         "rootWord": "gown",
+         "type": "noun",
+         "def": "a protective garment worn in hospital, either by a staff member or a patient"
+      },
+      "options": [
+         "white shirts",
+         "protective garments",
+         "ancient costumes",
+         "hygienic vents"
+      ],
+      "correctAns": "protective garments"
+   },
+   {
+      "qnNum": 373,
+      "sentence": "It was necessary to quarantine the boys to protect them and others from infection",
+      "wordToTest": "quarantine",
+      "expl": {
+         "rootWord": "quarantine",
+         "type": "verb",
+         "def": "to put a person in a period of time away from other people"
+      },
+      "options": [
+         "enforce",
+         "isolate",
+         "treat",
+         "request"
+      ],
+      "correctAns": "isolate"
+   },
+   {
+      "qnNum": 374,
+      "sentence": "The parents did not publicly object to the strict rules.",
+      "wordToTest": "object to",
+      "expl": {
+         "rootWord": "object",
+         "type": "verb",
+         "def": "to feel or express opposition to or dislike of sth or someone"
+      },
+      "options": [
+         "dislike",
+         "support",
+         "understand",
+         "oppose to"
+      ],
+      "correctAns": "oppose to"
+   },
+   {
+      "qnNum": 375,
+      "sentence": " Their eyes could not bear the light.",
+      "wordToTest": "bear",
+      "expl": {
+         "rootWord": "bear",
+         "type": "verb",
+         "def": "to accept, tolerate, or endure (an ordeal or difficulty)"
+      },
+      "options": [
+         "look at",
+         "withstand",
+         "sense",
+         "observe"
+      ],
+      "correctAns": "withstand"
+   },
+   {
+      "qnNum": 376,
+      "sentence": "Their eyes had been accustomed to two weeks of darkness.",
+      "wordToTest": "accustomed to",
+      "expl": {
+         "rootWord": "accustomed to",
+         "type": "phrase",
+         "def": "familiar with sth"
+      },
+      "options": [
+         "compatible with",
+         "subject to",
+         "vulnerable to",
+         "familiar with"
+      ],
+      "correctAns": "familiar with"
+   },
+   {
+      "qnNum": 377,
+      "sentence": "She's been very unwell, but she's on the mend now.",
+      "wordToTest": "on the mend",
+      "expl": {
+         "rootWord": "on the mend",
+         "type": "phrase",
+         "def": "improving in health or condition; recovering"
+      },
+      "options": [
+         "going to see a doctor",
+         "recovering",
+         "refused to see a doctor",
+         "not improved"
+      ],
+      "correctAns": "recovering"
+   },
+   {
+      "qnNum": 378,
+      "sentence": "The scheme has been hailed as an unprecedented success.",
+      "wordToTest": "unprecedented",
+      "expl": {
+         "rootWord": "unprecedented",
+         "type": "adj",
+         "def": "never done or known before"
+      },
+      "options": [
+         "significant",
+         "rare",
+         "remarkable",
+         "unheard-of"
+      ],
+      "correctAns": "unheard-of"
+   },
+   {
+      "qnNum": 379,
+      "sentence": "The Hungarians pulled off a surprise victory against the Italian champions.",
+      "wordToTest": "pulled off",
+      "expl": {
+         "rootWord": "pull off",
+         "type": "phrase",
+         "def": "to succeed in doing sth difficult or unexpected"
+      },
+      "options": [
+         "expected",
+         "achieved",
+         "longed for",
+         "cancelled"
+      ],
+      "correctAns": "achieved"
+   },
+   {
+      "qnNum": 380,
+      "sentence": "There's a scheme afoot to put a motorway through the park.",
+      "wordToTest": "afoot",
+      "expl": {
+         "rootWord": "afoot",
+         "type": "adj",
+         "def": "happening or being planned or prepared"
+      },
+      "options": [
+         "going on",
+         "brand new",
+         "being discussed",
+         "already approved"
+      ],
+      "correctAns": "going on"
+   },
+   {
+      "qnNum": 381,
+      "sentence": "They shaved their heads and spent a few days in a monastery.",
+      "wordToTest": "monastery",
+      "expl": {
+         "rootWord": "monastery",
+         "type": "noun",
+         "def": "a building in which monks live together"
+      },
+      "options": [
+         "a church",
+         "a facade",
+         "a cave",
+         "an abbey"
+      ],
+      "correctAns": "an abbey"
+   },
+   {
+      "qnNum": 382,
+      "sentence": "The new bridge is a feat of engineering.",
+      "wordToTest": "feat",
+      "expl": {
+         "rootWord": "feat",
+         "type": "noun",
+         "def": "sth difficult needing a lot of skill, strength, courage, etc. to achieve it"
+      },
+      "options": [
+         "artwork",
+         "piece",
+         "accomplishment",
+         "miracle"
+      ],
+      "correctAns": "accomplishment"
+   },
+   {
+      "qnNum": 383,
+      "sentence": "Much to his chagrin, he did not win the race.",
+      "wordToTest": "chagrin",
+      "expl": {
+         "rootWord": "chagrin",
+         "type": "noun",
+         "def": "disappointment or anger, esp. when caused by a failure or mistake"
+      },
+      "options": [
+         "astonishment",
+         "sadness",
+         "disappointment",
+         "disbelief"
+      ],
+      "correctAns": "disappointment"
+   },
+   {
+      "qnNum": 384,
+      "sentence": "These children have a huge reserve of latent talent.",
+      "wordToTest": "reserve",
+      "expl": {
+         "rootWord": "reserve",
+         "type": "noun",
+         "def": "the act of keeping sth or a supply of sth until it is needed"
+      },
+      "options": [
+         "pursuit",
+         "haven",
+         "reservoir",
+         "backup"
+      ],
+      "correctAns": "reservoir"
+   },
+   {
+      "qnNum": 385,
+      "sentence": "We stopped for a picnic en route.",
+      "wordToTest": "en route",
+      "expl": {
+         "rootWord": "en route",
+         "type": "phrase",
+         "def": "on the way to or from somewhere"
+      },
+      "options": [
+         "on the way",
+         "by the way",
+         "eventually",
+         "as per plan"
+      ],
+      "correctAns": "on the way"
+   },
+   {
+      "qnNum": 386,
+      "sentence": "The men were arguing over one of the most enigmatic Russian legends.",
+      "wordToTest": "enigmatic",
+      "expl": {
+         "rootWord": "enigmatic",
+         "type": "adj",
+         "def": "mysterious and impossible to understand completely"
+      },
+      "options": [
+         "unforgotten",
+         "ancient",
+         "famous",
+         "mysterious"
+      ],
+      "correctAns": "mysterious"
+   },
+   {
+      "qnNum": 387,
+      "sentence": "These figures don't add up.",
+      "wordToTest": "add up",
+      "expl": {
+         "rootWord": "add up",
+         "type": "phrase",
+         "def": "to seem reasonable or consistent; make sense"
+      },
+      "options": [
+         "hide the truth",
+         "put across",
+         "make sense",
+         "mean anything"
+      ],
+      "correctAns": "make sense"
+   },
+   {
+      "qnNum": 388,
+      "sentence": "He treats his secretary condescendingly.",
+      "wordToTest": "condescendingly",
+      "expl": {
+         "rootWord": "condescendingly",
+         "type": "adv",
+         "def": "in a way that shows that you think you are more important or more intelligent than someone else"
+      },
+      "options": [
+         "badly",
+         "fairly",
+         "kindly",
+         "arrogantly"
+      ],
+      "correctAns": "arrogantly"
+   },
+   {
+      "qnNum": 389,
+      "sentence": "The Christmas party culminated in the distribution of presents.",
+      "wordToTest": "culminated in",
+      "expl": {
+         "rootWord": "culminate",
+         "type": "verb",
+         "def": "(in/with sth) to reach a climax or point of highest development"
+      },
+      "options": [
+         "came to",
+         "included",
+         "climaxed in",
+         "started"
+      ],
+      "correctAns": "climaxed in"
+   },
+   {
+      "qnNum": 390,
+      "sentence": "I am still weirdly drawing to the country's old sagas.",
+      "wordToTest": "sagas",
+      "expl": {
+         "rootWord": "saga",
+         "type": "noun",
+         "def": "a long complicated series of related, usually negative, events"
+      },
+      "options": [
+         "short history",
+         "long narratives",
+         "shady myths",
+         "charming folklores"
+      ],
+      "correctAns": "long narratives"
+   },
+   {
+      "qnNum": 391,
+      "sentence": "The Red Army soldiers triumphantly marched up the steps of the bank.",
+      "wordToTest": "triumphantly",
+      "expl": {
+         "rootWord": "triumphantly",
+         "type": "adv",
+         "def": "feeling happy because of achieving a victory"
+      },
+      "options": [
+         "solemnly",
+         "victoriously",
+         "indifferently",
+         "conceitedly"
+      ],
+      "correctAns": "victoriously"
+   },
+   {
+      "qnNum": 392,
+      "sentence": "The two armoured trains chugged through the same woods.",
+      "wordToTest": "chugged",
+      "expl": {
+         "rootWord": "chug",
+         "type": "verb",
+         "def": "to move while making the sound of an engine or motor"
+      },
+      "options": [
+         "moved slowly",
+         "moved unstably",
+         "moved with vibrations",
+         "moved with sound of engine"
+      ],
+      "correctAns": "move with sound of engine"
+   },
+   {
+      "qnNum": 393,
+      "sentence": "It was not yet under the control of the revolutionary regime.",
+      "wordToTest": "regime",
+      "expl": {
+         "rootWord": "regime",
+         "type": "noun",
+         "def": "a particular government or a system or method of government"
+      },
+      "options": [
+         "reign",
+         "influence",
+         "group",
+         "people"
+      ],
+      "correctAns": "reign"
+   },
+   {
+      "qnNum": 394,
+      "sentence": "The trains were hobbled by intermittent battles, fuel shortages, and harsh weather.",
+      "wordToTest": "hobbled",
+      "expl": {
+         "rootWord": "hobble",
+         "type": "verb",
+         "def": "to limit sth or control the freedom of someone"
+      },
+      "options": [
+         "affected",
+         "warned",
+         "hampered",
+         "damaged"
+      ],
+      "correctAns": "hampered"
+   },
+   {
+      "qnNum": 395,
+      "sentence": "The trains were hobbled by intermittent battles, fuel shortages, and harsh weather.",
+      "wordToTest": "intermittent",
+      "expl": {
+         "rootWord": "intermittent",
+         "type": "adj",
+         "def": "not happening regularly or continuously"
+      },
+      "options": [
+         "incessant",
+         "sporadic",
+         "regular",
+         "imminent"
+      ],
+      "correctAns": "sporadic"
+   },
+   {
+      "qnNum": 396,
+      "sentence": "With a vague sense of where our hotel was, I dragged our luggage through the darkened streets.",
+      "wordToTest": "vague",
+      "expl": {
+         "rootWord": "vague",
+         "type": "adj",
+         "def": "not clearly expressed, known, described, or decided"
+      },
+      "options": [
+         "puzzled",
+         "worse",
+         "unseen",
+         "unclear"
+      ],
+      "correctAns": "unclear"
+   },
+   {
+      "qnNum": 397,
+      "sentence": "The infrastructure hadn’t yet been ravaged by the war.",
+      "wordToTest": "ravaged",
+      "expl": {
+         "rootWord": "ravage",
+         "type": "verb",
+         "def": "to cause great damage to sth"
+      },
+      "options": [
+         "affected",
+         "threatened",
+         "endangered",
+         "destroyed"
+      ],
+      "correctAns": "destroyed"
+   },
+   {
+      "qnNum": 398,
+      "sentence": "She put up her house as collateral for a loan.",
+      "wordToTest": "collateral",
+      "expl": {
+         "rootWord": "collateral",
+         "type": "noun",
+         "def": "valuable property owned by someone as monetary deposit"
+      },
+      "options": [
+         "target",
+         "borrowing",
+         "guarantee",
+         "contract"
+      ],
+      "correctAns": "guarantee"
+   },
+   {
+      "qnNum": 399,
+      "sentence": "He has produced a chronicle of his life during the war years.",
+      "wordToTest": "chronicle",
+      "expl": {
+         "rootWord": "chronicle",
+         "type": "noun",
+         "def": "a written record of historical events"
+      },
+      "options": [
+         "account",
+         "movie",
+         "drama",
+         "book"
+      ],
+      "correctAns": "account"
+   },
+   {
+      "qnNum": 400,
+      "sentence": "The monument's brass plaque explained that he fought for his ideals.",
+      "wordToTest": " ideals ",
+      "expl": {
+         "rootWord": "ideal",
+         "type": "noun",
+         "def": "a principle or a way of behaving that is of a very high standard"
+      },
+      "options": [
+         "roles",
+         "interests",
+         "goals",
+         "rights"
+      ],
+      "correctAns": "goals"
    }
 ]
