@@ -1,0 +1,32 @@
+[
+   {
+      "qnNum": 1,
+      "sentence": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "wordToTest": "ipsum",
+      "rootWord": "Ipsum",
+      "type": "ipsum",
+      "def": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "options": [
+         "qwertyuiop here",
+         "asdfghjkl not here",
+         "zxcvbnm not here",
+         "qwerty ert ertyui tyuio wervctyu hubhbhjyu cfgcfggf asdfgh not here"
+      ],
+      "correctAns": "qwertyuiop here"
+   },
+   {
+      "qnNum": 2,
+      "sentence": "The quick brown fox jumped over the lazy dog.",
+      "wordToTest": "dog",
+      "rootWord": "dog",
+      "type": "noun",
+      "def": "An animal",
+      "options": [
+         "me",
+         "not me",
+         "me neither",
+         "def not me"
+      ],
+      "correctAns": "me"
+   }
+]
