@@ -7,7 +7,7 @@ var qnsObjArray = [], qnsObjArrayPtr = 0;
 
 var numQnsAttempted = 0, numCorrectAns = 0;
 
-var jsonSource = "data/source.json";
+var jsonSource = "../data/source.json";
 
 document.addEventListener('DOMContentLoaded', function (event) {
 	console.log('Yabbadabbadoo');
