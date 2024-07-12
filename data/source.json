@@ -5808,7 +5808,7 @@
       "options": [
          "fertile area",
          "big dune",
-         "habitable land",
+         "crop field",
          "sandhill"
       ],
       "correctAns": "fertile area"
@@ -6037,7 +6037,7 @@
    {
       "qnNum": 356,
       "sentence": "Out of the blue, she got an email from her long-lost cousin in Malaysia.",
-      "wordToTest": "out of the blue",
+      "wordToTest": "Out of the blue",
       "expl": {
          "rootWord": "out of the blue",
          "type": "phrase",
@@ -6160,7 +6160,7 @@
       "expl": {
          "rootWord": "ditch",
          "type": "verb",
-         "def": "to get rid of something or someone that is no longer wanted"
+         "def": "to get rid of sth or someone that is no longer wanted"
       },
       "options": [
          "repaired",
@@ -6353,9 +6353,9 @@
          "dislike",
          "support",
          "understand",
-         "oppose to"
+         "oppose"
       ],
-      "correctAns": "oppose to"
+      "correctAns": "oppose"
    },
    {
       "qnNum": 375,
@@ -6661,7 +6661,7 @@
          "moved with vibrations",
          "moved with sound of engine"
       ],
-      "correctAns": "move with sound of engine"
+      "correctAns": "moved with sound of engine"
    },
    {
       "qnNum": 393,
@@ -6733,7 +6733,7 @@
    },
    {
       "qnNum": 397,
-      "sentence": "The infrastructure hadn’t yet been ravaged by the war.",
+      "sentence": "The infrastructure hadn't yet been ravaged by the war.",
       "wordToTest": "ravaged",
       "expl": {
          "rootWord": "ravage",
