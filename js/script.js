@@ -79,7 +79,7 @@ function displayQnSentence() {
 
 // inserts explanation
 function insertExplanation() {
-	var { expl: { rootWord, type, def } } = qnObj;
+	var { rootWord, type, def } = qnObj;
 	collapsibleExplElement.innerHTML = 
 		`
 		<div class="card card-body">
