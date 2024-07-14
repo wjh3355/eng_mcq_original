@@ -7,7 +7,7 @@ var qnsObjArray = [], qnsObjArrayPtr = 0;
 
 var numQnsAttempted = 0, numCorrectAns = 0;
 
-var jsonSource = "../../data/source.json";
+var jsonSource = "https://gist.githubusercontent.com/wjh3355/85ea89c3330149e56c71002dc8b1aad2/raw/846ecf602d0e51fb8bd3c28f7e2020748d6501d0/source.json";
 
 document.addEventListener('DOMContentLoaded', function (event) {
 	console.log('Yabbadabbadoo');
