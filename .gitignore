@@ -1,4 +1,6 @@
 other/
 /index.html
 data/debug.json
-data/source_original.json
+data/source -*.json
+.vscode/
+desktop.ini

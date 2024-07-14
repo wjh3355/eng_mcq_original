@@ -5998,5 +5998,755 @@
       "rootWord": "ideal",
       "type": "noun",
       "def": "a principle or a way of behaving that is of a very high standard"
+   },
+   {
+      "qnNum": 401,
+      "sentence": "Several of the managers donned fancy dress for the office party.",
+      "wordToTest": "donned",
+      "options": [
+         "requested",
+         "bought",
+         "put on",
+         "carried out"
+      ],
+      "correctAns": "put on",
+      "rootWord": "don",
+      "type": "verb",
+      "def": "to put on (an item of clothing)"
+   },
+   {
+      "qnNum": 402,
+      "sentence": " According to local lore, a ghost still haunts the castle.",
+      "wordToTest": "lore",
+      "options": [
+         "newspaper report",
+         "test book",
+         "historical record",
+         "traditional knowledge"
+      ],
+      "correctAns": "traditional knowledge",
+      "rootWord": "lore",
+      "type": "noun",
+      "def": "traditional knowledge and stories about a subject"
+   },
+   {
+      "qnNum": 403,
+      "sentence": " The rocky slopes of the Sayan Mountains stand almost perpendicular to Lake Baikal.",
+      "wordToTest": "perpendicular to",
+      "options": [
+         "far away from",
+         "next to",
+         "vertical to",
+         "parallel to"
+      ],
+      "correctAns": "vertical to",
+      "rootWord": "perpendicular",
+      "type": "adj",
+      "def": "at an angle of 90° to a horizontal line or surface"
+   },
+   {
+      "qnNum": 404,
+      "sentence": "The local theory purports that the Czech troops stashed crates of gold on their own trains.",
+      "wordToTest": "purports",
+      "options": [
+         "suggests",
+         "shows",
+         "believes",
+         "claims"
+      ],
+      "correctAns": "claims",
+      "rootWord": "purport",
+      "type": "verb",
+      "def": "to claim to be sth or have done sth, when this may not be true"
+   },
+   {
+      "qnNum": 405,
+      "sentence": "He jabbed at the picture with his finger.",
+      "wordToTest": "jabbed",
+      "options": [
+         "swiped",
+         "poked",
+         "picked",
+         "described"
+      ],
+      "correctAns": "poked",
+      "rootWord": "jab",
+      "type": "verb",
+      "def": "to push at sth hard and quickly with a finger"
+   },
+   {
+      "qnNum": 406,
+      "sentence": "He was precautious in crossing the rickety bridge.",
+      "wordToTest": "rickety",
+      "options": [
+         "old",
+         "shaky",
+         "damaged",
+         "slippery"
+      ],
+      "correctAns": "shaky",
+      "rootWord": "rickety",
+      "type": "adj",
+      "def": "in bad condition and therefore weak and likely to break"
+   },
+   {
+      "qnNum": 407,
+      "sentence": "The crumbly soil didn’t hold up well.",
+      "wordToTest": "crumbly",
+      "options": [
+         "fragile",
+         "dusty",
+         "solid",
+         "wet"
+      ],
+      "correctAns": "fragile",
+      "rootWord": "crumbly",
+      "type": "adj",
+      "def": "breaking easily into small pieces"
+   },
+   {
+      "qnNum": 408,
+      "sentence": "A few daredevils went skinny-dipping in Baikal’s frigid water.",
+      "wordToTest": "daredevils",
+      "options": [
+         "mad people",
+         "stuntmen",
+         "athletes",
+         "professionals"
+      ],
+      "correctAns": "stuntmen",
+      "rootWord": "daredevil",
+      "type": "noun",
+      "def": "a reckless person who enjoys doing dangerous things"
+   },
+   {
+      "qnNum": 409,
+      "sentence": "We passed by the village and headed down a meandering path overgrown with stinging nettles.",
+      "wordToTest": "meandering",
+      "options": [
+         "narrow",
+         "tapering",
+         "straight",
+         "winding"
+      ],
+      "correctAns": "winding",
+      "rootWord": "meandering",
+      "type": "adj",
+      "def": "following a winding course"
+   },
+   {
+      "qnNum": 410,
+      "sentence": "I sat on a mound and stared up the sheer slope.",
+      "wordToTest": "mound",
+      "options": [
+         "a stone",
+         "a branch",
+         "a heap",
+         "a bench"
+      ],
+      "correctAns": "a heap",
+      "rootWord": "mound",
+      "type": "noun",
+      "def": "a rounded pile of dirt, sand, stones, or other material"
+   },
+   {
+      "qnNum": 411,
+      "sentence": "A few daredevils went skinny-dipping in Baikal’s frigid water.",
+      "wordToTest": "frigid",
+      "options": [
+         "very dirty",
+         "very stagnant",
+         "very tranquil",
+         "very cold"
+      ],
+      "correctAns": "very cold",
+      "rootWord": "frigid",
+      "type": "adj",
+      "def": "very cold; not showing any feelings of friendship or kindness"
+   },
+   {
+      "qnNum": 412,
+      "sentence": "She walked away with an indignant snort.",
+      "wordToTest": "indignant",
+      "options": [
+         "rude",
+         "resentful",
+         "scornful",
+         "disrespectful"
+      ],
+      "correctAns": "resentful",
+      "rootWord": "indignant",
+      "type": "adj",
+      "def": "feeling or showing anger and surprise because you think you have been treated unfairly"
+   },
+   {
+      "qnNum": 413,
+      "sentence": "Before she could reply Peter jumped in with an objection.",
+      "wordToTest": "jumped in",
+      "options": [
+         "sprang",
+         "interrupted",
+         "appeared",
+         "stopped"
+      ],
+      "correctAns": "interrupted",
+      "rootWord": "jump in",
+      "type": "verb",
+      "def": "to interrupt when someone else is speaking"
+   },
+   {
+      "qnNum": 414,
+      "sentence": "They saw small objects glistening through the sediment in a crevice.",
+      "wordToTest": "crevice",
+      "options": [
+         "slot",
+         "gap",
+         "hole",
+         "fissure"
+      ],
+      "correctAns": "fissure",
+      "rootWord": "crevice",
+      "type": "noun",
+      "def": "a small, narrow crack or space, esp. in the surface of rock"
+   },
+   {
+      "qnNum": 415,
+      "sentence": "Her health remained precarious, despite the treatment.",
+      "wordToTest": "precarious",
+      "options": [
+         "emergent",
+         "acute",
+         "unstable",
+         "hapless"
+      ],
+      "correctAns": "unstable",
+      "rootWord": "precarious",
+      "type": "adj",
+      "def": "in a dangerous state because of not being safe or not being held in place firmly"
+   },
+   {
+      "qnNum": 416,
+      "sentence": "Mechanics had to dismantle the dashboard to rescue the cat.",
+      "wordToTest": "dismantle",
+      "options": [
+         "disintegrated",
+         "displaced",
+         "disassembled",
+         "destroyed"
+      ],
+      "correctAns": "disassembled",
+      "rootWord": "dismantle",
+      "type": "verb",
+      "def": "to take a machine apart or to come apart into separate pieces"
+   },
+   {
+      "qnNum": 417,
+      "sentence": "I sat in the outdoor terrace of my hotel in the rustic resort town.",
+      "wordToTest": "rustic",
+      "options": [
+         "remote",
+         "civic",
+         "urban",
+         "rural"
+      ],
+      "correctAns": "rural",
+      "rootWord": "rustic",
+      "type": "adj",
+      "def": "simple and often rough in appearance; typical of the countryside"
+   },
+   {
+      "qnNum": 418,
+      "sentence": "I was embroiled in another debate with another local.",
+      "wordToTest": "embroiled",
+      "options": [
+         "engrossed",
+         "trapped",
+         "involved",
+         "immersed"
+      ],
+      "correctAns": "involved",
+      "rootWord": "embroil",
+      "type": "verb",
+      "def": "to involve (someone) deeply in an argument, conflict, or difficult situation"
+   },
+   {
+      "qnNum": 419,
+      "sentence": "Her son is a gangly man in his 20s.",
+      "wordToTest": "gangly",
+      "options": [
+         "spindly",
+         "listless",
+         "sturdy",
+         "plump"
+      ],
+      "correctAns": "spindly",
+      "rootWord": "gangly",
+      "type": "adj",
+      "def": "(of a person) tall, thin, and awkward in movements or bearing"
+   },
+   {
+      "qnNum": 420,
+      "sentence": "Andrew raved all night in his fever.",
+      "wordToTest": "raved",
+      "options": [
+         "moaned",
+         "whispered",
+         "ranted",
+         "sobbed"
+      ],
+      "correctAns": "ranted",
+      "rootWord": "rave",
+      "type": "verb",
+      "def": "to speak in an uncontrolled way, usually because you are upset or angry, or because you are ill"
+   },
+   {
+      "qnNum": 421,
+      "sentence": "Watching Bolt win the Olympic hundred metres was one of those spine-tingling moments.",
+      "wordToTest": "spine-tingling",
+      "options": [
+         "unbelievable",
+         "unforgettable",
+         "thrilling",
+         "spine-chilling"
+      ],
+      "correctAns": "thrilling",
+      "rootWord": "spine-tingling",
+      "type": "adj",
+      "def": "very special and exciting"
+   },
+   {
+      "qnNum": 422,
+      "sentence": "It suddenly dawned on us that we were lost.",
+      "wordToTest": "It suddenly dawned on us",
+      "options": [
+         "We suddenly understood",
+         "It suddenly happened to us",
+         "We did not realise",
+         "It suddenly caused"
+      ],
+      "correctAns": "We suddenly understood",
+      "rootWord": "dawn on someone",
+      "type": "phrase",
+      "def": "if a fact dawns on you, you understand it after a period of not understanding it"
+   },
+   {
+      "qnNum": 423,
+      "sentence": "We can't go camping while the weather is so capricious.",
+      "wordToTest": "capricious",
+      "options": [
+         "bleak",
+         "fickle",
+         "unbearable",
+         "harsh"
+      ],
+      "correctAns": "fickle",
+      "rootWord": "capricious",
+      "type": "adj",
+      "def": "likely to change, or reacting to a sudden desire or new idea"
+   },
+   {
+      "qnNum": 424,
+      "sentence": "The information published in books and periodicals may change with the tide.",
+      "wordToTest": "periodicals",
+      "options": [
+         "an archive film",
+         "a regularly published magazine",
+         "a library stored document",
+         "a research paper"
+      ],
+      "correctAns": "a regularly published magazine",
+      "rootWord": "periodical",
+      "type": "noun",
+      "def": "a magazine or newspaper published at regular intervals"
+   },
+   {
+      "qnNum": 425,
+      "sentence": "The revelation of his scandalous past led to his resignation.",
+      "wordToTest": "revelation",
+      "options": [
+         "report",
+         "rumour",
+         "disclosure",
+         "investigation"
+      ],
+      "correctAns": "disclosure",
+      "rootWord": "revelation",
+      "type": "noun",
+      "def": "the act of making sth known that was secret, or a fact that is made known"
+   },
+   {
+      "qnNum": 426,
+      "sentence": "I did not respond to the lady's fervent speech.",
+      "wordToTest": "fervent",
+      "options": [
+         "ardent",
+         "sarcastic",
+         "hateful",
+         "wordy"
+      ],
+      "correctAns": "ardent",
+      "rootWord": "fervent",
+      "type": "adj",
+      "def": "having or displaying a passionate intensity"
+   },
+   {
+      "qnNum": 427,
+      "sentence": "K2 has a higher fatality-to-summit rate than Everest.",
+      "wordToTest": "fatality",
+      "options": [
+         "failure",
+         "accident",
+         "injury",
+         "death"
+      ],
+      "correctAns": "death",
+      "rootWord": "fatality",
+      "type": "noun",
+      "def": "a death caused by an accident or by violence"
+   },
+   {
+      "qnNum": 428,
+      "sentence": "K2 is known as the Savage Mountain due to its fiendish conditions.",
+      "wordToTest": "fiendish",
+      "options": [
+         "bleak",
+         "frigid",
+         "cruel",
+         "unhospitable"
+      ],
+      "correctAns": "cruel",
+      "rootWord": "fiendish",
+      "type": "adj",
+      "def": "extremely cruel or unpleasant; very great"
+   },
+   {
+      "qnNum": 429,
+      "sentence": "K2's steepness challenges even the world's most accomplished climbers.",
+      "wordToTest": "accomplished",
+      "options": [
+         "talented",
+         "reputed",
+         "knowledgeable",
+         "audacious"
+      ],
+      "correctAns": "talented",
+      "rootWord": "accomplished",
+      "type": "adj",
+      "def": "highly trained or skilled in a particular activity"
+   },
+   {
+      "qnNum": 430,
+      "sentence": "Arous was an idyllic holiday resort in the Sudanese desert.",
+      "wordToTest": "idyllic",
+      "options": [
+         "attractive",
+         "expensive",
+         "picturesque",
+         "iconic"
+      ],
+      "correctAns": "picturesque",
+      "rootWord": "idyllic",
+      "type": "noun",
+      "def": "(place or experience) extremely pleasant, beautiful, or peaceful"
+   },
+   {
+      "qnNum": 431,
+      "sentence": "The glossy brochure pronounces it as the diving and desert recreation centre of Sudan.",
+      "wordToTest": "pronounces",
+      "options": [
+         "says",
+         "declares",
+         "writes",
+         "shows"
+      ],
+      "correctAns": "declares",
+      "rootWord": "pronounce",
+      "type": "verb",
+      "def": "to declare or announce in a formal or solemn way"
+   },
+   {
+      "qnNum": 432,
+      "sentence": "They are breathtaking views of the heavens, aflame with millions of stars.",
+      "wordToTest": "breathtaking",
+      "options": [
+         "stunning",
+         "bright",
+         "massive",
+         "blue"
+      ],
+      "correctAns": "stunning",
+      "rootWord": "breathtaking",
+      "type": "adj",
+      "def": "extremely exciting, beautiful, or surprising"
+   },
+   {
+      "qnNum": 433,
+      "sentence": " The visitors' book was a catalogue of glowing comments.",
+      "wordToTest": "glowing",
+      "options": [
+         "aloof",
+         "grateful",
+         "critical",
+         "complimentary"
+      ],
+      "correctAns": "complimentary",
+      "rootWord": "glowing",
+      "type": "adj",
+      "def": "praising with enthusiasm"
+   },
+   {
+      "qnNum": 434,
+      "sentence": "They used it to rescue thousands of beleaguered Ethiopian Jews.",
+      "wordToTest": "beleaguered",
+      "options": [
+         "runaway",
+         "troubled",
+         "abandoned",
+         "impoverished"
+      ],
+      "correctAns": "troubled",
+      "rootWord": "beleaguered",
+      "type": "adj",
+      "def": "having a lot of problems or difficulties"
+   },
+   {
+      "qnNum": 435,
+      "sentence": "They adhered to the Torah, practised Judaism and prayed in synagogues.",
+      "wordToTest": "adhered to",
+      "options": [
+         "studied",
+         "stuck to",
+         "loved",
+         "listened to"
+      ],
+      "correctAns": "stuck to",
+      "rootWord": "adhere to sth",
+      "type": "phrase",
+      "def": "to continue to obey a rule or have a belief"
+   },
+   {
+      "qnNum": 436,
+      "sentence": "I was warmed by a wood-burning stove and a hearty lamb-and-mushroom hotpot.",
+      "wordToTest": "hearty",
+      "options": [
+         "hot",
+         "large",
+         "scrumptious",
+         "famous"
+      ],
+      "correctAns": "large",
+      "rootWord": "hearty",
+      "type": "adj",
+      "def": "generous, large or (esp. of food) in large amounts"
+   },
+   {
+      "qnNum": 437,
+      "sentence": "This glamorous destination was a base for Israeli agents with a secret mission.",
+      "wordToTest": "glamorous",
+      "options": [
+         "fascinating",
+         "ultimate",
+         "remote",
+         "mysterious"
+      ],
+      "correctAns": "fascinating",
+      "rootWord": "glamorous",
+      "type": "adj",
+      "def": "esp. attractive and exciting, and different from ordinary things or people"
+   },
+   {
+      "qnNum": 438,
+      "sentence": "He found the decaying fish on a beach in Texas City.",
+      "wordToTest": "decaying",
+      "options": [
+         "dying",
+         "rotting",
+         "raw",
+         "salted"
+      ],
+      "correctAns": "rotting",
+      "rootWord": "decay",
+      "type": "verb",
+      "def": "to become gradually damaged, worse, or less"
+   },
+   {
+      "qnNum": 439,
+      "sentence": "After I explained my interest to the waitress, she motioned to me to follow.",
+      "wordToTest": "motioned",
+      "options": [
+         "suggested",
+         "asked",
+         "gestured",
+         "instructed"
+      ],
+      "correctAns": "gestured",
+      "rootWord": "motion",
+      "type": "verb",
+      "def": "to make a signal to someone, usually with your hand or head"
+   },
+   {
+      "qnNum": 440,
+      "sentence": "A public vote declared alheria sausage is one of the nation’s seven gastronomic wonders.",
+      "wordToTest": "gastronomic",
+      "options": [
+         "gourmet",
+         "indigenous",
+         "cultural",
+         "processed"
+      ],
+      "correctAns": "gourmet",
+      "rootWord": "gastronomic",
+      "type": "adj",
+      "def": "relating to the preparation and consumption (eating) of good food"
+   },
+   {
+      "qnNum": 441,
+      "sentence": "Drunken football fans rampaged through the streets.",
+      "wordToTest": "rampaged",
+      "options": [
+         "walked quickly",
+         "ran riot",
+         "milled about",
+         "loitered secretly"
+      ],
+      "correctAns": "ran riot",
+      "rootWord": "rampage",
+      "type": "verb",
+      "def": "to go through an area making a lot of noise and causing damage"
+   },
+   {
+      "qnNum": 442,
+      "sentence": "Jews who did not eat pork were conspicuous for their missing sausages. ",
+      "wordToTest": "conspicuous",
+      "options": [
+         "available",
+         "longing",
+         "famous",
+         "noticeable"
+      ],
+      "correctAns": "noticeable",
+      "rootWord": "conspicuous",
+      "type": "adj",
+      "def": "easy to see or notice; likely to attract attention"
+   },
+   {
+      "qnNum": 443,
+      "sentence": "If you defy the law, you may find yourself in prison.",
+      "wordToTest": "defy",
+      "options": [
+         "misunderstand",
+         "forget",
+         "flout",
+         "ignore"
+      ],
+      "correctAns": "flout",
+      "rootWord": "defy",
+      "type": "verb",
+      "def": "to oppose or resist with boldness and assurance"
+   },
+   {
+      "qnNum": 444,
+      "sentence": "He stole a covert glance at her across the table.",
+      "wordToTest": "covert",
+      "options": [
+         "fearful",
+         "brief",
+         "secret",
+         "brazen"
+      ],
+      "correctAns": "secret",
+      "rootWord": "covert",
+      "type": "adj",
+      "def": "not openly acknowledged or displayed. hidden or secret"
+   },
+   {
+      "qnNum": 445,
+      "sentence": "She checked the painting meticulously for any damage.",
+      "wordToTest": "meticulously",
+      "options": [
+         "skilfully",
+         "readily",
+         "continuously",
+         "thoroughly"
+      ],
+      "correctAns": "thoroughly",
+      "rootWord": "meticulously",
+      "type": "adv",
+      "def": "in a way that shows great care and attention to detail"
+   },
+   {
+      "qnNum": 446,
+      "sentence": "The company disseminated information about its new programmes.",
+      "wordToTest": "disseminated",
+      "options": [
+         "created",
+         "searched",
+         "spread",
+         "removed"
+      ],
+      "correctAns": "spread",
+      "rootWord": "disseminate",
+      "type": "verb",
+      "def": "to spread (sth, esp. info.) widely"
+   },
+   {
+      "qnNum": 447,
+      "sentence": "The diary, initially written in code and later was deciphered and published.",
+      "wordToTest": "deciphered",
+      "options": [
+         "recorded",
+         "processed",
+         "found",
+         "interpreted"
+      ],
+      "correctAns": "interpreted",
+      "rootWord": "decipher",
+      "type": "verb",
+      "def": "to discover the meaning of sth written badly or in a difficult or hidden way"
+   },
+   {
+      "qnNum": 448,
+      "sentence": "It was one of the world's most opulent railway stations.",
+      "wordToTest": "opulent",
+      "options": [
+         "important",
+         "complex",
+         "luxurious",
+         "modern"
+      ],
+      "correctAns": "luxurious",
+      "rootWord": "opulent",
+      "type": "adj",
+      "def": "expensive and luxurious"
+   },
+   {
+      "qnNum": 449,
+      "sentence": "The station is sitting imposingly on the French-Spanish border.",
+      "wordToTest": "imposingly",
+      "options": [
+         "simply",
+         "impressively",
+         "unknowingly",
+         "quietly"
+      ],
+      "correctAns": "impressively",
+      "rootWord": "imposingly",
+      "type": "adv",
+      "def": "in a way that looks important or causes admiration, fear, or nervousness"
+   },
+   {
+      "qnNum": 450,
+      "sentence": "Don't be so extravagant, spend your money more carefully.",
+      "wordToTest": "extravagant",
+      "options": [
+         "unwise",
+         "imprudent",
+         "frugal",
+         "wasteful"
+      ],
+      "correctAns": "wasteful",
+      "rootWord": "extravagant",
+      "type": "adj",
+      "def": "exceeding what is reasonable or appropriate; excessive or elaborate."
    }
 ]
