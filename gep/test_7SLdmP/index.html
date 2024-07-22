@@ -27,8 +27,7 @@
 				<i class="fa-solid fa-dove fa-xl me-3"></i>
 				<h3 id="maintitle" class="m-0 text-light">GEP Vocab MCQ</h3>
 			</a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
-				aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbar-links">
@@ -40,7 +39,8 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link disabled" aria-disabled="true">
+						<a href="#" class="nav-link disabled" data-bs-toggle="modal"
+							data-bs-target="#report-Modal" id="show-report-button">
 							Report
 						</a>
 					</li>
@@ -49,18 +49,36 @@
 		</div>
 	</nav>
 
-	<div class="modal fade" id="instruction-Modal" tabindex="-1" aria-hidden="true">
+	<div class="modal fade" id="instruction-Modal" tabindex="-1">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
 					<h2 class="modal-title fs-5">Instructions</h2>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body">
 					<p id="instruction">
 						Select the best <u>synonym</u> to the bolded word(s) in the sentence.<br><br>
 						Do not refresh the page, or the score will be reset.
 					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="report-Modal" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title fs-5">Report</h2>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body">
+					<p class="m-0">Here are the questions you answered incorrectly:</p>
+					<div id="report-holder">
+						<div id="insert-anchor"></div>
+						<!-- SENTENCE CARDS HERE -->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -77,7 +95,7 @@
 				<div class="d-flex gap-3 mb-2">
 					<!-- BUTTONS FOR NEXT QN AND EXPLANATION -->
 					<button class="btn btn-primary w-50" type="button" id="disp-expl-button" data-bs-toggle="collapse"
-						data-bs-target="#explanation" aria-expanded="false" aria-controls="explanation">
+						data-bs-target="#explanation">
 						<!-- toggle collapsible explanation button -->
 						Show Explanation
 					</button>

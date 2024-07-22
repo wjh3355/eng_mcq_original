@@ -1,4 +1,4 @@
-var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, qnObj;
+var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, wrongQnsInsertAnchor, showReportButton, qnObj;
 
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function (event) {
 	sentenceElement 			= document.querySelector('#sentence-holder');
 	collapsibleExplElement 	= document.querySelector('#explanation');
 	scoreElement 				= document.querySelector('#score');
+	wrongQnsInsertAnchor		= document.querySelector('#insert-anchor');
+	showReportButton			= document.querySelector('#show-report-button');
 
 	nextQnButton.addEventListener('click', initialiseQuestion);
 	dispExplButton.addEventListener('click', explButtonClickedHandler);
@@ -177,6 +179,28 @@ function resetAll() {
 	// console.log('Options and explanation reset');
 };
 
+// update wrong qn report
+function updateReport(qnObj) {
+	var { sentence, wordToTest, def } = qnObj;
+	sentence = sentence.replace(wordToTest, `<strong>${wordToTest}</strong>`);
+	wrongQnsInsertAnchor.insertAdjacentHTML('afterend', 
+		`<div class="card card-body my-2 user-select-none">
+			<p>${sentence}</p>
+			<div class="text-center">
+				<p class="m-0 fst-italic py-2 px-4 rounded-5 border wrong-qns-explanation-word-definition">
+					<strong>${wordToTest}</strong>: ${def}.
+				</p>
+			</div> 
+		</div>`
+	);
+	console.log('Incorrect answer added to report');
+	if (showReportButton.classList.contains('disabled')) {
+		showReportButton.classList = 'nav-link';
+		console.log('Report enabled');
+	}
+
+}
+
 // ========== HANDLERS ==========
 
 // handles correct answer
@@ -203,6 +227,7 @@ function wrongAnsHandler() {
 	correctAnsButton.insertAdjacentHTML('beforeend', tickIcon);
 	insertExplanation();
 	disableOptions();
+	updateReport(qnObj);
 	nextQnButton.disabled = false;
 	dispExplButton.disabled = false;
 	// console.log('Waiting for next question button input...');
