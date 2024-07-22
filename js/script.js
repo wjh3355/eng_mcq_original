@@ -193,10 +193,10 @@ function updateReport(qnObj) {
 			</div> 
 		</div>`
 	);
-	console.log('Incorrect answer added to report');
+	// console.log('Incorrect answer added to report');
 	if (showReportButton.classList.contains('disabled')) {
 		showReportButton.classList = 'nav-link';
-		console.log('Report enabled');
+		// console.log('Report enabled');
 	}
 
 }
