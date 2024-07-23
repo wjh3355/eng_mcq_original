@@ -1,5 +1,6 @@
 TODO:
 
+- Migrate to React .js?
 - Username and password authentication system
 - Quiz report every 20 (?) questions
 - Improve UI
