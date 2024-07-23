@@ -1,4 +1,4 @@
-var optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, wrongQnsInsertAnchor, showReportButton, qnObj;
+var mainContentContainer, optionButtons, nextQnButton, correctAnsButton, dispExplButton, sentenceElement, collapsibleExplElement, scoreElement, wrongQnsInsertAnchor, showReviewLink, qnObj;
 
 var tickIcon = '<i class="fa-solid fa-circle-check fa-lg green-tick"></i>';
 var crossIcon = '<i class="fa-solid fa-circle-xmark fa-lg red-cross"></i>';
@@ -7,50 +7,63 @@ var qnsObjArray = [], qnsObjArrayPtr = 0;
 
 var numQnsAttempted = 0, numCorrectAns = 0;
 
+var loadingHtml, mainHtml;
+
 var jsonSource = "https://gist.githubusercontent.com/wjh3355/85ea89c3330149e56c71002dc8b1aad2/raw/846ecf602d0e51fb8bd3c28f7e2020748d6501d0/source.json";
 
 document.addEventListener('DOMContentLoaded', function (event) {
-	console.log('Yabbadabbadoo');
-	optionButtons 				= document.querySelectorAll('.option');
-	nextQnButton 				= document.querySelector('#next-qn-button');
-	dispExplButton 			= document.querySelector('#disp-expl-button');
-	sentenceElement 			= document.querySelector('#sentence-holder');
-	collapsibleExplElement 	= document.querySelector('#explanation');
-	scoreElement 				= document.querySelector('#score');
-	wrongQnsInsertAnchor		= document.querySelector('#insert-anchor');
-	showReportButton			= document.querySelector('#show-report-button');
-
-	nextQnButton.addEventListener('click', initialiseQuestion);
-	dispExplButton.addEventListener('click', explButtonClickedHandler);
-
-	scoreElement.textContent = '0 / 0 (0%)';
-
-	$ajaxUtils.sendGetRequest(jsonSource, function (responseArray) {
-		// console.log('Fetching question array...');
-		try {
-			if (!Array.isArray(responseArray) || responseArray.length === 0) {
-				throw new Error('Invalid or empty response from server.');
-			}
-			qnsObjArray = responseArray;
+	mainContentContainer	= document.querySelector('#main-content-here');
+	fetch('components/loading.html')
+		.then(res => res.text())
+		.then(txt => {
+			loadingHtml = txt;
+			mainContentContainer.innerHTML = loadingHtml;
+			return fetch(jsonSource);
+		})
+		.then(res => res.json())
+		.then(resArray => {
+			qnsObjArray = resArray;
 			shuffleArray(qnsObjArray);
 			var orderOfQns = qnsObjArray.map(qnObj => qnObj.qnNum);
 			// console.log(`Shuffled order of questions: \n${orderOfQns}`);
-			initialiseQuestion();
-		} catch (error) {
-			// console.error(error.message);
-			alert('Failed to load questions. Please try again later.');
-		}
-	}, function (error) {
-		// console.error('Failed to fetch question data:', error);
-		alert('Failed to fetch questions. Please check your internet connection.');
-	})
-});
 
-// ========== QUESTION UTILITIES ==========
+			return fetch('components/main-content.html');
+		})
+		.then(res => res.text())
+		.then(txt => {
+			mainHtml = txt;
+			mainContentContainer.innerHTML = mainHtml;
+
+			optionButtons 				= document.querySelectorAll('.option');
+			nextQnButton 				= document.querySelector('#next-qn-button');
+			dispExplButton 			= document.querySelector('#disp-expl-button');
+			sentenceElement 			= document.querySelector('#sentence-holder');
+			collapsibleExplElement 	= document.querySelector('#explanation');
+			scoreElement 				= document.querySelector('#score');
+			wrongQnsInsertAnchor		= document.querySelector('#insert-anchor');
+			showReviewLink				= document.querySelector('#show-review-link');
+
+			nextQnButton.addEventListener('click', initialiseQuestion);
+			dispExplButton.addEventListener('click', explButtonClickedHandler);
+		
+			scoreElement.textContent = '0 / 0 (0%)';
+			
+			initialiseQuestion();
+		})
+		.catch(error => {
+			console.error('An error has occured:', error);
+			fetch('components/error.html')
+				.then(res => res.text())
+				.then(txt => {
+					mainContentContainer.innerHTML = txt;
+				})
+		})
+		
+
+});
 
 // initialises loop
 function initialiseQuestion() {
-	displayLoading();
 	if (qnsObjArrayPtr === qnsObjArray.length) {
 		qnsObjArrayPtr = 0;
 		// console.log('(End of questions, looping back to first)');
@@ -115,24 +128,14 @@ function updateScore() {
 	// console.log('Updated score');
 };
 
-// displays 'loading' text in sentence and options
-function displayLoading() {
-	sentenceElement.innerHTML = '<p class="m-0">Loading...</p>';
-	optionButtons.forEach(button => {
-		button.innerHTML = '<p class="m-0">Loading...</p>';
-	});
-}
-
-// ========== OPTION UTILITIES ==========
-
 // assign options randomly to buttons, mark correct and wrong
 function assignOptionsRandomly() {
 	var { options, correctAns } = qnObj;
 	shuffleArray(options);
 	optionButtons.forEach((button, idx) => {
-		var option = options[idx];
-		button.innerHTML = `<p class="m-0">${option}</p>`;
-		if (option === correctAns) {
+		var thisOption = options[idx];
+		button.innerHTML = `<p class="m-0">${thisOption}</p>`;
+		if (thisOption === correctAns) {
 			// CORRECT OPTION
 			correctAnsButton = button;
 			button.addEventListener('click', correctAnsHandler);
@@ -182,26 +185,24 @@ function resetAll() {
 // update wrong qn report
 function updateReport(qnObj) {
 	var { sentence, wordToTest, def } = qnObj;
-	sentence = sentence.replace(wordToTest, `<strong>${wordToTest}</strong>`);
+	sentence = sentence.replace(wordToTest, `<strong class="text-danger">${wordToTest}</strong>`);
 	wrongQnsInsertAnchor.insertAdjacentHTML('afterend', 
 		`<div class="card card-body my-2 user-select-none">
 			<p>${sentence}</p>
 			<div class="text-center">
-				<p class="m-0 fst-italic py-2 px-4 rounded-5 border wrong-qns-explanation-word-definition">
+				<p class="m-0 fst-italic py-2 px-4 rounded-5 border-bottom border-2 wrong-qns-explanation-word-definition">
 					<strong>${wordToTest}</strong>: ${def}.
 				</p>
 			</div> 
 		</div>`
 	);
 	// console.log('Incorrect answer added to report');
-	if (showReportButton.classList.contains('disabled')) {
-		showReportButton.classList = 'nav-link';
+	if (showReviewLink.classList.contains('disabled')) {
+		showReviewLink.classList.remove('disabled');
 		// console.log('Report enabled');
 	}
 
 }
-
-// ========== HANDLERS ==========
 
 // handles correct answer
 function correctAnsHandler() {
