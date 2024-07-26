@@ -9,7 +9,7 @@ var numQnsAttempted = 0, numCorrectAns = 0;
 
 var loadingHtml, mainHtml;
 
-var jsonSource = "https://gist.githubusercontent.com/wjh3355/85ea89c3330149e56c71002dc8b1aad2/raw/846ecf602d0e51fb8bd3c28f7e2020748d6501d0/source.json";
+var jsonSource = "https://gist.githubusercontent.com/wjh3355/0044ee12436ff44915daf15e45622ef2/raw/51c490b7d5db93abc633a2de9b549b8ee8b06006/source_401-500.json";
 
 document.addEventListener('DOMContentLoaded', function (event) {
 	mainContentContainer	= document.querySelector('#main-content-here');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 			qnsObjArray = resArray;
 			shuffleArray(qnsObjArray);
 			var orderOfQns = qnsObjArray.map(qnObj => qnObj.qnNum);
-			// console.log(`Shuffled order of questions: \n${orderOfQns}`);
+			console.log(`Shuffled order of questions: \n${orderOfQns}`);
 
 			return fetch('components/main-content.html');
 		})
